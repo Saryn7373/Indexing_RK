@@ -1,0 +1,3791 @@
+{
+  "unresolved_ambiguity": [
+    {
+      "query_id": "Q07",
+      "query": "мечтатель и белые ночи Петербурга",
+      "term": "белые ночь",
+      "alternatives": [
+        {
+          "concept_id": "w_white_nights",
+          "label": "Белые ночи",
+          "note": "повесть Ф. Достоевского",
+          "score": 0,
+          "context_hits": [],
+          "links": []
+        },
+        {
+          "concept_id": "c_white_nights",
+          "label": "белые ночи",
+          "note": "природное явление",
+          "score": 0,
+          "context_hits": [],
+          "links": []
+        }
+      ]
+    }
+  ],
+  "added_by_synonyms": [
+    {
+      "query_id": "Q19",
+      "doc_id": "D148",
+      "relevant": 0,
+      "links": [
+        {
+          "term": "сражение",
+          "relation": "синоним",
+          "concept": "c_battle",
+          "weight": 0.7,
+          "value": 5.8544
+        },
+        {
+          "term": "битва",
+          "relation": "синоним",
+          "concept": "c_battle",
+          "weight": 0.7,
+          "value": 5.472
+        },
+        {
+          "term": "бой",
+          "relation": "синоним",
+          "concept": "c_battle",
+          "weight": 0.7,
+          "value": 3.5787
+        }
+      ]
+    },
+    {
+      "query_id": "Q19",
+      "doc_id": "D053",
+      "relevant": 0,
+      "links": [
+        {
+          "term": "бой",
+          "relation": "синоним",
+          "concept": "c_battle",
+          "weight": 0.7,
+          "value": 4.7607
+        },
+        {
+          "term": "сражение",
+          "relation": "синоним",
+          "concept": "c_battle",
+          "weight": 0.7,
+          "value": 2.097
+        }
+      ]
+    },
+    {
+      "query_id": "Q19",
+      "doc_id": "D126",
+      "relevant": 0,
+      "links": [
+        {
+          "term": "сражение",
+          "relation": "синоним",
+          "concept": "c_battle",
+          "weight": 0.7,
+          "value": 2.097
+        },
+        {
+          "term": "бой",
+          "relation": "синоним",
+          "concept": "c_battle",
+          "weight": 0.7,
+          "value": 1.7053
+        }
+      ]
+    },
+    {
+      "query_id": "Q20",
+      "doc_id": "D159",
+      "relevant": 0,
+      "links": [
+        {
+          "term": "помещица",
+          "relation": "синоним",
+          "concept": "c_lady",
+          "weight": 0.7,
+          "value": 3.5506
+        }
+      ]
+    },
+    {
+      "query_id": "Q22",
+      "doc_id": "D139",
+      "relevant": 0,
+      "links": [
+        {
+          "term": "медик",
+          "relation": "синоним",
+          "concept": "c_doctor",
+          "weight": 0.7,
+          "value": 3.5526
+        },
+        {
+          "term": "лекарь",
+          "relation": "синоним",
+          "concept": "c_doctor",
+          "weight": 0.7,
+          "value": 2.7836
+        }
+      ]
+    },
+    {
+      "query_id": "Q23",
+      "doc_id": "D135",
+      "relevant": 0,
+      "links": [
+        {
+          "term": "предание",
+          "relation": "синоним",
+          "concept": "g_legend",
+          "weight": 0.7,
+          "value": 3.8915
+        }
+      ]
+    },
+    {
+      "query_id": "Q25",
+      "doc_id": "D129",
+      "relevant": 0,
+      "links": [
+        {
+          "term": "игра в карта",
+          "relation": "синоним",
+          "concept": "c_cards",
+          "weight": 0.7,
+          "value": 3.5526
+        }
+      ]
+    }
+  ],
+  "added_by_hierarchy": [
+    {
+      "query_id": "Q12",
+      "doc_id": "D131",
+      "relevant": 0,
+      "links": [
+        {
+          "term": "титулярный советник",
+          "relation": "уже",
+          "concept": "c_titular",
+          "weight": 0.5,
+          "value": 1.9883
+        }
+      ]
+    },
+    {
+      "query_id": "Q18",
+      "doc_id": "D135",
+      "relevant": 0,
+      "links": [
+        {
+          "term": "повесть",
+          "relation": "шире",
+          "concept": "g_povest",
+          "weight": 0.5,
+          "value": 3.2368
+        }
+      ]
+    },
+    {
+      "query_id": "Q19",
+      "doc_id": "D018",
+      "relevant": 0,
+      "links": [
+        {
+          "term": "сечь",
+          "relation": "уже",
+          "concept": "c_zaporozhye",
+          "weight": 0.5,
+          "value": 1.8444
+        },
+        {
+          "term": "народ",
+          "relation": "шире",
+          "concept": "c_people",
+          "weight": 0.5,
+          "value": 0.562
+        }
+      ]
+    },
+    {
+      "query_id": "Q23",
+      "doc_id": "D038",
+      "relevant": 1,
+      "links": [
+        {
+          "term": "старуха изергиль",
+          "relation": "шире",
+          "concept": "w_izergil",
+          "weight": 0.5,
+          "value": 5.2284
+        },
+        {
+          "term": "изергиль",
+          "relation": "шире",
+          "concept": "w_izergil",
+          "weight": 0.5,
+          "value": 5.2284
+        }
+      ]
+    },
+    {
+      "query_id": "Q23",
+      "doc_id": "D132",
+      "relevant": 0,
+      "links": [
+        {
+          "term": "литературный текст",
+          "relation": "шире",
+          "concept": "g_work",
+          "weight": 0.5,
+          "value": 2.5376
+        }
+      ]
+    },
+    {
+      "query_id": "Q27",
+      "doc_id": "D137",
+      "relevant": 0,
+      "links": [
+        {
+          "term": "герой наш время",
+          "relation": "шире",
+          "concept": "w_hero",
+          "weight": 0.5,
+          "value": 1.9883
+        }
+      ]
+    }
+  ],
+  "wrong_generalization": [
+    {
+      "query_id": "Q12",
+      "doc_id": "D131",
+      "relevant": 0,
+      "links": [
+        {
+          "term": "титулярный советник",
+          "relation": "уже",
+          "concept": "c_titular",
+          "weight": 0.5,
+          "value": 1.9883
+        }
+      ]
+    },
+    {
+      "query_id": "Q18",
+      "doc_id": "D135",
+      "relevant": 0,
+      "links": [
+        {
+          "term": "повесть",
+          "relation": "шире",
+          "concept": "g_povest",
+          "weight": 0.5,
+          "value": 3.2368
+        }
+      ]
+    },
+    {
+      "query_id": "Q19",
+      "doc_id": "D018",
+      "relevant": 0,
+      "links": [
+        {
+          "term": "сечь",
+          "relation": "уже",
+          "concept": "c_zaporozhye",
+          "weight": 0.5,
+          "value": 1.8444
+        },
+        {
+          "term": "народ",
+          "relation": "шире",
+          "concept": "c_people",
+          "weight": 0.5,
+          "value": 0.562
+        }
+      ]
+    },
+    {
+      "query_id": "Q23",
+      "doc_id": "D132",
+      "relevant": 0,
+      "links": [
+        {
+          "term": "литературный текст",
+          "relation": "шире",
+          "concept": "g_work",
+          "weight": 0.5,
+          "value": 2.5376
+        }
+      ]
+    },
+    {
+      "query_id": "Q27",
+      "doc_id": "D137",
+      "relevant": 0,
+      "links": [
+        {
+          "term": "герой наш время",
+          "relation": "шире",
+          "concept": "w_hero",
+          "weight": 0.5,
+          "value": 1.9883
+        }
+      ]
+    }
+  ],
+  "removed_by_hierarchy": [
+    {
+      "query_id": "Q12",
+      "doc_id": "D137",
+      "relevant": 0
+    },
+    {
+      "query_id": "Q18",
+      "doc_id": "D015",
+      "relevant": 0
+    },
+    {
+      "query_id": "Q19",
+      "doc_id": "D126",
+      "relevant": 0
+    },
+    {
+      "query_id": "Q23",
+      "doc_id": "D078",
+      "relevant": 0
+    },
+    {
+      "query_id": "Q23",
+      "doc_id": "D067",
+      "relevant": 0
+    }
+  ],
+  "demos": {
+    "художественный текст / synonyms": {
+      "expansion": {
+        "query": "художественный текст",
+        "mode": "synonyms",
+        "lemmas": [
+          "художественный",
+          "текст"
+        ],
+        "terms": [
+          {
+            "term": "художественный",
+            "key": [
+              "художественный"
+            ],
+            "weight": 1.0,
+            "origin": "query",
+            "relation": "исходный",
+            "concept": null,
+            "via": null
+          },
+          {
+            "term": "текст",
+            "key": [
+              "текст"
+            ],
+            "weight": 1.0,
+            "origin": "query",
+            "relation": "исходный",
+            "concept": null,
+            "via": null
+          },
+          {
+            "term": "литературный произведение",
+            "key": [
+              "литературный",
+              "произведение"
+            ],
+            "weight": 0.7,
+            "origin": "synonym",
+            "relation": "синоним",
+            "concept": "g_work",
+            "via": "художественный текст"
+          },
+          {
+            "term": "художественный произведение",
+            "key": [
+              "художественный",
+              "произведение"
+            ],
+            "weight": 0.7,
+            "origin": "synonym",
+            "relation": "синоним",
+            "concept": "g_work",
+            "via": "художественный текст"
+          },
+          {
+            "term": "литературный текст",
+            "key": [
+              "литературный",
+              "текст"
+            ],
+            "weight": 0.7,
+            "origin": "synonym",
+            "relation": "синоним",
+            "concept": "g_work",
+            "via": "художественный текст"
+          }
+        ],
+        "decisions": [
+          {
+            "term": "художественный текст",
+            "key": [
+              "художественный",
+              "текст"
+            ],
+            "status": "однозначный",
+            "chosen": "g_work",
+            "alternatives": []
+          }
+        ],
+        "log": [
+          {
+            "term": "литературный произведение",
+            "key": [
+              "литературный",
+              "произведение"
+            ],
+            "weight": 0.7,
+            "origin": "synonym",
+            "relation": "синоним",
+            "concept": "g_work",
+            "via": "художественный текст",
+            "action": "добавлен"
+          },
+          {
+            "term": "художественный произведение",
+            "key": [
+              "художественный",
+              "произведение"
+            ],
+            "weight": 0.7,
+            "origin": "synonym",
+            "relation": "синоним",
+            "concept": "g_work",
+            "via": "художественный текст",
+            "action": "добавлен"
+          },
+          {
+            "term": "литературный текст",
+            "key": [
+              "литературный",
+              "текст"
+            ],
+            "weight": 0.7,
+            "origin": "synonym",
+            "relation": "синоним",
+            "concept": "g_work",
+            "via": "художественный текст",
+            "action": "добавлен"
+          }
+        ]
+      },
+      "top": [
+        {
+          "doc_id": "D157",
+          "score": 13.6352,
+          "contrib": [
+            {
+              "term": "художественный произведение",
+              "relation": "синоним",
+              "concept": "g_work",
+              "weight": 0.7,
+              "value": 5.8417
+            },
+            {
+              "term": "художественный",
+              "relation": "исходный",
+              "concept": null,
+              "weight": 1.0,
+              "value": 5.7141
+            },
+            {
+              "term": "текст",
+              "relation": "исходный",
+              "concept": null,
+              "weight": 1.0,
+              "value": 2.0794
+            }
+          ]
+        },
+        {
+          "doc_id": "D126",
+          "score": 11.8164,
+          "contrib": [
+            {
+              "term": "текст",
+              "relation": "исходный",
+              "concept": null,
+              "weight": 1.0,
+              "value": 4.9622
+            },
+            {
+              "term": "художественный",
+              "relation": "исходный",
+              "concept": null,
+              "weight": 1.0,
+              "value": 4.0706
+            },
+            {
+              "term": "художественный произведение",
+              "relation": "синоним",
+              "concept": "g_work",
+              "weight": 0.7,
+              "value": 2.7836
+            }
+          ]
+        },
+        {
+          "doc_id": "D135",
+          "score": 9.1863,
+          "contrib": [
+            {
+              "term": "текст",
+              "relation": "исходный",
+              "concept": null,
+              "weight": 1.0,
+              "value": 7.2467
+            },
+            {
+              "term": "художественный",
+              "relation": "исходный",
+              "concept": null,
+              "weight": 1.0,
+              "value": 1.9397
+            }
+          ]
+        },
+        {
+          "doc_id": "D144",
+          "score": 8.7103,
+          "contrib": [
+            {
+              "term": "текст",
+              "relation": "исходный",
+              "concept": null,
+              "weight": 1.0,
+              "value": 5.4262
+            },
+            {
+              "term": "художественный",
+              "relation": "исходный",
+              "concept": null,
+              "weight": 1.0,
+              "value": 3.2842
+            }
+          ]
+        },
+        {
+          "doc_id": "D153",
+          "score": 7.5914,
+          "contrib": [
+            {
+              "term": "художественный",
+              "relation": "исходный",
+              "concept": null,
+              "weight": 1.0,
+              "value": 4.0706
+            },
+            {
+              "term": "текст",
+              "relation": "исходный",
+              "concept": null,
+              "weight": 1.0,
+              "value": 3.5208
+            }
+          ]
+        }
+      ]
+    },
+    "художественный текст / hierarchy": {
+      "expansion": {
+        "query": "художественный текст",
+        "mode": "hierarchy",
+        "lemmas": [
+          "художественный",
+          "текст"
+        ],
+        "terms": [
+          {
+            "term": "художественный",
+            "key": [
+              "художественный"
+            ],
+            "weight": 1.0,
+            "origin": "query",
+            "relation": "исходный",
+            "concept": null,
+            "via": null
+          },
+          {
+            "term": "текст",
+            "key": [
+              "текст"
+            ],
+            "weight": 1.0,
+            "origin": "query",
+            "relation": "исходный",
+            "concept": null,
+            "via": null
+          },
+          {
+            "term": "литературный произведение",
+            "key": [
+              "литературный",
+              "произведение"
+            ],
+            "weight": 0.7,
+            "origin": "synonym",
+            "relation": "синоним",
+            "concept": "g_work",
+            "via": "художественный текст"
+          },
+          {
+            "term": "художественный произведение",
+            "key": [
+              "художественный",
+              "произведение"
+            ],
+            "weight": 0.7,
+            "origin": "synonym",
+            "relation": "синоним",
+            "concept": "g_work",
+            "via": "художественный текст"
+          },
+          {
+            "term": "литературный текст",
+            "key": [
+              "литературный",
+              "текст"
+            ],
+            "weight": 0.7,
+            "origin": "synonym",
+            "relation": "синоним",
+            "concept": "g_work",
+            "via": "художественный текст"
+          },
+          {
+            "term": "проза",
+            "key": [
+              "проза"
+            ],
+            "weight": 0.5,
+            "origin": "narrower",
+            "relation": "уже",
+            "concept": "g_prose",
+            "via": "художественный текст (g_work) глубина 1"
+          },
+          {
+            "term": "прозаический произведение",
+            "key": [
+              "прозаический",
+              "произведение"
+            ],
+            "weight": 0.5,
+            "origin": "narrower",
+            "relation": "уже",
+            "concept": "g_prose",
+            "via": "художественный текст (g_work) глубина 1"
+          },
+          {
+            "term": "художественный проза",
+            "key": [
+              "художественный",
+              "проза"
+            ],
+            "weight": 0.5,
+            "origin": "narrower",
+            "relation": "уже",
+            "concept": "g_prose",
+            "via": "художественный текст (g_work) глубина 1"
+          },
+          {
+            "term": "поэзия",
+            "key": [
+              "поэзия"
+            ],
+            "weight": 0.5,
+            "origin": "narrower",
+            "relation": "уже",
+            "concept": "g_poetry",
+            "via": "художественный текст (g_work) глубина 1"
+          },
+          {
+            "term": "стих",
+            "key": [
+              "стих"
+            ],
+            "weight": 0.5,
+            "origin": "narrower",
+            "relation": "уже",
+            "concept": "g_poetry",
+            "via": "художественный текст (g_work) глубина 1"
+          },
+          {
+            "term": "поэтический произведение",
+            "key": [
+              "поэтический",
+              "произведение"
+            ],
+            "weight": 0.5,
+            "origin": "narrower",
+            "relation": "уже",
+            "concept": "g_poetry",
+            "via": "художественный текст (g_work) глубина 1"
+          },
+          {
+            "term": "стихотворный произведение",
+            "key": [
+              "стихотворный",
+              "произведение"
+            ],
+            "weight": 0.5,
+            "origin": "narrower",
+            "relation": "уже",
+            "concept": "g_poetry",
+            "via": "художественный текст (g_work) глубина 1"
+          },
+          {
+            "term": "драма",
+            "key": [
+              "драма"
+            ],
+            "weight": 0.5,
+            "origin": "narrower",
+            "relation": "уже",
+            "concept": "g_drama",
+            "via": "художественный текст (g_work) глубина 1"
+          },
+          {
+            "term": "пьеса",
+            "key": [
+              "пьеса"
+            ],
+            "weight": 0.5,
+            "origin": "narrower",
+            "relation": "уже",
+            "concept": "g_drama",
+            "via": "художественный текст (g_work) глубина 1"
+          },
+          {
+            "term": "драматический произведение",
+            "key": [
+              "драматический",
+              "произведение"
+            ],
+            "weight": 0.5,
+            "origin": "narrower",
+            "relation": "уже",
+            "concept": "g_drama",
+            "via": "художественный текст (g_work) глубина 1"
+          },
+          {
+            "term": "легенда",
+            "key": [
+              "легенда"
+            ],
+            "weight": 0.5,
+            "origin": "narrower",
+            "relation": "уже",
+            "concept": "g_legend",
+            "via": "художественный текст (g_work) глубина 1"
+          },
+          {
+            "term": "предание",
+            "key": [
+              "предание"
+            ],
+            "weight": 0.5,
+            "origin": "narrower",
+            "relation": "уже",
+            "concept": "g_legend",
+            "via": "художественный текст (g_work) глубина 1"
+          },
+          {
+            "term": "сказание",
+            "key": [
+              "сказание"
+            ],
+            "weight": 0.5,
+            "origin": "narrower",
+            "relation": "уже",
+            "concept": "g_legend",
+            "via": "художественный текст (g_work) глубина 1"
+          }
+        ],
+        "decisions": [
+          {
+            "term": "художественный текст",
+            "key": [
+              "художественный",
+              "текст"
+            ],
+            "status": "однозначный",
+            "chosen": "g_work",
+            "alternatives": []
+          }
+        ],
+        "log": [
+          {
+            "term": "литературный произведение",
+            "key": [
+              "литературный",
+              "произведение"
+            ],
+            "weight": 0.7,
+            "origin": "synonym",
+            "relation": "синоним",
+            "concept": "g_work",
+            "via": "художественный текст",
+            "action": "добавлен"
+          },
+          {
+            "term": "художественный произведение",
+            "key": [
+              "художественный",
+              "произведение"
+            ],
+            "weight": 0.7,
+            "origin": "synonym",
+            "relation": "синоним",
+            "concept": "g_work",
+            "via": "художественный текст",
+            "action": "добавлен"
+          },
+          {
+            "term": "литературный текст",
+            "key": [
+              "литературный",
+              "текст"
+            ],
+            "weight": 0.7,
+            "origin": "synonym",
+            "relation": "синоним",
+            "concept": "g_work",
+            "via": "художественный текст",
+            "action": "добавлен"
+          },
+          {
+            "term": "проза",
+            "key": [
+              "проза"
+            ],
+            "weight": 0.5,
+            "origin": "narrower",
+            "relation": "уже",
+            "concept": "g_prose",
+            "via": "художественный текст (g_work) глубина 1",
+            "action": "добавлен"
+          },
+          {
+            "term": "прозаический произведение",
+            "key": [
+              "прозаический",
+              "произведение"
+            ],
+            "weight": 0.5,
+            "origin": "narrower",
+            "relation": "уже",
+            "concept": "g_prose",
+            "via": "художественный текст (g_work) глубина 1",
+            "action": "добавлен"
+          },
+          {
+            "term": "художественный проза",
+            "key": [
+              "художественный",
+              "проза"
+            ],
+            "weight": 0.5,
+            "origin": "narrower",
+            "relation": "уже",
+            "concept": "g_prose",
+            "via": "художественный текст (g_work) глубина 1",
+            "action": "добавлен"
+          },
+          {
+            "term": "поэзия",
+            "key": [
+              "поэзия"
+            ],
+            "weight": 0.5,
+            "origin": "narrower",
+            "relation": "уже",
+            "concept": "g_poetry",
+            "via": "художественный текст (g_work) глубина 1",
+            "action": "добавлен"
+          },
+          {
+            "term": "стих",
+            "key": [
+              "стих"
+            ],
+            "weight": 0.5,
+            "origin": "narrower",
+            "relation": "уже",
+            "concept": "g_poetry",
+            "via": "художественный текст (g_work) глубина 1",
+            "action": "добавлен"
+          },
+          {
+            "term": "поэтический произведение",
+            "key": [
+              "поэтический",
+              "произведение"
+            ],
+            "weight": 0.5,
+            "origin": "narrower",
+            "relation": "уже",
+            "concept": "g_poetry",
+            "via": "художественный текст (g_work) глубина 1",
+            "action": "добавлен"
+          },
+          {
+            "term": "стихотворный произведение",
+            "key": [
+              "стихотворный",
+              "произведение"
+            ],
+            "weight": 0.5,
+            "origin": "narrower",
+            "relation": "уже",
+            "concept": "g_poetry",
+            "via": "художественный текст (g_work) глубина 1",
+            "action": "добавлен"
+          },
+          {
+            "term": "драма",
+            "key": [
+              "драма"
+            ],
+            "weight": 0.5,
+            "origin": "narrower",
+            "relation": "уже",
+            "concept": "g_drama",
+            "via": "художественный текст (g_work) глубина 1",
+            "action": "добавлен"
+          },
+          {
+            "term": "пьеса",
+            "key": [
+              "пьеса"
+            ],
+            "weight": 0.5,
+            "origin": "narrower",
+            "relation": "уже",
+            "concept": "g_drama",
+            "via": "художественный текст (g_work) глубина 1",
+            "action": "добавлен"
+          },
+          {
+            "term": "драматический произведение",
+            "key": [
+              "драматический",
+              "произведение"
+            ],
+            "weight": 0.5,
+            "origin": "narrower",
+            "relation": "уже",
+            "concept": "g_drama",
+            "via": "художественный текст (g_work) глубина 1",
+            "action": "добавлен"
+          },
+          {
+            "term": "легенда",
+            "key": [
+              "легенда"
+            ],
+            "weight": 0.5,
+            "origin": "narrower",
+            "relation": "уже",
+            "concept": "g_legend",
+            "via": "художественный текст (g_work) глубина 1",
+            "action": "добавлен"
+          },
+          {
+            "term": "предание",
+            "key": [
+              "предание"
+            ],
+            "weight": 0.5,
+            "origin": "narrower",
+            "relation": "уже",
+            "concept": "g_legend",
+            "via": "художественный текст (g_work) глубина 1",
+            "action": "добавлен"
+          },
+          {
+            "term": "сказание",
+            "key": [
+              "сказание"
+            ],
+            "weight": 0.5,
+            "origin": "narrower",
+            "relation": "уже",
+            "concept": "g_legend",
+            "via": "художественный текст (g_work) глубина 1",
+            "action": "добавлен"
+          }
+        ]
+      },
+      "top": [
+        {
+          "doc_id": "D126",
+          "score": 16.3423,
+          "contrib": [
+            {
+              "term": "текст",
+              "relation": "исходный",
+              "concept": null,
+              "weight": 1.0,
+              "value": 4.9622
+            },
+            {
+              "term": "художественный",
+              "relation": "исходный",
+              "concept": null,
+              "weight": 1.0,
+              "value": 4.0706
+            },
+            {
+              "term": "художественный произведение",
+              "relation": "синоним",
+              "concept": "g_work",
+              "weight": 0.7,
+              "value": 2.7836
+            },
+            {
+              "term": "художественный проза",
+              "relation": "уже",
+              "concept": "g_prose",
+              "weight": 0.5,
+              "value": 2.5376
+            },
+            {
+              "term": "проза",
+              "relation": "уже",
+              "concept": "g_prose",
+              "weight": 0.5,
+              "value": 1.9883
+            }
+          ]
+        },
+        {
+          "doc_id": "D135",
+          "score": 15.8899,
+          "contrib": [
+            {
+              "term": "текст",
+              "relation": "исходный",
+              "concept": null,
+              "weight": 1.0,
+              "value": 7.2467
+            },
+            {
+              "term": "предание",
+              "relation": "уже",
+              "concept": "g_legend",
+              "weight": 0.5,
+              "value": 2.7797
+            },
+            {
+              "term": "прозаический произведение",
+              "relation": "уже",
+              "concept": "g_prose",
+              "weight": 0.5,
+              "value": 2.191
+            },
+            {
+              "term": "художественный",
+              "relation": "исходный",
+              "concept": null,
+              "weight": 1.0,
+              "value": 1.9397
+            },
+            {
+              "term": "легенда",
+              "relation": "уже",
+              "concept": "g_legend",
+              "weight": 0.5,
+              "value": 1.7329
+            }
+          ]
+        },
+        {
+          "doc_id": "D157",
+          "score": 13.6352,
+          "contrib": [
+            {
+              "term": "художественный произведение",
+              "relation": "синоним",
+              "concept": "g_work",
+              "weight": 0.7,
+              "value": 5.8417
+            },
+            {
+              "term": "художественный",
+              "relation": "исходный",
+              "concept": null,
+              "weight": 1.0,
+              "value": 5.7141
+            },
+            {
+              "term": "текст",
+              "relation": "исходный",
+              "concept": null,
+              "weight": 1.0,
+              "value": 2.0794
+            }
+          ]
+        },
+        {
+          "doc_id": "D144",
+          "score": 12.732,
+          "contrib": [
+            {
+              "term": "текст",
+              "relation": "исходный",
+              "concept": null,
+              "weight": 1.0,
+              "value": 5.4262
+            },
+            {
+              "term": "стих",
+              "relation": "уже",
+              "concept": "g_poetry",
+              "weight": 0.5,
+              "value": 4.0216
+            },
+            {
+              "term": "художественный",
+              "relation": "исходный",
+              "concept": null,
+              "weight": 1.0,
+              "value": 3.2842
+            }
+          ]
+        },
+        {
+          "doc_id": "D142",
+          "score": 12.0159,
+          "contrib": [
+            {
+              "term": "текст",
+              "relation": "исходный",
+              "concept": null,
+              "weight": 1.0,
+              "value": 3.5208
+            },
+            {
+              "term": "проза",
+              "relation": "уже",
+              "concept": "g_prose",
+              "weight": 0.5,
+              "value": 3.3665
+            },
+            {
+              "term": "художественный",
+              "relation": "исходный",
+              "concept": null,
+              "weight": 1.0,
+              "value": 3.2842
+            },
+            {
+              "term": "пьеса",
+              "relation": "уже",
+              "concept": "g_drama",
+              "weight": 0.5,
+              "value": 1.8444
+            }
+          ]
+        }
+      ]
+    },
+    "стихотворный роман / synonyms": {
+      "expansion": {
+        "query": "стихотворный роман",
+        "mode": "synonyms",
+        "lemmas": [
+          "стихотворный",
+          "роман"
+        ],
+        "terms": [
+          {
+            "term": "стихотворный",
+            "key": [
+              "стихотворный"
+            ],
+            "weight": 1.0,
+            "origin": "query",
+            "relation": "исходный",
+            "concept": null,
+            "via": null
+          },
+          {
+            "term": "роман",
+            "key": [
+              "роман"
+            ],
+            "weight": 1.0,
+            "origin": "query",
+            "relation": "исходный",
+            "concept": null,
+            "via": null
+          },
+          {
+            "term": "роман в стих",
+            "key": [
+              "роман",
+              "в",
+              "стих"
+            ],
+            "weight": 0.7,
+            "origin": "synonym",
+            "relation": "синоним",
+            "concept": "g_novel_verse",
+            "via": "стихотворный роман"
+          }
+        ],
+        "decisions": [
+          {
+            "term": "стихотворный роман",
+            "key": [
+              "стихотворный",
+              "роман"
+            ],
+            "status": "однозначный",
+            "chosen": "g_novel_verse",
+            "alternatives": []
+          }
+        ],
+        "log": [
+          {
+            "term": "роман в стих",
+            "key": [
+              "роман",
+              "в",
+              "стих"
+            ],
+            "weight": 0.7,
+            "origin": "synonym",
+            "relation": "синоним",
+            "concept": "g_novel_verse",
+            "via": "стихотворный роман",
+            "action": "добавлен"
+          }
+        ]
+      },
+      "top": [
+        {
+          "doc_id": "D144",
+          "score": 16.7091,
+          "contrib": [
+            {
+              "term": "роман в стих",
+              "relation": "синоним",
+              "concept": "g_novel_verse",
+              "weight": 0.7,
+              "value": 9.8072
+            },
+            {
+              "term": "роман",
+              "relation": "исходный",
+              "concept": null,
+              "weight": 1.0,
+              "value": 6.9019
+            }
+          ]
+        },
+        {
+          "doc_id": "D131",
+          "score": 7.2778,
+          "contrib": [
+            {
+              "term": "роман",
+              "relation": "исходный",
+              "concept": null,
+              "weight": 1.0,
+              "value": 7.2778
+            }
+          ]
+        },
+        {
+          "doc_id": "D137",
+          "score": 6.8286,
+          "contrib": [
+            {
+              "term": "роман",
+              "relation": "исходный",
+              "concept": null,
+              "weight": 1.0,
+              "value": 6.8286
+            }
+          ]
+        },
+        {
+          "doc_id": "D141",
+          "score": 6.6702,
+          "contrib": [
+            {
+              "term": "роман",
+              "relation": "исходный",
+              "concept": null,
+              "weight": 1.0,
+              "value": 6.6702
+            }
+          ]
+        },
+        {
+          "doc_id": "D154",
+          "score": 6.6278,
+          "contrib": [
+            {
+              "term": "роман",
+              "relation": "исходный",
+              "concept": null,
+              "weight": 1.0,
+              "value": 6.6278
+            }
+          ]
+        }
+      ]
+    },
+    "стихотворный роман / hierarchy": {
+      "expansion": {
+        "query": "стихотворный роман",
+        "mode": "hierarchy",
+        "lemmas": [
+          "стихотворный",
+          "роман"
+        ],
+        "terms": [
+          {
+            "term": "стихотворный",
+            "key": [
+              "стихотворный"
+            ],
+            "weight": 1.0,
+            "origin": "query",
+            "relation": "исходный",
+            "concept": null,
+            "via": null
+          },
+          {
+            "term": "роман",
+            "key": [
+              "роман"
+            ],
+            "weight": 1.0,
+            "origin": "query",
+            "relation": "исходный",
+            "concept": null,
+            "via": null
+          },
+          {
+            "term": "роман в стих",
+            "key": [
+              "роман",
+              "в",
+              "стих"
+            ],
+            "weight": 0.7,
+            "origin": "synonym",
+            "relation": "синоним",
+            "concept": "g_novel_verse",
+            "via": "стихотворный роман"
+          },
+          {
+            "term": "романный жанр",
+            "key": [
+              "романный",
+              "жанр"
+            ],
+            "weight": 0.5,
+            "origin": "broader",
+            "relation": "шире",
+            "concept": "g_novel",
+            "via": "стихотворный роман (g_novel_verse) глубина 1"
+          },
+          {
+            "term": "поэзия",
+            "key": [
+              "поэзия"
+            ],
+            "weight": 0.5,
+            "origin": "broader",
+            "relation": "шире",
+            "concept": "g_poetry",
+            "via": "стихотворный роман (g_novel_verse) глубина 1"
+          },
+          {
+            "term": "стих",
+            "key": [
+              "стих"
+            ],
+            "weight": 0.5,
+            "origin": "broader",
+            "relation": "шире",
+            "concept": "g_poetry",
+            "via": "стихотворный роман (g_novel_verse) глубина 1"
+          },
+          {
+            "term": "поэтический произведение",
+            "key": [
+              "поэтический",
+              "произведение"
+            ],
+            "weight": 0.5,
+            "origin": "broader",
+            "relation": "шире",
+            "concept": "g_poetry",
+            "via": "стихотворный роман (g_novel_verse) глубина 1"
+          },
+          {
+            "term": "стихотворный произведение",
+            "key": [
+              "стихотворный",
+              "произведение"
+            ],
+            "weight": 0.5,
+            "origin": "broader",
+            "relation": "шире",
+            "concept": "g_poetry",
+            "via": "стихотворный роман (g_novel_verse) глубина 1"
+          },
+          {
+            "term": "евгений онегин",
+            "key": [
+              "евгений",
+              "онегин"
+            ],
+            "weight": 0.5,
+            "origin": "narrower",
+            "relation": "уже",
+            "concept": "w_onegin",
+            "via": "стихотворный роман (g_novel_verse) глубина 1"
+          },
+          {
+            "term": "онегин",
+            "key": [
+              "онегин"
+            ],
+            "weight": 0.5,
+            "origin": "narrower",
+            "relation": "уже",
+            "concept": "w_onegin",
+            "via": "стихотворный роман (g_novel_verse) глубина 1"
+          }
+        ],
+        "decisions": [
+          {
+            "term": "стихотворный роман",
+            "key": [
+              "стихотворный",
+              "роман"
+            ],
+            "status": "однозначный",
+            "chosen": "g_novel_verse",
+            "alternatives": []
+          }
+        ],
+        "log": [
+          {
+            "term": "роман в стих",
+            "key": [
+              "роман",
+              "в",
+              "стих"
+            ],
+            "weight": 0.7,
+            "origin": "synonym",
+            "relation": "синоним",
+            "concept": "g_novel_verse",
+            "via": "стихотворный роман",
+            "action": "добавлен"
+          },
+          {
+            "term": "роман",
+            "key": [
+              "роман"
+            ],
+            "weight": 0.5,
+            "origin": "broader",
+            "relation": "шире",
+            "concept": "g_novel",
+            "via": "стихотворный роман (g_novel_verse) глубина 1",
+            "action": "пропущен: форма неоднозначна в тезаурусе"
+          },
+          {
+            "term": "романный жанр",
+            "key": [
+              "романный",
+              "жанр"
+            ],
+            "weight": 0.5,
+            "origin": "broader",
+            "relation": "шире",
+            "concept": "g_novel",
+            "via": "стихотворный роман (g_novel_verse) глубина 1",
+            "action": "добавлен"
+          },
+          {
+            "term": "поэзия",
+            "key": [
+              "поэзия"
+            ],
+            "weight": 0.5,
+            "origin": "broader",
+            "relation": "шире",
+            "concept": "g_poetry",
+            "via": "стихотворный роман (g_novel_verse) глубина 1",
+            "action": "добавлен"
+          },
+          {
+            "term": "стих",
+            "key": [
+              "стих"
+            ],
+            "weight": 0.5,
+            "origin": "broader",
+            "relation": "шире",
+            "concept": "g_poetry",
+            "via": "стихотворный роман (g_novel_verse) глубина 1",
+            "action": "добавлен"
+          },
+          {
+            "term": "поэтический произведение",
+            "key": [
+              "поэтический",
+              "произведение"
+            ],
+            "weight": 0.5,
+            "origin": "broader",
+            "relation": "шире",
+            "concept": "g_poetry",
+            "via": "стихотворный роман (g_novel_verse) глубина 1",
+            "action": "добавлен"
+          },
+          {
+            "term": "стихотворный произведение",
+            "key": [
+              "стихотворный",
+              "произведение"
+            ],
+            "weight": 0.5,
+            "origin": "broader",
+            "relation": "шире",
+            "concept": "g_poetry",
+            "via": "стихотворный роман (g_novel_verse) глубина 1",
+            "action": "добавлен"
+          },
+          {
+            "term": "евгений онегин",
+            "key": [
+              "евгений",
+              "онегин"
+            ],
+            "weight": 0.5,
+            "origin": "narrower",
+            "relation": "уже",
+            "concept": "w_onegin",
+            "via": "стихотворный роман (g_novel_verse) глубина 1",
+            "action": "добавлен"
+          },
+          {
+            "term": "онегин",
+            "key": [
+              "онегин"
+            ],
+            "weight": 0.5,
+            "origin": "narrower",
+            "relation": "уже",
+            "concept": "w_onegin",
+            "via": "стихотворный роман (g_novel_verse) глубина 1",
+            "action": "добавлен"
+          }
+        ]
+      },
+      "top": [
+        {
+          "doc_id": "D144",
+          "score": 38.3559,
+          "contrib": [
+            {
+              "term": "роман в стих",
+              "relation": "синоним",
+              "concept": "g_novel_verse",
+              "weight": 0.7,
+              "value": 9.8072
+            },
+            {
+              "term": "онегин",
+              "relation": "уже",
+              "concept": "w_onegin",
+              "weight": 0.5,
+              "value": 9.6805
+            },
+            {
+              "term": "евгений онегин",
+              "relation": "уже",
+              "concept": "w_onegin",
+              "weight": 0.5,
+              "value": 7.9446
+            },
+            {
+              "term": "роман",
+              "relation": "исходный",
+              "concept": null,
+              "weight": 1.0,
+              "value": 6.9019
+            },
+            {
+              "term": "стих",
+              "relation": "шире",
+              "concept": "g_poetry",
+              "weight": 0.5,
+              "value": 4.0216
+            }
+          ]
+        },
+        {
+          "doc_id": "D075",
+          "score": 16.9851,
+          "contrib": [
+            {
+              "term": "онегин",
+              "relation": "уже",
+              "concept": "w_onegin",
+              "weight": 0.5,
+              "value": 4.813
+            },
+            {
+              "term": "евгений онегин",
+              "relation": "уже",
+              "concept": "w_onegin",
+              "weight": 0.5,
+              "value": 3.3665
+            },
+            {
+              "term": "роман в стих",
+              "relation": "синоним",
+              "concept": "g_novel_verse",
+              "weight": 0.7,
+              "value": 3.0674
+            },
+            {
+              "term": "роман",
+              "relation": "исходный",
+              "concept": null,
+              "weight": 1.0,
+              "value": 2.4792
+            },
+            {
+              "term": "стих",
+              "relation": "шире",
+              "concept": "g_poetry",
+              "weight": 0.5,
+              "value": 2.0039
+            },
+            {
+              "term": "поэзия",
+              "relation": "шире",
+              "concept": "g_poetry",
+              "weight": 0.5,
+              "value": 1.2551
+            }
+          ]
+        },
+        {
+          "doc_id": "D147",
+          "score": 12.1653,
+          "contrib": [
+            {
+              "term": "роман",
+              "relation": "исходный",
+              "concept": null,
+              "weight": 1.0,
+              "value": 5.7757
+            },
+            {
+              "term": "онегин",
+              "relation": "уже",
+              "concept": "w_onegin",
+              "weight": 0.5,
+              "value": 4.4014
+            },
+            {
+              "term": "евгений онегин",
+              "relation": "уже",
+              "concept": "w_onegin",
+              "weight": 0.5,
+              "value": 1.9883
+            }
+          ]
+        },
+        {
+          "doc_id": "D137",
+          "score": 9.4626,
+          "contrib": [
+            {
+              "term": "роман",
+              "relation": "исходный",
+              "concept": null,
+              "weight": 1.0,
+              "value": 6.8286
+            },
+            {
+              "term": "поэзия",
+              "relation": "шире",
+              "concept": "g_poetry",
+              "weight": 0.5,
+              "value": 2.634
+            }
+          ]
+        },
+        {
+          "doc_id": "D110",
+          "score": 7.2837,
+          "contrib": [
+            {
+              "term": "поэзия",
+              "relation": "шире",
+              "concept": "g_poetry",
+              "weight": 0.5,
+              "value": 2.9951
+            },
+            {
+              "term": "стих",
+              "relation": "шире",
+              "concept": "g_poetry",
+              "weight": 0.5,
+              "value": 2.8243
+            },
+            {
+              "term": "роман",
+              "relation": "исходный",
+              "concept": null,
+              "weight": 1.0,
+              "value": 1.4643
+            }
+          ]
+        }
+      ]
+    },
+    "новелла о собаке / synonyms": {
+      "expansion": {
+        "query": "новелла о собаке",
+        "mode": "synonyms",
+        "lemmas": [
+          "новелла",
+          "о",
+          "собака"
+        ],
+        "terms": [
+          {
+            "term": "новелла",
+            "key": [
+              "новелла"
+            ],
+            "weight": 1.0,
+            "origin": "query",
+            "relation": "исходный",
+            "concept": null,
+            "via": null
+          },
+          {
+            "term": "собака",
+            "key": [
+              "собака"
+            ],
+            "weight": 1.0,
+            "origin": "query",
+            "relation": "исходный",
+            "concept": null,
+            "via": null
+          },
+          {
+            "term": "рассказ",
+            "key": [
+              "рассказ"
+            ],
+            "weight": 0.7,
+            "origin": "synonym",
+            "relation": "синоним",
+            "concept": "g_story",
+            "via": "новелла"
+          },
+          {
+            "term": "пес",
+            "key": [
+              "пес"
+            ],
+            "weight": 0.7,
+            "origin": "synonym",
+            "relation": "синоним",
+            "concept": "c_dog",
+            "via": "собака"
+          },
+          {
+            "term": "псиный",
+            "key": [
+              "псиный"
+            ],
+            "weight": 0.7,
+            "origin": "synonym",
+            "relation": "синоним",
+            "concept": "c_dog",
+            "via": "собака"
+          },
+          {
+            "term": "собачка",
+            "key": [
+              "собачка"
+            ],
+            "weight": 0.7,
+            "origin": "synonym",
+            "relation": "синоним",
+            "concept": "c_dog",
+            "via": "собака"
+          }
+        ],
+        "decisions": [
+          {
+            "term": "новелла",
+            "key": [
+              "новелла"
+            ],
+            "status": "однозначный",
+            "chosen": "g_story",
+            "alternatives": []
+          },
+          {
+            "term": "собака",
+            "key": [
+              "собака"
+            ],
+            "status": "однозначный",
+            "chosen": "c_dog",
+            "alternatives": []
+          }
+        ],
+        "log": [
+          {
+            "term": "рассказ",
+            "key": [
+              "рассказ"
+            ],
+            "weight": 0.7,
+            "origin": "synonym",
+            "relation": "синоним",
+            "concept": "g_story",
+            "via": "новелла",
+            "action": "добавлен"
+          },
+          {
+            "term": "пес",
+            "key": [
+              "пес"
+            ],
+            "weight": 0.7,
+            "origin": "synonym",
+            "relation": "синоним",
+            "concept": "c_dog",
+            "via": "собака",
+            "action": "добавлен"
+          },
+          {
+            "term": "псиный",
+            "key": [
+              "псиный"
+            ],
+            "weight": 0.7,
+            "origin": "synonym",
+            "relation": "синоним",
+            "concept": "c_dog",
+            "via": "собака",
+            "action": "добавлен"
+          },
+          {
+            "term": "собачка",
+            "key": [
+              "собачка"
+            ],
+            "weight": 0.7,
+            "origin": "synonym",
+            "relation": "синоним",
+            "concept": "c_dog",
+            "via": "собака",
+            "action": "добавлен"
+          }
+        ]
+      },
+      "top": [
+        {
+          "doc_id": "D138",
+          "score": 18.5368,
+          "contrib": [
+            {
+              "term": "собачка",
+              "relation": "синоним",
+              "concept": "c_dog",
+              "weight": 0.7,
+              "value": 7.7711
+            },
+            {
+              "term": "собака",
+              "relation": "исходный",
+              "concept": null,
+              "weight": 1.0,
+              "value": 4.1247
+            },
+            {
+              "term": "рассказ",
+              "relation": "синоним",
+              "concept": "g_story",
+              "weight": 0.7,
+              "value": 3.8574
+            },
+            {
+              "term": "пес",
+              "relation": "синоним",
+              "concept": "c_dog",
+              "weight": 0.7,
+              "value": 2.7836
+            }
+          ]
+        },
+        {
+          "doc_id": "D151",
+          "score": 14.1181,
+          "contrib": [
+            {
+              "term": "собачка",
+              "relation": "синоним",
+              "concept": "c_dog",
+              "weight": 0.7,
+              "value": 10.3217
+            },
+            {
+              "term": "рассказ",
+              "relation": "синоним",
+              "concept": "g_story",
+              "weight": 0.7,
+              "value": 3.7964
+            }
+          ]
+        },
+        {
+          "doc_id": "D160",
+          "score": 11.5719,
+          "contrib": [
+            {
+              "term": "собака",
+              "relation": "исходный",
+              "concept": null,
+              "weight": 1.0,
+              "value": 7.5019
+            },
+            {
+              "term": "рассказ",
+              "relation": "синоним",
+              "concept": "g_story",
+              "weight": 0.7,
+              "value": 4.07
+            }
+          ]
+        },
+        {
+          "doc_id": "D030",
+          "score": 8.7543,
+          "contrib": [
+            {
+              "term": "собачка",
+              "relation": "синоним",
+              "concept": "c_dog",
+              "weight": 0.7,
+              "value": 6.6425
+            },
+            {
+              "term": "рассказ",
+              "relation": "синоним",
+              "concept": "g_story",
+              "weight": 0.7,
+              "value": 2.1119
+            }
+          ]
+        },
+        {
+          "doc_id": "D035",
+          "score": 7.6773,
+          "contrib": [
+            {
+              "term": "собака",
+              "relation": "исходный",
+              "concept": null,
+              "weight": 1.0,
+              "value": 4.1247
+            },
+            {
+              "term": "псиный",
+              "relation": "синоним",
+              "concept": "c_dog",
+              "weight": 0.7,
+              "value": 3.5526
+            }
+          ]
+        }
+      ]
+    },
+    "новелла о собаке / hierarchy": {
+      "expansion": {
+        "query": "новелла о собаке",
+        "mode": "hierarchy",
+        "lemmas": [
+          "новелла",
+          "о",
+          "собака"
+        ],
+        "terms": [
+          {
+            "term": "новелла",
+            "key": [
+              "новелла"
+            ],
+            "weight": 1.0,
+            "origin": "query",
+            "relation": "исходный",
+            "concept": null,
+            "via": null
+          },
+          {
+            "term": "собака",
+            "key": [
+              "собака"
+            ],
+            "weight": 1.0,
+            "origin": "query",
+            "relation": "исходный",
+            "concept": null,
+            "via": null
+          },
+          {
+            "term": "рассказ",
+            "key": [
+              "рассказ"
+            ],
+            "weight": 0.7,
+            "origin": "synonym",
+            "relation": "синоним",
+            "concept": "g_story",
+            "via": "новелла"
+          },
+          {
+            "term": "проза",
+            "key": [
+              "проза"
+            ],
+            "weight": 0.5,
+            "origin": "broader",
+            "relation": "шире",
+            "concept": "g_prose",
+            "via": "новелла (g_story) глубина 1"
+          },
+          {
+            "term": "прозаический произведение",
+            "key": [
+              "прозаический",
+              "произведение"
+            ],
+            "weight": 0.5,
+            "origin": "broader",
+            "relation": "шире",
+            "concept": "g_prose",
+            "via": "новелла (g_story) глубина 1"
+          },
+          {
+            "term": "художественный проза",
+            "key": [
+              "художественный",
+              "проза"
+            ],
+            "weight": 0.5,
+            "origin": "broader",
+            "relation": "шире",
+            "concept": "g_prose",
+            "via": "новелла (g_story) глубина 1"
+          },
+          {
+            "term": "мум",
+            "key": [
+              "мум"
+            ],
+            "weight": 0.5,
+            "origin": "narrower",
+            "relation": "уже",
+            "concept": "w_mumu",
+            "via": "новелла (g_story) глубина 1"
+          },
+          {
+            "term": "каштанк",
+            "key": [
+              "каштанк"
+            ],
+            "weight": 0.5,
+            "origin": "narrower",
+            "relation": "уже",
+            "concept": "w_kashtanka",
+            "via": "новелла (g_story) глубина 1"
+          },
+          {
+            "term": "старуха изергиль",
+            "key": [
+              "старуха",
+              "изергиль"
+            ],
+            "weight": 0.5,
+            "origin": "narrower",
+            "relation": "уже",
+            "concept": "w_izergil",
+            "via": "новелла (g_story) глубина 1"
+          },
+          {
+            "term": "изергиль",
+            "key": [
+              "изергиль"
+            ],
+            "weight": 0.5,
+            "origin": "narrower",
+            "relation": "уже",
+            "concept": "w_izergil",
+            "via": "новелла (g_story) глубина 1"
+          },
+          {
+            "term": "пес",
+            "key": [
+              "пес"
+            ],
+            "weight": 0.7,
+            "origin": "synonym",
+            "relation": "синоним",
+            "concept": "c_dog",
+            "via": "собака"
+          },
+          {
+            "term": "псиный",
+            "key": [
+              "псиный"
+            ],
+            "weight": 0.7,
+            "origin": "synonym",
+            "relation": "синоним",
+            "concept": "c_dog",
+            "via": "собака"
+          },
+          {
+            "term": "собачка",
+            "key": [
+              "собачка"
+            ],
+            "weight": 0.7,
+            "origin": "synonym",
+            "relation": "синоним",
+            "concept": "c_dog",
+            "via": "собака"
+          }
+        ],
+        "decisions": [
+          {
+            "term": "новелла",
+            "key": [
+              "новелла"
+            ],
+            "status": "однозначный",
+            "chosen": "g_story",
+            "alternatives": []
+          },
+          {
+            "term": "собака",
+            "key": [
+              "собака"
+            ],
+            "status": "однозначный",
+            "chosen": "c_dog",
+            "alternatives": []
+          }
+        ],
+        "log": [
+          {
+            "term": "рассказ",
+            "key": [
+              "рассказ"
+            ],
+            "weight": 0.7,
+            "origin": "synonym",
+            "relation": "синоним",
+            "concept": "g_story",
+            "via": "новелла",
+            "action": "добавлен"
+          },
+          {
+            "term": "проза",
+            "key": [
+              "проза"
+            ],
+            "weight": 0.5,
+            "origin": "broader",
+            "relation": "шире",
+            "concept": "g_prose",
+            "via": "новелла (g_story) глубина 1",
+            "action": "добавлен"
+          },
+          {
+            "term": "прозаический произведение",
+            "key": [
+              "прозаический",
+              "произведение"
+            ],
+            "weight": 0.5,
+            "origin": "broader",
+            "relation": "шире",
+            "concept": "g_prose",
+            "via": "новелла (g_story) глубина 1",
+            "action": "добавлен"
+          },
+          {
+            "term": "художественный проза",
+            "key": [
+              "художественный",
+              "проза"
+            ],
+            "weight": 0.5,
+            "origin": "broader",
+            "relation": "шире",
+            "concept": "g_prose",
+            "via": "новелла (g_story) глубина 1",
+            "action": "добавлен"
+          },
+          {
+            "term": "мум",
+            "key": [
+              "мум"
+            ],
+            "weight": 0.5,
+            "origin": "narrower",
+            "relation": "уже",
+            "concept": "w_mumu",
+            "via": "новелла (g_story) глубина 1",
+            "action": "добавлен"
+          },
+          {
+            "term": "каштанк",
+            "key": [
+              "каштанк"
+            ],
+            "weight": 0.5,
+            "origin": "narrower",
+            "relation": "уже",
+            "concept": "w_kashtanka",
+            "via": "новелла (g_story) глубина 1",
+            "action": "добавлен"
+          },
+          {
+            "term": "старуха изергиль",
+            "key": [
+              "старуха",
+              "изергиль"
+            ],
+            "weight": 0.5,
+            "origin": "narrower",
+            "relation": "уже",
+            "concept": "w_izergil",
+            "via": "новелла (g_story) глубина 1",
+            "action": "добавлен"
+          },
+          {
+            "term": "изергиль",
+            "key": [
+              "изергиль"
+            ],
+            "weight": 0.5,
+            "origin": "narrower",
+            "relation": "уже",
+            "concept": "w_izergil",
+            "via": "новелла (g_story) глубина 1",
+            "action": "добавлен"
+          },
+          {
+            "term": "пес",
+            "key": [
+              "пес"
+            ],
+            "weight": 0.7,
+            "origin": "synonym",
+            "relation": "синоним",
+            "concept": "c_dog",
+            "via": "собака",
+            "action": "добавлен"
+          },
+          {
+            "term": "псиный",
+            "key": [
+              "псиный"
+            ],
+            "weight": 0.7,
+            "origin": "synonym",
+            "relation": "синоним",
+            "concept": "c_dog",
+            "via": "собака",
+            "action": "добавлен"
+          },
+          {
+            "term": "собачка",
+            "key": [
+              "собачка"
+            ],
+            "weight": 0.7,
+            "origin": "synonym",
+            "relation": "синоним",
+            "concept": "c_dog",
+            "via": "собака",
+            "action": "добавлен"
+          },
+          {
+            "term": "мум",
+            "key": [
+              "мум"
+            ],
+            "weight": 0.5,
+            "origin": "narrower",
+            "relation": "уже",
+            "concept": "w_mumu",
+            "via": "собака (c_dog) глубина 1",
+            "action": "пропущен: уже есть как «уже» с весом 0.5"
+          },
+          {
+            "term": "каштанк",
+            "key": [
+              "каштанк"
+            ],
+            "weight": 0.5,
+            "origin": "narrower",
+            "relation": "уже",
+            "concept": "w_kashtanka",
+            "via": "собака (c_dog) глубина 1",
+            "action": "пропущен: уже есть как «уже» с весом 0.5"
+          }
+        ]
+      },
+      "top": [
+        {
+          "doc_id": "D138",
+          "score": 28.1799,
+          "contrib": [
+            {
+              "term": "мум",
+              "relation": "уже",
+              "concept": "w_mumu",
+              "weight": 0.5,
+              "value": 9.6431
+            },
+            {
+              "term": "собачка",
+              "relation": "синоним",
+              "concept": "c_dog",
+              "weight": 0.7,
+              "value": 7.7711
+            },
+            {
+              "term": "собака",
+              "relation": "исходный",
+              "concept": null,
+              "weight": 1.0,
+              "value": 4.1247
+            },
+            {
+              "term": "рассказ",
+              "relation": "синоним",
+              "concept": "g_story",
+              "weight": 0.7,
+              "value": 3.8574
+            },
+            {
+              "term": "пес",
+              "relation": "синоним",
+              "concept": "c_dog",
+              "weight": 0.7,
+              "value": 2.7836
+            }
+          ]
+        },
+        {
+          "doc_id": "D160",
+          "score": 21.7899,
+          "contrib": [
+            {
+              "term": "каштанк",
+              "relation": "уже",
+              "concept": "w_kashtanka",
+              "weight": 0.5,
+              "value": 10.2179
+            },
+            {
+              "term": "собака",
+              "relation": "исходный",
+              "concept": null,
+              "weight": 1.0,
+              "value": 7.5019
+            },
+            {
+              "term": "рассказ",
+              "relation": "синоним",
+              "concept": "g_story",
+              "weight": 0.7,
+              "value": 4.07
+            }
+          ]
+        },
+        {
+          "doc_id": "D035",
+          "score": 15.8017,
+          "contrib": [
+            {
+              "term": "каштанк",
+              "relation": "уже",
+              "concept": "w_kashtanka",
+              "weight": 0.5,
+              "value": 8.1244
+            },
+            {
+              "term": "собака",
+              "relation": "исходный",
+              "concept": null,
+              "weight": 1.0,
+              "value": 4.1247
+            },
+            {
+              "term": "псиный",
+              "relation": "синоним",
+              "concept": "c_dog",
+              "weight": 0.7,
+              "value": 3.5526
+            }
+          ]
+        },
+        {
+          "doc_id": "D151",
+          "score": 14.1181,
+          "contrib": [
+            {
+              "term": "собачка",
+              "relation": "синоним",
+              "concept": "c_dog",
+              "weight": 0.7,
+              "value": 10.3217
+            },
+            {
+              "term": "рассказ",
+              "relation": "синоним",
+              "concept": "g_story",
+              "weight": 0.7,
+              "value": 3.7964
+            }
+          ]
+        },
+        {
+          "doc_id": "D038",
+          "score": 11.4631,
+          "contrib": [
+            {
+              "term": "старуха изергиль",
+              "relation": "уже",
+              "concept": "w_izergil",
+              "weight": 0.5,
+              "value": 5.2284
+            },
+            {
+              "term": "изергиль",
+              "relation": "уже",
+              "concept": "w_izergil",
+              "weight": 0.5,
+              "value": 5.2284
+            },
+            {
+              "term": "рассказ",
+              "relation": "синоним",
+              "concept": "g_story",
+              "weight": 0.7,
+              "value": 1.0063
+            }
+          ]
+        }
+      ]
+    },
+    "поэма Блока / synonyms": {
+      "expansion": {
+        "query": "поэма Блока",
+        "mode": "synonyms",
+        "lemmas": [
+          "поэма",
+          "блок"
+        ],
+        "terms": [
+          {
+            "term": "поэма",
+            "key": [
+              "поэма"
+            ],
+            "weight": 1.0,
+            "origin": "query",
+            "relation": "исходный",
+            "concept": null,
+            "via": null
+          },
+          {
+            "term": "блок",
+            "key": [
+              "блок"
+            ],
+            "weight": 1.0,
+            "origin": "query",
+            "relation": "исходный",
+            "concept": null,
+            "via": null
+          },
+          {
+            "term": "стихотворный повесть",
+            "key": [
+              "стихотворный",
+              "повесть"
+            ],
+            "weight": 0.7,
+            "origin": "synonym",
+            "relation": "синоним",
+            "concept": "g_poema",
+            "via": "поэма"
+          },
+          {
+            "term": "александр блок",
+            "key": [
+              "александр",
+              "блок"
+            ],
+            "weight": 0.7,
+            "origin": "synonym",
+            "relation": "синоним",
+            "concept": "a_blok",
+            "via": "блок"
+          },
+          {
+            "term": "александр александрович блок",
+            "key": [
+              "александр",
+              "александрович",
+              "блок"
+            ],
+            "weight": 0.7,
+            "origin": "synonym",
+            "relation": "синоним",
+            "concept": "a_blok",
+            "via": "блок"
+          }
+        ],
+        "decisions": [
+          {
+            "term": "поэма",
+            "key": [
+              "поэма"
+            ],
+            "status": "однозначный",
+            "chosen": "g_poema",
+            "alternatives": []
+          },
+          {
+            "term": "блок",
+            "key": [
+              "блок"
+            ],
+            "status": "выбрано по контексту",
+            "chosen": "a_blok",
+            "alternatives": [
+              {
+                "concept_id": "a_blok",
+                "label": "Александр Блок",
+                "note": "",
+                "score": 1,
+                "context_hits": [
+                  "поэма"
+                ],
+                "links": []
+              },
+              {
+                "concept_id": "c_bloc",
+                "label": "блок",
+                "note": "политический союз; деталь механизма",
+                "score": 0,
+                "context_hits": [],
+                "links": []
+              }
+            ]
+          }
+        ],
+        "log": [
+          {
+            "term": "стихотворный повесть",
+            "key": [
+              "стихотворный",
+              "повесть"
+            ],
+            "weight": 0.7,
+            "origin": "synonym",
+            "relation": "синоним",
+            "concept": "g_poema",
+            "via": "поэма",
+            "action": "добавлен"
+          },
+          {
+            "term": "александр блок",
+            "key": [
+              "александр",
+              "блок"
+            ],
+            "weight": 0.7,
+            "origin": "synonym",
+            "relation": "синоним",
+            "concept": "a_blok",
+            "via": "блок",
+            "action": "добавлен"
+          },
+          {
+            "term": "александр александрович блок",
+            "key": [
+              "александр",
+              "александрович",
+              "блок"
+            ],
+            "weight": 0.7,
+            "origin": "synonym",
+            "relation": "синоним",
+            "concept": "a_blok",
+            "via": "блок",
+            "action": "добавлен"
+          }
+        ]
+      },
+      "top": [
+        {
+          "doc_id": "D150",
+          "score": 29.9379,
+          "contrib": [
+            {
+              "term": "блок",
+              "relation": "исходный",
+              "concept": null,
+              "weight": 1.0,
+              "value": 14.9457
+            },
+            {
+              "term": "поэма",
+              "relation": "исходный",
+              "concept": null,
+              "weight": 1.0,
+              "value": 10.1688
+            },
+            {
+              "term": "александр блок",
+              "relation": "синоним",
+              "concept": "a_blok",
+              "weight": 0.7,
+              "value": 4.8234
+            }
+          ]
+        },
+        {
+          "doc_id": "D145",
+          "score": 10.842,
+          "contrib": [
+            {
+              "term": "поэма",
+              "relation": "исходный",
+              "concept": null,
+              "weight": 1.0,
+              "value": 7.2894
+            },
+            {
+              "term": "стихотворный повесть",
+              "relation": "синоним",
+              "concept": "g_poema",
+              "weight": 0.7,
+              "value": 3.5526
+            }
+          ]
+        },
+        {
+          "doc_id": "D041",
+          "score": 10.2618,
+          "contrib": [
+            {
+              "term": "поэма",
+              "relation": "исходный",
+              "concept": null,
+              "weight": 1.0,
+              "value": 4.9677
+            },
+            {
+              "term": "блок",
+              "relation": "исходный",
+              "concept": null,
+              "weight": 1.0,
+              "value": 2.9957
+            },
+            {
+              "term": "александр блок",
+              "relation": "синоним",
+              "concept": "a_blok",
+              "weight": 0.7,
+              "value": 2.2984
+            }
+          ]
+        },
+        {
+          "doc_id": "D146",
+          "score": 10.0794,
+          "contrib": [
+            {
+              "term": "поэма",
+              "relation": "исходный",
+              "concept": null,
+              "weight": 1.0,
+              "value": 10.0794
+            }
+          ]
+        },
+        {
+          "doc_id": "D149",
+          "score": 8.2492,
+          "contrib": [
+            {
+              "term": "поэма",
+              "relation": "исходный",
+              "concept": null,
+              "weight": 1.0,
+              "value": 8.2492
+            }
+          ]
+        }
+      ]
+    },
+    "поэма Блока / hierarchy": {
+      "expansion": {
+        "query": "поэма Блока",
+        "mode": "hierarchy",
+        "lemmas": [
+          "поэма",
+          "блок"
+        ],
+        "terms": [
+          {
+            "term": "поэма",
+            "key": [
+              "поэма"
+            ],
+            "weight": 1.0,
+            "origin": "query",
+            "relation": "исходный",
+            "concept": null,
+            "via": null
+          },
+          {
+            "term": "блок",
+            "key": [
+              "блок"
+            ],
+            "weight": 1.0,
+            "origin": "query",
+            "relation": "исходный",
+            "concept": null,
+            "via": null
+          },
+          {
+            "term": "стихотворный повесть",
+            "key": [
+              "стихотворный",
+              "повесть"
+            ],
+            "weight": 0.7,
+            "origin": "synonym",
+            "relation": "синоним",
+            "concept": "g_poema",
+            "via": "поэма"
+          },
+          {
+            "term": "поэзия",
+            "key": [
+              "поэзия"
+            ],
+            "weight": 0.5,
+            "origin": "broader",
+            "relation": "шире",
+            "concept": "g_poetry",
+            "via": "поэма (g_poema) глубина 1"
+          },
+          {
+            "term": "стих",
+            "key": [
+              "стих"
+            ],
+            "weight": 0.5,
+            "origin": "broader",
+            "relation": "шире",
+            "concept": "g_poetry",
+            "via": "поэма (g_poema) глубина 1"
+          },
+          {
+            "term": "поэтический произведение",
+            "key": [
+              "поэтический",
+              "произведение"
+            ],
+            "weight": 0.5,
+            "origin": "broader",
+            "relation": "шире",
+            "concept": "g_poetry",
+            "via": "поэма (g_poema) глубина 1"
+          },
+          {
+            "term": "стихотворный произведение",
+            "key": [
+              "стихотворный",
+              "произведение"
+            ],
+            "weight": 0.5,
+            "origin": "broader",
+            "relation": "шире",
+            "concept": "g_poetry",
+            "via": "поэма (g_poema) глубина 1"
+          },
+          {
+            "term": "двенадцать",
+            "key": [
+              "двенадцать"
+            ],
+            "weight": 0.5,
+            "origin": "narrower",
+            "relation": "уже",
+            "concept": "w_twelve",
+            "via": "поэма (g_poema) глубина 1"
+          },
+          {
+            "term": "александр блок",
+            "key": [
+              "александр",
+              "блок"
+            ],
+            "weight": 0.7,
+            "origin": "synonym",
+            "relation": "синоним",
+            "concept": "a_blok",
+            "via": "блок"
+          },
+          {
+            "term": "александр александрович блок",
+            "key": [
+              "александр",
+              "александрович",
+              "блок"
+            ],
+            "weight": 0.7,
+            "origin": "synonym",
+            "relation": "синоним",
+            "concept": "a_blok",
+            "via": "блок"
+          }
+        ],
+        "decisions": [
+          {
+            "term": "поэма",
+            "key": [
+              "поэма"
+            ],
+            "status": "однозначный",
+            "chosen": "g_poema",
+            "alternatives": []
+          },
+          {
+            "term": "блок",
+            "key": [
+              "блок"
+            ],
+            "status": "выбрано по контексту",
+            "chosen": "a_blok",
+            "alternatives": [
+              {
+                "concept_id": "a_blok",
+                "label": "Александр Блок",
+                "note": "",
+                "score": 1,
+                "context_hits": [
+                  "поэма"
+                ],
+                "links": []
+              },
+              {
+                "concept_id": "c_bloc",
+                "label": "блок",
+                "note": "политический союз; деталь механизма",
+                "score": 0,
+                "context_hits": [],
+                "links": []
+              }
+            ]
+          }
+        ],
+        "log": [
+          {
+            "term": "стихотворный повесть",
+            "key": [
+              "стихотворный",
+              "повесть"
+            ],
+            "weight": 0.7,
+            "origin": "synonym",
+            "relation": "синоним",
+            "concept": "g_poema",
+            "via": "поэма",
+            "action": "добавлен"
+          },
+          {
+            "term": "поэзия",
+            "key": [
+              "поэзия"
+            ],
+            "weight": 0.5,
+            "origin": "broader",
+            "relation": "шире",
+            "concept": "g_poetry",
+            "via": "поэма (g_poema) глубина 1",
+            "action": "добавлен"
+          },
+          {
+            "term": "стих",
+            "key": [
+              "стих"
+            ],
+            "weight": 0.5,
+            "origin": "broader",
+            "relation": "шире",
+            "concept": "g_poetry",
+            "via": "поэма (g_poema) глубина 1",
+            "action": "добавлен"
+          },
+          {
+            "term": "поэтический произведение",
+            "key": [
+              "поэтический",
+              "произведение"
+            ],
+            "weight": 0.5,
+            "origin": "broader",
+            "relation": "шире",
+            "concept": "g_poetry",
+            "via": "поэма (g_poema) глубина 1",
+            "action": "добавлен"
+          },
+          {
+            "term": "стихотворный произведение",
+            "key": [
+              "стихотворный",
+              "произведение"
+            ],
+            "weight": 0.5,
+            "origin": "broader",
+            "relation": "шире",
+            "concept": "g_poetry",
+            "via": "поэма (g_poema) глубина 1",
+            "action": "добавлен"
+          },
+          {
+            "term": "мертвый душа",
+            "key": [
+              "мертвый",
+              "душа"
+            ],
+            "weight": 0.5,
+            "origin": "narrower",
+            "relation": "уже",
+            "concept": "w_dead_souls",
+            "via": "поэма (g_poema) глубина 1",
+            "action": "пропущен: форма неоднозначна в тезаурусе"
+          },
+          {
+            "term": "двенадцать",
+            "key": [
+              "двенадцать"
+            ],
+            "weight": 0.5,
+            "origin": "narrower",
+            "relation": "уже",
+            "concept": "w_twelve",
+            "via": "поэма (g_poema) глубина 1",
+            "action": "добавлен"
+          },
+          {
+            "term": "александр блок",
+            "key": [
+              "александр",
+              "блок"
+            ],
+            "weight": 0.7,
+            "origin": "synonym",
+            "relation": "синоним",
+            "concept": "a_blok",
+            "via": "блок",
+            "action": "добавлен"
+          },
+          {
+            "term": "александр александрович блок",
+            "key": [
+              "александр",
+              "александрович",
+              "блок"
+            ],
+            "weight": 0.7,
+            "origin": "synonym",
+            "relation": "синоним",
+            "concept": "a_blok",
+            "via": "блок",
+            "action": "добавлен"
+          }
+        ]
+      },
+      "top": [
+        {
+          "doc_id": "D150",
+          "score": 41.1604,
+          "contrib": [
+            {
+              "term": "блок",
+              "relation": "исходный",
+              "concept": null,
+              "weight": 1.0,
+              "value": 14.9457
+            },
+            {
+              "term": "поэма",
+              "relation": "исходный",
+              "concept": null,
+              "weight": 1.0,
+              "value": 10.1688
+            },
+            {
+              "term": "двенадцать",
+              "relation": "уже",
+              "concept": "w_twelve",
+              "weight": 0.5,
+              "value": 6.1047
+            },
+            {
+              "term": "александр блок",
+              "relation": "синоним",
+              "concept": "a_blok",
+              "weight": 0.7,
+              "value": 4.8234
+            },
+            {
+              "term": "поэзия",
+              "relation": "шире",
+              "concept": "g_poetry",
+              "weight": 0.5,
+              "value": 2.634
+            },
+            {
+              "term": "стих",
+              "relation": "шире",
+              "concept": "g_poetry",
+              "weight": 0.5,
+              "value": 2.4838
+            }
+          ]
+        },
+        {
+          "doc_id": "D146",
+          "score": 13.4559,
+          "contrib": [
+            {
+              "term": "поэма",
+              "relation": "исходный",
+              "concept": null,
+              "weight": 1.0,
+              "value": 10.0794
+            },
+            {
+              "term": "двенадцать",
+              "relation": "уже",
+              "concept": "w_twelve",
+              "weight": 0.5,
+              "value": 2.1929
+            },
+            {
+              "term": "стих",
+              "relation": "шире",
+              "concept": "g_poetry",
+              "weight": 0.5,
+              "value": 1.1836
+            }
+          ]
+        },
+        {
+          "doc_id": "D145",
+          "score": 13.3259,
+          "contrib": [
+            {
+              "term": "поэма",
+              "relation": "исходный",
+              "concept": null,
+              "weight": 1.0,
+              "value": 7.2894
+            },
+            {
+              "term": "стихотворный повесть",
+              "relation": "синоним",
+              "concept": "g_poema",
+              "weight": 0.7,
+              "value": 3.5526
+            },
+            {
+              "term": "стих",
+              "relation": "шире",
+              "concept": "g_poetry",
+              "weight": 0.5,
+              "value": 2.4838
+            }
+          ]
+        },
+        {
+          "doc_id": "D042",
+          "score": 10.3792,
+          "contrib": [
+            {
+              "term": "блок",
+              "relation": "исходный",
+              "concept": null,
+              "weight": 1.0,
+              "value": 2.9957
+            },
+            {
+              "term": "двенадцать",
+              "relation": "уже",
+              "concept": "w_twelve",
+              "weight": 0.5,
+              "value": 2.718
+            },
+            {
+              "term": "поэма",
+              "relation": "исходный",
+              "concept": null,
+              "weight": 1.0,
+              "value": 2.3671
+            },
+            {
+              "term": "александр блок",
+              "relation": "синоним",
+              "concept": "a_blok",
+              "weight": 0.7,
+              "value": 2.2984
+            }
+          ]
+        },
+        {
+          "doc_id": "D041",
+          "score": 10.2618,
+          "contrib": [
+            {
+              "term": "поэма",
+              "relation": "исходный",
+              "concept": null,
+              "weight": 1.0,
+              "value": 4.9677
+            },
+            {
+              "term": "блок",
+              "relation": "исходный",
+              "concept": null,
+              "weight": 1.0,
+              "value": 2.9957
+            },
+            {
+              "term": "александр блок",
+              "relation": "синоним",
+              "concept": "a_blok",
+              "weight": 0.7,
+              "value": 2.2984
+            }
+          ]
+        }
+      ]
+    },
+    "белые ночи / synonyms": {
+      "expansion": {
+        "query": "белые ночи",
+        "mode": "synonyms",
+        "lemmas": [
+          "белые",
+          "ночь"
+        ],
+        "terms": [
+          {
+            "term": "белые",
+            "key": [
+              "белые"
+            ],
+            "weight": 1.0,
+            "origin": "query",
+            "relation": "исходный",
+            "concept": null,
+            "via": null
+          },
+          {
+            "term": "ночь",
+            "key": [
+              "ночь"
+            ],
+            "weight": 1.0,
+            "origin": "query",
+            "relation": "исходный",
+            "concept": null,
+            "via": null
+          }
+        ],
+        "decisions": [
+          {
+            "term": "белые ночь",
+            "key": [
+              "белые",
+              "ночь"
+            ],
+            "status": "неоднозначно: показаны альтернативы",
+            "chosen": null,
+            "alternatives": [
+              {
+                "concept_id": "w_white_nights",
+                "label": "Белые ночи",
+                "note": "повесть Ф. Достоевского",
+                "score": 0,
+                "context_hits": [],
+                "links": []
+              },
+              {
+                "concept_id": "c_white_nights",
+                "label": "белые ночи",
+                "note": "природное явление",
+                "score": 0,
+                "context_hits": [],
+                "links": []
+              }
+            ]
+          }
+        ],
+        "log": []
+      },
+      "top": [
+        {
+          "doc_id": "D130",
+          "score": 19.263,
+          "contrib": [
+            {
+              "term": "белые",
+              "relation": "исходный",
+              "concept": null,
+              "weight": 1.0,
+              "value": 13.6466
+            },
+            {
+              "term": "ночь",
+              "relation": "исходный",
+              "concept": null,
+              "weight": 1.0,
+              "value": 5.6164
+            }
+          ]
+        },
+        {
+          "doc_id": "D010",
+          "score": 9.3221,
+          "contrib": [
+            {
+              "term": "белые",
+              "relation": "исходный",
+              "concept": null,
+              "weight": 1.0,
+              "value": 6.2869
+            },
+            {
+              "term": "ночь",
+              "relation": "исходный",
+              "concept": null,
+              "weight": 1.0,
+              "value": 3.0352
+            }
+          ]
+        },
+        {
+          "doc_id": "D047",
+          "score": 6.0309,
+          "contrib": [
+            {
+              "term": "ночь",
+              "relation": "исходный",
+              "concept": null,
+              "weight": 1.0,
+              "value": 3.0352
+            },
+            {
+              "term": "белые",
+              "relation": "исходный",
+              "concept": null,
+              "weight": 1.0,
+              "value": 2.9957
+            }
+          ]
+        },
+        {
+          "doc_id": "D006",
+          "score": 5.0722,
+          "contrib": [
+            {
+              "term": "белые",
+              "relation": "исходный",
+              "concept": null,
+              "weight": 1.0,
+              "value": 5.0722
+            }
+          ]
+        },
+        {
+          "doc_id": "D048",
+          "score": 3.7189,
+          "contrib": [
+            {
+              "term": "ночь",
+              "relation": "исходный",
+              "concept": null,
+              "weight": 1.0,
+              "value": 3.7189
+            }
+          ]
+        }
+      ]
+    },
+    "белые ночи / hierarchy": {
+      "expansion": {
+        "query": "белые ночи",
+        "mode": "hierarchy",
+        "lemmas": [
+          "белые",
+          "ночь"
+        ],
+        "terms": [
+          {
+            "term": "белые",
+            "key": [
+              "белые"
+            ],
+            "weight": 1.0,
+            "origin": "query",
+            "relation": "исходный",
+            "concept": null,
+            "via": null
+          },
+          {
+            "term": "ночь",
+            "key": [
+              "ночь"
+            ],
+            "weight": 1.0,
+            "origin": "query",
+            "relation": "исходный",
+            "concept": null,
+            "via": null
+          }
+        ],
+        "decisions": [
+          {
+            "term": "белые ночь",
+            "key": [
+              "белые",
+              "ночь"
+            ],
+            "status": "неоднозначно: показаны альтернативы",
+            "chosen": null,
+            "alternatives": [
+              {
+                "concept_id": "w_white_nights",
+                "label": "Белые ночи",
+                "note": "повесть Ф. Достоевского",
+                "score": 0,
+                "context_hits": [],
+                "links": []
+              },
+              {
+                "concept_id": "c_white_nights",
+                "label": "белые ночи",
+                "note": "природное явление",
+                "score": 0,
+                "context_hits": [],
+                "links": []
+              }
+            ]
+          }
+        ],
+        "log": []
+      },
+      "top": [
+        {
+          "doc_id": "D130",
+          "score": 19.263,
+          "contrib": [
+            {
+              "term": "белые",
+              "relation": "исходный",
+              "concept": null,
+              "weight": 1.0,
+              "value": 13.6466
+            },
+            {
+              "term": "ночь",
+              "relation": "исходный",
+              "concept": null,
+              "weight": 1.0,
+              "value": 5.6164
+            }
+          ]
+        },
+        {
+          "doc_id": "D010",
+          "score": 9.3221,
+          "contrib": [
+            {
+              "term": "белые",
+              "relation": "исходный",
+              "concept": null,
+              "weight": 1.0,
+              "value": 6.2869
+            },
+            {
+              "term": "ночь",
+              "relation": "исходный",
+              "concept": null,
+              "weight": 1.0,
+              "value": 3.0352
+            }
+          ]
+        },
+        {
+          "doc_id": "D047",
+          "score": 6.0309,
+          "contrib": [
+            {
+              "term": "ночь",
+              "relation": "исходный",
+              "concept": null,
+              "weight": 1.0,
+              "value": 3.0352
+            },
+            {
+              "term": "белые",
+              "relation": "исходный",
+              "concept": null,
+              "weight": 1.0,
+              "value": 2.9957
+            }
+          ]
+        },
+        {
+          "doc_id": "D006",
+          "score": 5.0722,
+          "contrib": [
+            {
+              "term": "белые",
+              "relation": "исходный",
+              "concept": null,
+              "weight": 1.0,
+              "value": 5.0722
+            }
+          ]
+        },
+        {
+          "doc_id": "D048",
+          "score": 3.7189,
+          "contrib": [
+            {
+              "term": "ночь",
+              "relation": "исходный",
+              "concept": null,
+              "weight": 1.0,
+              "value": 3.7189
+            }
+          ]
+        }
+      ]
+    },
+    "мир / synonyms": {
+      "expansion": {
+        "query": "мир",
+        "mode": "synonyms",
+        "lemmas": [
+          "мир"
+        ],
+        "terms": [
+          {
+            "term": "мир",
+            "key": [
+              "мир"
+            ],
+            "weight": 1.0,
+            "origin": "query",
+            "relation": "исходный",
+            "concept": null,
+            "via": null
+          }
+        ],
+        "decisions": [
+          {
+            "term": "мир",
+            "key": [
+              "мир"
+            ],
+            "status": "неоднозначно: показаны альтернативы",
+            "chosen": null,
+            "alternatives": [
+              {
+                "concept_id": "c_peace",
+                "label": "мир",
+                "note": "отсутствие войны, согласие",
+                "score": 0,
+                "context_hits": [],
+                "links": []
+              },
+              {
+                "concept_id": "c_world",
+                "label": "мир",
+                "note": "вселенная, свет",
+                "score": 0,
+                "context_hits": [],
+                "links": []
+              },
+              {
+                "concept_id": "c_community",
+                "label": "мир",
+                "note": "крестьянская община (устар.)",
+                "score": 0,
+                "context_hits": [],
+                "links": []
+              }
+            ]
+          }
+        ],
+        "log": []
+      },
+      "top": [
+        {
+          "doc_id": "D122",
+          "score": 3.5565,
+          "contrib": [
+            {
+              "term": "мир",
+              "relation": "исходный",
+              "concept": null,
+              "weight": 1.0,
+              "value": 3.5565
+            }
+          ]
+        },
+        {
+          "doc_id": "D118",
+          "score": 3.0722,
+          "contrib": [
+            {
+              "term": "мир",
+              "relation": "исходный",
+              "concept": null,
+              "weight": 1.0,
+              "value": 3.0722
+            }
+          ]
+        },
+        {
+          "doc_id": "D096",
+          "score": 2.9389,
+          "contrib": [
+            {
+              "term": "мир",
+              "relation": "исходный",
+              "concept": null,
+              "weight": 1.0,
+              "value": 2.9389
+            }
+          ]
+        },
+        {
+          "doc_id": "D090",
+          "score": 2.7852,
+          "contrib": [
+            {
+              "term": "мир",
+              "relation": "исходный",
+              "concept": null,
+              "weight": 1.0,
+              "value": 2.7852
+            }
+          ]
+        },
+        {
+          "doc_id": "D002",
+          "score": 2.6033,
+          "contrib": [
+            {
+              "term": "мир",
+              "relation": "исходный",
+              "concept": null,
+              "weight": 1.0,
+              "value": 2.6033
+            }
+          ]
+        }
+      ]
+    },
+    "мир / hierarchy": {
+      "expansion": {
+        "query": "мир",
+        "mode": "hierarchy",
+        "lemmas": [
+          "мир"
+        ],
+        "terms": [
+          {
+            "term": "мир",
+            "key": [
+              "мир"
+            ],
+            "weight": 1.0,
+            "origin": "query",
+            "relation": "исходный",
+            "concept": null,
+            "via": null
+          }
+        ],
+        "decisions": [
+          {
+            "term": "мир",
+            "key": [
+              "мир"
+            ],
+            "status": "неоднозначно: показаны альтернативы",
+            "chosen": null,
+            "alternatives": [
+              {
+                "concept_id": "c_peace",
+                "label": "мир",
+                "note": "отсутствие войны, согласие",
+                "score": 0,
+                "context_hits": [],
+                "links": []
+              },
+              {
+                "concept_id": "c_world",
+                "label": "мир",
+                "note": "вселенная, свет",
+                "score": 0,
+                "context_hits": [],
+                "links": []
+              },
+              {
+                "concept_id": "c_community",
+                "label": "мир",
+                "note": "крестьянская община (устар.)",
+                "score": 0,
+                "context_hits": [],
+                "links": []
+              }
+            ]
+          }
+        ],
+        "log": []
+      },
+      "top": [
+        {
+          "doc_id": "D122",
+          "score": 3.5565,
+          "contrib": [
+            {
+              "term": "мир",
+              "relation": "исходный",
+              "concept": null,
+              "weight": 1.0,
+              "value": 3.5565
+            }
+          ]
+        },
+        {
+          "doc_id": "D118",
+          "score": 3.0722,
+          "contrib": [
+            {
+              "term": "мир",
+              "relation": "исходный",
+              "concept": null,
+              "weight": 1.0,
+              "value": 3.0722
+            }
+          ]
+        },
+        {
+          "doc_id": "D096",
+          "score": 2.9389,
+          "contrib": [
+            {
+              "term": "мир",
+              "relation": "исходный",
+              "concept": null,
+              "weight": 1.0,
+              "value": 2.9389
+            }
+          ]
+        },
+        {
+          "doc_id": "D090",
+          "score": 2.7852,
+          "contrib": [
+            {
+              "term": "мир",
+              "relation": "исходный",
+              "concept": null,
+              "weight": 1.0,
+              "value": 2.7852
+            }
+          ]
+        },
+        {
+          "doc_id": "D002",
+          "score": 2.6033,
+          "contrib": [
+            {
+              "term": "мир",
+              "relation": "исходный",
+              "concept": null,
+              "weight": 1.0,
+              "value": 2.6033
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

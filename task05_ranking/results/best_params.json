@@ -1,0 +1,6 @@
+{
+  "k1": 2.0,
+  "b": 1.0,
+  "bm25_title_weight": 1,
+  "tfidf_title_weight": 1
+}

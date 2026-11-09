@@ -1,0 +1,445 @@
+{
+  "hardware": {
+    "platform": "Windows-10-10.0.26200-SP0",
+    "processor": "AMD64 Family 25 Model 68 Stepping 1, AuthenticAMD",
+    "machine": "AMD64",
+    "cpu_count": 16,
+    "python": "3.11.9"
+  },
+  "seed": 42,
+  "repeats": 7,
+  "params": {
+    "chunk_size": 300,
+    "min_tail": 100,
+    "skip_min_len": 16,
+    "skip_step": "floor(sqrt(n))",
+    "uint32": "little-endian, 4 bytes"
+  },
+  "example": {
+    "ids": [
+      3,
+      10,
+      11,
+      25
+    ],
+    "deltas": [
+      3,
+      7,
+      1,
+      14
+    ],
+    "bytes_hex": "83 87 81 8e"
+  },
+  "corpus": {
+    "documents": 160,
+    "chunks": 530,
+    "terms": 35952,
+    "sizes": {
+      "lists": 35952,
+      "ids": 106585,
+      "uint32_bytes": 426340,
+      "vbyte_bytes": 136819,
+      "skip_table_bytes": 39248,
+      "vbyte_skips_bytes": 176067,
+      "ratio_vbyte": 3.116,
+      "ratio_vbyte_skips": 2.421
+    },
+    "file_sizes": {
+      "uint32": 713956,
+      "vbyte": 424435,
+      "vbyte+skips": 463683
+    },
+    "decoding_us": {
+      "uint32_us": 13974.8,
+      "vbyte_us": 30648.6,
+      "vbyte_skips_us": 51211.7
+    },
+    "frequent_words": [
+      {
+        "word": "и",
+        "df": 527,
+        "share": 0.994,
+        "delta_1_share": 0.994,
+        "lists": 1,
+        "ids": 527,
+        "uint32_bytes": 2108,
+        "vbyte_bytes": 527,
+        "skip_table_bytes": 184,
+        "vbyte_skips_bytes": 711,
+        "ratio_vbyte": 4.0,
+        "ratio_vbyte_skips": 2.965
+      },
+      {
+        "word": "в",
+        "df": 528,
+        "share": 0.996,
+        "delta_1_share": 0.996,
+        "lists": 1,
+        "ids": 528,
+        "uint32_bytes": 2112,
+        "vbyte_bytes": 528,
+        "skip_table_bytes": 184,
+        "vbyte_skips_bytes": 712,
+        "ratio_vbyte": 4.0,
+        "ratio_vbyte_skips": 2.966
+      },
+      {
+        "word": "не",
+        "df": 492,
+        "share": 0.928,
+        "delta_1_share": 0.929,
+        "lists": 1,
+        "ids": 492,
+        "uint32_bytes": 1968,
+        "vbyte_bytes": 492,
+        "skip_table_bytes": 176,
+        "vbyte_skips_bytes": 668,
+        "ratio_vbyte": 4.0,
+        "ratio_vbyte_skips": 2.946
+      },
+      {
+        "word": "на",
+        "df": 500,
+        "share": 0.943,
+        "delta_1_share": 0.95,
+        "lists": 1,
+        "ids": 500,
+        "uint32_bytes": 2000,
+        "vbyte_bytes": 500,
+        "skip_table_bytes": 176,
+        "vbyte_skips_bytes": 676,
+        "ratio_vbyte": 4.0,
+        "ratio_vbyte_skips": 2.959
+      },
+      {
+        "word": "что",
+        "df": 459,
+        "share": 0.866,
+        "delta_1_share": 0.891,
+        "lists": 1,
+        "ids": 459,
+        "uint32_bytes": 1836,
+        "vbyte_bytes": 459,
+        "skip_table_bytes": 168,
+        "vbyte_skips_bytes": 627,
+        "ratio_vbyte": 4.0,
+        "ratio_vbyte_skips": 2.928
+      },
+      {
+        "word": "он",
+        "df": 338,
+        "share": 0.638,
+        "delta_1_share": 0.715,
+        "lists": 1,
+        "ids": 338,
+        "uint32_bytes": 1352,
+        "vbyte_bytes": 338,
+        "skip_table_bytes": 144,
+        "vbyte_skips_bytes": 482,
+        "ratio_vbyte": 4.0,
+        "ratio_vbyte_skips": 2.805
+      }
+    ],
+    "pairs": {
+      "и & не": {
+        "len_a": 527,
+        "len_b": 492,
+        "common": 489,
+        "blocks_decoded": 24,
+        "blocks_total": 24,
+        "decoded_two_pointers_us": 64.37,
+        "decoded_skips_us": 65.61,
+        "full_uint32_us": 87.34,
+        "full_vbyte_us": 237.73,
+        "full_vbyte+skips_us": 347.03
+      },
+      "и & в": {
+        "len_a": 527,
+        "len_b": 528,
+        "common": 525,
+        "blocks_decoded": 24,
+        "blocks_total": 24,
+        "decoded_two_pointers_us": 63.73,
+        "decoded_skips_us": 65.78,
+        "full_uint32_us": 82.97,
+        "full_vbyte_us": 249.42,
+        "full_vbyte+skips_us": 364.23
+      },
+      "не & на": {
+        "len_a": 492,
+        "len_b": 500,
+        "common": 467,
+        "blocks_decoded": 23,
+        "blocks_total": 23,
+        "decoded_two_pointers_us": 62.86,
+        "decoded_skips_us": 64.91,
+        "full_uint32_us": 81.65,
+        "full_vbyte_us": 235.64,
+        "full_vbyte+skips_us": 344.61
+      },
+      "и & чичиков": {
+        "len_a": 527,
+        "len_b": 4,
+        "common": 4,
+        "blocks_decoded": 2,
+        "blocks_total": 24,
+        "decoded_two_pointers_us": 35.25,
+        "decoded_skips_us": 8.38,
+        "full_uint32_us": 50.56,
+        "full_vbyte_us": 137.53,
+        "full_vbyte+skips_us": 29.45
+      },
+      "в & каренина": {
+        "len_a": 528,
+        "len_b": 7,
+        "common": 7,
+        "blocks_decoded": 3,
+        "blocks_total": 24,
+        "decoded_two_pointers_us": 46.51,
+        "decoded_skips_us": 11.88,
+        "full_uint32_us": 58.75,
+        "full_vbyte_us": 134.66,
+        "full_vbyte+skips_us": 26.55
+      },
+      "не & гоголь": {
+        "len_a": 492,
+        "len_b": 16,
+        "common": 14,
+        "blocks_decoded": 4,
+        "blocks_total": 23,
+        "decoded_two_pointers_us": 38.68,
+        "decoded_skips_us": 12.63,
+        "full_uint32_us": 52.11,
+        "full_vbyte_us": 133.17,
+        "full_vbyte+skips_us": 47.74
+      },
+      "душа & любовь": {
+        "len_a": 15,
+        "len_b": 31,
+        "common": 2,
+        "blocks_decoded": 5,
+        "blocks_total": 7,
+        "decoded_two_pointers_us": 2.79,
+        "decoded_skips_us": 4.25,
+        "full_uint32_us": 5.04,
+        "full_vbyte_us": 10.99,
+        "full_vbyte+skips_us": 16.98
+      },
+      "чичиков & гоголь": {
+        "len_a": 4,
+        "len_b": 16,
+        "common": 1,
+        "blocks_decoded": 2,
+        "blocks_total": 4,
+        "decoded_two_pointers_us": 1.08,
+        "decoded_skips_us": 1.31,
+        "full_uint32_us": 3.14,
+        "full_vbyte_us": 6.11,
+        "full_vbyte+skips_us": 8.39
+      }
+    }
+  },
+  "synthetic": {
+    "universe": 1000000,
+    "pairs": {
+      "равные, редкое пересечение": {
+        "len_a": 100000,
+        "len_b": 100000,
+        "common": 1000,
+        "blocks_decoded": 317,
+        "blocks_total": 317,
+        "decoded_two_pointers_us": 21093.55,
+        "decoded_skips_us": 25451.5,
+        "full_uint32_us": 22885.05,
+        "full_vbyte_us": 55161.7,
+        "full_vbyte+skips_us": 64140.9,
+        "density": 0.01
+      },
+      "равные, половина общих": {
+        "len_a": 100000,
+        "len_b": 100000,
+        "common": 50000,
+        "blocks_decoded": 317,
+        "blocks_total": 317,
+        "decoded_two_pointers_us": 17251.2,
+        "decoded_skips_us": 20541.6,
+        "full_uint32_us": 25093.4,
+        "full_vbyte_us": 63683.3,
+        "full_vbyte+skips_us": 73099.2,
+        "density": 0.5
+      },
+      "равные, почти совпадают": {
+        "len_a": 100000,
+        "len_b": 100000,
+        "common": 90000,
+        "blocks_decoded": 317,
+        "blocks_total": 317,
+        "decoded_two_pointers_us": 13767.57,
+        "decoded_skips_us": 14917.3,
+        "full_uint32_us": 19026.45,
+        "full_vbyte_us": 53380.8,
+        "full_vbyte+skips_us": 67751.6,
+        "density": 0.9
+      },
+      "10k и 100k": {
+        "len_a": 10000,
+        "len_b": 100000,
+        "common": 1000,
+        "blocks_decoded": 317,
+        "blocks_total": 317,
+        "decoded_two_pointers_us": 10773.18,
+        "decoded_skips_us": 14849.03,
+        "full_uint32_us": 12039.03,
+        "full_vbyte_us": 30575.4,
+        "full_vbyte+skips_us": 29351.9,
+        "density": 0.1
+      },
+      "1k и 100k, редкое": {
+        "len_a": 1000,
+        "len_b": 100000,
+        "common": 10,
+        "blocks_decoded": 301,
+        "blocks_total": 317,
+        "decoded_two_pointers_us": 9234.68,
+        "decoded_skips_us": 12168.27,
+        "full_uint32_us": 11029.4,
+        "full_vbyte_us": 28590.3,
+        "full_vbyte+skips_us": 23250.15,
+        "density": 0.01
+      },
+      "1k и 100k, половина": {
+        "len_a": 1000,
+        "len_b": 100000,
+        "common": 500,
+        "blocks_decoded": 306,
+        "blocks_total": 317,
+        "decoded_two_pointers_us": 10957.18,
+        "decoded_skips_us": 12558.07,
+        "full_uint32_us": 11296.9,
+        "full_vbyte_us": 29233.0,
+        "full_vbyte+skips_us": 23970.35,
+        "density": 0.5
+      },
+      "100 и 100k": {
+        "len_a": 100,
+        "len_b": 100000,
+        "common": 50,
+        "blocks_decoded": 85,
+        "blocks_total": 317,
+        "decoded_two_pointers_us": 8529.16,
+        "decoded_skips_us": 2975.1,
+        "full_uint32_us": 9947.1,
+        "full_vbyte_us": 28270.7,
+        "full_vbyte+skips_us": 6201.49,
+        "density": 0.5
+      }
+    },
+    "sizes": {
+      "равные, редкое пересечение": {
+        "lists": 2,
+        "ids": 200000,
+        "uint32_bytes": 800000,
+        "vbyte_bytes": 200001,
+        "skip_table_bytes": 5056,
+        "vbyte_skips_bytes": 205057,
+        "ratio_vbyte": 4.0,
+        "ratio_vbyte_skips": 3.901,
+        "decoding_us": {
+          "uint32_us": 2666.97,
+          "vbyte_us": 33374.5,
+          "vbyte_skips_us": 41945.3
+        }
+      },
+      "равные, половина общих": {
+        "lists": 2,
+        "ids": 200000,
+        "uint32_bytes": 800000,
+        "vbyte_bytes": 200000,
+        "skip_table_bytes": 5056,
+        "vbyte_skips_bytes": 205056,
+        "ratio_vbyte": 4.0,
+        "ratio_vbyte_skips": 3.901,
+        "decoding_us": {
+          "uint32_us": 2774.22,
+          "vbyte_us": 34456.8,
+          "vbyte_skips_us": 43200.2
+        }
+      },
+      "равные, почти совпадают": {
+        "lists": 2,
+        "ids": 200000,
+        "uint32_bytes": 800000,
+        "vbyte_bytes": 200000,
+        "skip_table_bytes": 5056,
+        "vbyte_skips_bytes": 205056,
+        "ratio_vbyte": 4.0,
+        "ratio_vbyte_skips": 3.901,
+        "decoding_us": {
+          "uint32_us": 3089.65,
+          "vbyte_us": 34764.8,
+          "vbyte_skips_us": 43726.1
+        }
+      },
+      "10k и 100k": {
+        "lists": 2,
+        "ids": 110000,
+        "uint32_bytes": 440000,
+        "vbyte_bytes": 112792,
+        "skip_table_bytes": 3320,
+        "vbyte_skips_bytes": 116112,
+        "ratio_vbyte": 3.901,
+        "ratio_vbyte_skips": 3.789,
+        "decoding_us": {
+          "uint32_us": 1441.78,
+          "vbyte_us": 20248.3,
+          "vbyte_skips_us": 24700.45
+        }
+      },
+      "1k и 100k, редкое": {
+        "lists": 2,
+        "ids": 101000,
+        "uint32_bytes": 404000,
+        "vbyte_bytes": 101862,
+        "skip_table_bytes": 2784,
+        "vbyte_skips_bytes": 104646,
+        "ratio_vbyte": 3.966,
+        "ratio_vbyte_skips": 3.861,
+        "decoding_us": {
+          "uint32_us": 1356.98,
+          "vbyte_us": 18233.0,
+          "vbyte_skips_us": 23908.6
+        }
+      },
+      "1k и 100k, половина": {
+        "lists": 2,
+        "ids": 101000,
+        "uint32_bytes": 404000,
+        "vbyte_bytes": 101886,
+        "skip_table_bytes": 2784,
+        "vbyte_skips_bytes": 104670,
+        "ratio_vbyte": 3.965,
+        "ratio_vbyte_skips": 3.86,
+        "decoding_us": {
+          "uint32_us": 1449.04,
+          "vbyte_us": 17941.35,
+          "vbyte_skips_us": 22556.65
+        }
+      },
+      "100 и 100k": {
+        "lists": 2,
+        "ids": 100100,
+        "uint32_bytes": 400400,
+        "vbyte_bytes": 100218,
+        "skip_table_bytes": 2600,
+        "vbyte_skips_bytes": 102818,
+        "ratio_vbyte": 3.995,
+        "ratio_vbyte_skips": 3.894,
+        "decoding_us": {
+          "uint32_us": 1364.73,
+          "vbyte_us": 18655.2,
+          "vbyte_skips_us": 23295.9
+        }
+      }
+    }
+  }
+}

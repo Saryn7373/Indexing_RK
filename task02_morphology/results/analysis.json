@@ -1,0 +1,4197 @@
+{
+  "stopword_effect": {
+    "form": [
+      {
+        "query_id": "Q05",
+        "removed": [
+          "D085",
+          "D092"
+        ],
+        "added": [
+          "D002",
+          "D124"
+        ],
+        "p5_before": 0.8,
+        "p5_after": 0.8
+      },
+      {
+        "query_id": "Q22",
+        "removed": [
+          "D129"
+        ],
+        "added": [
+          "D040"
+        ],
+        "p5_before": 0.2,
+        "p5_after": 0.2
+      },
+      {
+        "query_id": "Q25",
+        "removed": [
+          "D122",
+          "D129",
+          "D139"
+        ],
+        "added": [
+          "D029",
+          "D032",
+          "D034"
+        ],
+        "p5_before": 0.4,
+        "p5_after": 0.4
+      },
+      {
+        "query_id": "Q27",
+        "removed": [
+          "D001",
+          "D002",
+          "D003",
+          "D004"
+        ],
+        "added": [],
+        "p5_before": 0.2,
+        "p5_after": 0.2
+      },
+      {
+        "query_id": "Q28",
+        "removed": [
+          "D116",
+          "D117"
+        ],
+        "added": [
+          "D002",
+          "D041"
+        ],
+        "p5_before": 0.2,
+        "p5_after": 0.2
+      },
+      {
+        "query_id": "Q29",
+        "removed": [
+          "D001",
+          "D002",
+          "D003",
+          "D004"
+        ],
+        "added": [],
+        "p5_before": 0.0,
+        "p5_after": 0.0
+      },
+      {
+        "query_id": "Q30",
+        "removed": [
+          "D015"
+        ],
+        "added": [
+          "D008"
+        ],
+        "p5_before": 0.2,
+        "p5_after": 0.2
+      }
+    ],
+    "stem": [
+      {
+        "query_id": "Q05",
+        "removed": [
+          "D084",
+          "D085",
+          "D092"
+        ],
+        "added": [
+          "D002",
+          "D041",
+          "D124"
+        ],
+        "p5_before": 0.8,
+        "p5_after": 0.6
+      },
+      {
+        "query_id": "Q23",
+        "removed": [
+          "D010"
+        ],
+        "added": [
+          "D008"
+        ],
+        "p5_before": 0.2,
+        "p5_after": 0.2
+      },
+      {
+        "query_id": "Q25",
+        "removed": [
+          "D020",
+          "D129"
+        ],
+        "added": [
+          "D034",
+          "D121"
+        ],
+        "p5_before": 0.4,
+        "p5_after": 0.4
+      },
+      {
+        "query_id": "Q27",
+        "removed": [
+          "D001",
+          "D002",
+          "D003"
+        ],
+        "added": [],
+        "p5_before": 0.4,
+        "p5_after": 0.4
+      },
+      {
+        "query_id": "Q28",
+        "removed": [
+          "D019"
+        ],
+        "added": [
+          "D115"
+        ],
+        "p5_before": 0.2,
+        "p5_after": 0.4
+      }
+    ],
+    "lemma": [
+      {
+        "query_id": "Q05",
+        "removed": [
+          "D084",
+          "D085",
+          "D092"
+        ],
+        "added": [
+          "D002",
+          "D041",
+          "D124"
+        ],
+        "p5_before": 0.8,
+        "p5_after": 0.6
+      },
+      {
+        "query_id": "Q23",
+        "removed": [
+          "D069"
+        ],
+        "added": [
+          "D067"
+        ],
+        "p5_before": 0.2,
+        "p5_after": 0.2
+      },
+      {
+        "query_id": "Q25",
+        "removed": [
+          "D129",
+          "D137"
+        ],
+        "added": [
+          "D034",
+          "D121"
+        ],
+        "p5_before": 0.4,
+        "p5_after": 0.4
+      },
+      {
+        "query_id": "Q27",
+        "removed": [
+          "D001",
+          "D002",
+          "D003"
+        ],
+        "added": [],
+        "p5_before": 0.4,
+        "p5_after": 0.4
+      },
+      {
+        "query_id": "Q28",
+        "removed": [
+          "D019"
+        ],
+        "added": [
+          "D115"
+        ],
+        "p5_before": 0.2,
+        "p5_after": 0.4
+      },
+      {
+        "query_id": "Q30",
+        "removed": [
+          "D032"
+        ],
+        "added": [
+          "D033"
+        ],
+        "p5_before": 0.2,
+        "p5_after": 0.2
+      }
+    ]
+  },
+  "mode_diff_test": {
+    "stem": [
+      {
+        "query_id": "Q11",
+        "appeared": [
+          {
+            "doc_id": "D137",
+            "relevant": false,
+            "forms": {
+              "евген": [
+                "Евгением",
+                "Евгений",
+                "Евгения"
+              ],
+              "онегин": [
+                "Онегином"
+              ],
+              "рома": [
+                "Роман",
+                "роман",
+                "романа"
+              ]
+            }
+          },
+          {
+            "doc_id": "D040",
+            "relevant": false,
+            "forms": {
+              "онегин": [
+                "Онегину"
+              ],
+              "рома": [
+                "РОМАН"
+              ]
+            }
+          }
+        ],
+        "disappeared": [
+          {
+            "doc_id": "D127",
+            "relevant": false
+          },
+          {
+            "doc_id": "D130",
+            "relevant": false
+          }
+        ]
+      },
+      {
+        "query_id": "Q12",
+        "appeared": [
+          {
+            "doc_id": "D137",
+            "relevant": false,
+            "forms": {
+              "страх": [
+                "Страхов"
+              ],
+              "смерт": [
+                "смерти",
+                "смертью"
+              ],
+              "умира": [
+                "умирает"
+              ],
+              "чиновник": [
+                "чиновник",
+                "чиновниками"
+              ]
+            }
+          },
+          {
+            "doc_id": "D121",
+            "relevant": false,
+            "forms": {
+              "смерт": [
+                "смерти",
+                "смерть",
+                "смертью"
+              ],
+              "умира": [
+                "умирает"
+              ],
+              "чиновник": [
+                "чиновник"
+              ]
+            }
+          }
+        ],
+        "disappeared": [
+          {
+            "doc_id": "D131",
+            "relevant": false
+          },
+          {
+            "doc_id": "D004",
+            "relevant": true
+          }
+        ]
+      },
+      {
+        "query_id": "Q13",
+        "appeared": [
+          {
+            "doc_id": "D117",
+            "relevant": false,
+            "forms": {
+              "спор": [
+                "споры"
+              ],
+              "поколен": [
+                "поколение",
+                "поколений"
+              ]
+            }
+          },
+          {
+            "doc_id": "D147",
+            "relevant": false,
+            "forms": {
+              "спор": [
+                "спор",
+                "спора"
+              ],
+              "поколен": [
+                "поколения"
+              ]
+            }
+          },
+          {
+            "doc_id": "D149",
+            "relevant": false,
+            "forms": {
+              "базар": [
+                "базаре"
+              ],
+              "спор": [
+                "спор",
+                "спора",
+                "спором",
+                "спорят"
+              ]
+            }
+          }
+        ],
+        "disappeared": [
+          {
+            "doc_id": "D004",
+            "relevant": false
+          },
+          {
+            "doc_id": "D046",
+            "relevant": false
+          },
+          {
+            "doc_id": "D091",
+            "relevant": false
+          }
+        ]
+      },
+      {
+        "query_id": "Q14",
+        "appeared": [
+          {
+            "doc_id": "D129",
+            "relevant": false,
+            "forms": {
+              "бунт": [
+                "бунтом"
+              ]
+            }
+          },
+          {
+            "doc_id": "D133",
+            "relevant": false,
+            "forms": {
+              "бунт": [
+                "бунтующего"
+              ]
+            }
+          }
+        ],
+        "disappeared": [
+          {
+            "doc_id": "D152",
+            "relevant": false
+          }
+        ]
+      },
+      {
+        "query_id": "Q15",
+        "appeared": [
+          {
+            "doc_id": "D147",
+            "relevant": true,
+            "forms": {
+              "кавказ": [
+                "Кавказ",
+                "Кавказе"
+              ],
+              "горц": [
+                "горцев"
+              ]
+            }
+          },
+          {
+            "doc_id": "D007",
+            "relevant": false,
+            "forms": {
+              "войн": [
+                "войны"
+              ]
+            }
+          }
+        ],
+        "disappeared": [
+          {
+            "doc_id": "D081",
+            "relevant": false
+          },
+          {
+            "doc_id": "D085",
+            "relevant": false
+          }
+        ]
+      },
+      {
+        "query_id": "Q16",
+        "appeared": [
+          {
+            "doc_id": "D025",
+            "relevant": false,
+            "forms": {
+              "княз": [
+                "князя"
+              ]
+            }
+          }
+        ],
+        "disappeared": [
+          {
+            "doc_id": "D075",
+            "relevant": false
+          }
+        ]
+      },
+      {
+        "query_id": "Q17",
+        "appeared": [
+          {
+            "doc_id": "D154",
+            "relevant": true,
+            "forms": {
+              "рабоч": [
+                "рабочая",
+                "рабочего",
+                "рабочей",
+                "рабочему"
+              ],
+              "фабрик": [
+                "фабрике"
+              ],
+              "революцион": [
+                "революционно",
+                "революционные"
+              ],
+              "движен": [
+                "движению"
+              ]
+            }
+          },
+          {
+            "doc_id": "D041",
+            "relevant": false,
+            "forms": {
+              "рабоч": [
+                "рабочих"
+              ],
+              "революцион": [
+                "революционных"
+              ]
+            }
+          },
+          {
+            "doc_id": "D094",
+            "relevant": false,
+            "forms": {
+              "рабоч": [
+                "рабочие",
+                "рабочих"
+              ],
+              "революцион": [
+                "революционные"
+              ]
+            }
+          }
+        ],
+        "disappeared": [
+          {
+            "doc_id": "D004",
+            "relevant": false
+          },
+          {
+            "doc_id": "D039",
+            "relevant": false
+          },
+          {
+            "doc_id": "D047",
+            "relevant": false
+          }
+        ]
+      },
+      {
+        "query_id": "Q18",
+        "appeared": [
+          {
+            "doc_id": "D131",
+            "relevant": false,
+            "forms": {
+              "нов": [
+                "нового",
+                "новое",
+                "новой",
+                "новом"
+              ],
+              "шинел": [
+                "Шинель"
+              ]
+            }
+          },
+          {
+            "doc_id": "D001",
+            "relevant": false,
+            "forms": {
+              "нов": [
+                "новое"
+              ]
+            }
+          },
+          {
+            "doc_id": "D002",
+            "relevant": false,
+            "forms": {
+              "нов": [
+                "новое"
+              ]
+            }
+          }
+        ],
+        "disappeared": [
+          {
+            "doc_id": "D008",
+            "relevant": false
+          },
+          {
+            "doc_id": "D015",
+            "relevant": false
+          },
+          {
+            "doc_id": "D085",
+            "relevant": false
+          }
+        ]
+      },
+      {
+        "query_id": "Q19",
+        "appeared": [
+          {
+            "doc_id": "D019",
+            "relevant": true,
+            "forms": {
+              "казак": [
+                "Казак",
+                "казак"
+              ]
+            }
+          }
+        ],
+        "disappeared": [
+          {
+            "doc_id": "D123",
+            "relevant": false
+          }
+        ]
+      },
+      {
+        "query_id": "Q20",
+        "appeared": [
+          {
+            "doc_id": "D022",
+            "relevant": true,
+            "forms": {
+              "прав": [
+                "права"
+              ],
+              "барын": [
+                "Барыня",
+                "барыни",
+                "барыня"
+              ]
+            }
+          },
+          {
+            "doc_id": "D061",
+            "relevant": false,
+            "forms": {
+              "крепостн": [
+                "крепостной"
+              ],
+              "барын": [
+                "барыне"
+              ]
+            }
+          },
+          {
+            "doc_id": "D116",
+            "relevant": false,
+            "forms": {
+              "крепостн": [
+                "крепостным"
+              ],
+              "прав": [
+                "право"
+              ]
+            }
+          },
+          {
+            "doc_id": "D138",
+            "relevant": true,
+            "forms": {
+              "крепостн": [
+                "крепостного",
+                "крепостной"
+              ],
+              "барын": [
+                "Барыня",
+                "барыней",
+                "барыни",
+                "барыню"
+              ]
+            }
+          }
+        ],
+        "disappeared": [
+          {
+            "doc_id": "D009",
+            "relevant": false
+          },
+          {
+            "doc_id": "D012",
+            "relevant": false
+          },
+          {
+            "doc_id": "D013",
+            "relevant": false
+          },
+          {
+            "doc_id": "D014",
+            "relevant": false
+          }
+        ]
+      },
+      {
+        "query_id": "Q21",
+        "appeared": [
+          {
+            "doc_id": "D132",
+            "relevant": false,
+            "forms": {
+              "любов": [
+                "любовью"
+              ],
+              "рома": [
+                "роман",
+                "романа"
+              ]
+            }
+          }
+        ],
+        "disappeared": [
+          {
+            "doc_id": "D137",
+            "relevant": false
+          }
+        ]
+      },
+      {
+        "query_id": "Q22",
+        "appeared": [
+          {
+            "doc_id": "D034",
+            "relevant": false,
+            "forms": {
+              "больниц": [
+                "больнице",
+                "больницы"
+              ],
+              "доктор": [
+                "доктора",
+                "доктору"
+              ]
+            }
+          },
+          {
+            "doc_id": "D004",
+            "relevant": false,
+            "forms": {
+              "доктор": [
+                "Доктора"
+              ]
+            }
+          },
+          {
+            "doc_id": "D031",
+            "relevant": true,
+            "forms": {
+              "больниц": [
+                "больнице"
+              ]
+            }
+          }
+        ],
+        "disappeared": [
+          {
+            "doc_id": "D040",
+            "relevant": false
+          },
+          {
+            "doc_id": "D088",
+            "relevant": false
+          },
+          {
+            "doc_id": "D092",
+            "relevant": false
+          }
+        ]
+      },
+      {
+        "query_id": "Q23",
+        "appeared": [
+          {
+            "doc_id": "D139",
+            "relevant": false,
+            "forms": {
+              "легенд": [
+                "легенды"
+              ],
+              "сердц": [
+                "сердце"
+              ]
+            }
+          },
+          {
+            "doc_id": "D008",
+            "relevant": false,
+            "forms": {
+              "сердц": [
+                "сердцу"
+              ]
+            }
+          }
+        ],
+        "disappeared": [
+          {
+            "doc_id": "D010",
+            "relevant": false
+          },
+          {
+            "doc_id": "D021",
+            "relevant": false
+          }
+        ]
+      },
+      {
+        "query_id": "Q24",
+        "appeared": [
+          {
+            "doc_id": "D013",
+            "relevant": false,
+            "forms": {
+              "злу": [
+                "злую"
+              ],
+              "насил": [
+                "насилу"
+              ]
+            }
+          },
+          {
+            "doc_id": "D103",
+            "relevant": true,
+            "forms": {
+              "злу": [
+                "злу"
+              ],
+              "насил": [
+                "насилие",
+                "насилию"
+              ]
+            }
+          }
+        ],
+        "disappeared": [
+          {
+            "doc_id": "D056",
+            "relevant": false
+          },
+          {
+            "doc_id": "D098",
+            "relevant": true
+          }
+        ]
+      },
+      {
+        "query_id": "Q25",
+        "appeared": [
+          {
+            "doc_id": "D121",
+            "relevant": false,
+            "forms": {
+              "стар": [
+                "старый"
+              ],
+              "графин": [
+                "Графиня",
+                "графине",
+                "графини"
+              ]
+            }
+          },
+          {
+            "doc_id": "D122",
+            "relevant": false,
+            "forms": {
+              "стар": [
+                "старому"
+              ],
+              "графин": [
+                "графиня"
+              ]
+            }
+          }
+        ],
+        "disappeared": [
+          {
+            "doc_id": "D029",
+            "relevant": false
+          },
+          {
+            "doc_id": "D032",
+            "relevant": false
+          }
+        ]
+      },
+      {
+        "query_id": "Q26",
+        "appeared": [
+          {
+            "doc_id": "D025",
+            "relevant": false,
+            "forms": {
+              "игр": [
+                "играя"
+              ]
+            }
+          },
+          {
+            "doc_id": "D038",
+            "relevant": false,
+            "forms": {
+              "игр": [
+                "играя"
+              ]
+            }
+          }
+        ],
+        "disappeared": [
+          {
+            "doc_id": "D049",
+            "relevant": false
+          },
+          {
+            "doc_id": "D110",
+            "relevant": false
+          }
+        ]
+      },
+      {
+        "query_id": "Q27",
+        "appeared": [
+          {
+            "doc_id": "D029",
+            "relevant": true,
+            "forms": {
+              "печорин": [
+                "Печорина"
+              ]
+            }
+          }
+        ],
+        "disappeared": []
+      },
+      {
+        "query_id": "Q28",
+        "appeared": [
+          {
+            "doc_id": "D115",
+            "relevant": true,
+            "forms": {
+              "свобод": [
+                "свободе",
+                "свободой"
+              ],
+              "революц": [
+                "революция"
+              ]
+            }
+          },
+          {
+            "doc_id": "D117",
+            "relevant": false,
+            "forms": {
+              "свобод": [
+                "свободы"
+              ],
+              "революц": [
+                "революции",
+                "революцию"
+              ]
+            }
+          },
+          {
+            "doc_id": "D118",
+            "relevant": false,
+            "forms": {
+              "свобод": [
+                "свободу"
+              ],
+              "революц": [
+                "революцией",
+                "революции",
+                "революций"
+              ]
+            }
+          }
+        ],
+        "disappeared": [
+          {
+            "doc_id": "D002",
+            "relevant": false
+          },
+          {
+            "doc_id": "D019",
+            "relevant": false
+          },
+          {
+            "doc_id": "D041",
+            "relevant": false
+          }
+        ]
+      },
+      {
+        "query_id": "Q29",
+        "appeared": [
+          {
+            "doc_id": "D041",
+            "relevant": false,
+            "forms": {
+              "полет": [
+                "полетов"
+              ]
+            }
+          },
+          {
+            "doc_id": "D047",
+            "relevant": false,
+            "forms": {
+              "корабл": [
+                "Корабли"
+              ]
+            }
+          },
+          {
+            "doc_id": "D071",
+            "relevant": false,
+            "forms": {
+              "корабл": [
+                "корабль"
+              ]
+            }
+          },
+          {
+            "doc_id": "D079",
+            "relevant": false,
+            "forms": {
+              "корабл": [
+                "кораблей"
+              ]
+            }
+          }
+        ],
+        "disappeared": []
+      },
+      {
+        "query_id": "Q30",
+        "appeared": [
+          {
+            "doc_id": "D027",
+            "relevant": false,
+            "forms": {
+              "мог": [
+                "мог"
+              ],
+              "молча": [
+                "молчал"
+              ]
+            }
+          },
+          {
+            "doc_id": "D030",
+            "relevant": false,
+            "forms": {
+              "мог": [
+                "мог"
+              ],
+              "молча": [
+                "молчать"
+              ]
+            }
+          },
+          {
+            "doc_id": "D054",
+            "relevant": false,
+            "forms": {
+              "мог": [
+                "мог"
+              ],
+              "смертн": [
+                "смертный"
+              ]
+            }
+          },
+          {
+            "doc_id": "D073",
+            "relevant": false,
+            "forms": {
+              "мог": [
+                "мог"
+              ],
+              "казн": [
+                "казнь"
+              ]
+            }
+          }
+        ],
+        "disappeared": [
+          {
+            "doc_id": "D127",
+            "relevant": false
+          },
+          {
+            "doc_id": "D008",
+            "relevant": false
+          },
+          {
+            "doc_id": "D012",
+            "relevant": false
+          },
+          {
+            "doc_id": "D013",
+            "relevant": false
+          }
+        ]
+      }
+    ],
+    "lemma": [
+      {
+        "query_id": "Q11",
+        "appeared": [
+          {
+            "doc_id": "D040",
+            "relevant": false,
+            "forms": {
+              "онегин": [
+                "Онегину"
+              ],
+              "роман": [
+                "РОМАН"
+              ]
+            }
+          },
+          {
+            "doc_id": "D050",
+            "relevant": false,
+            "forms": {
+              "роман": [
+                "романа"
+              ],
+              "стих": [
+                "стихи"
+              ]
+            }
+          }
+        ],
+        "disappeared": [
+          {
+            "doc_id": "D127",
+            "relevant": false
+          },
+          {
+            "doc_id": "D130",
+            "relevant": false
+          }
+        ]
+      },
+      {
+        "query_id": "Q12",
+        "appeared": [
+          {
+            "doc_id": "D126",
+            "relevant": false,
+            "forms": {
+              "страх": [
+                "страхи"
+              ],
+              "смерть": [
+                "смерти"
+              ],
+              "умирающий": [
+                "Умирающий"
+              ]
+            }
+          },
+          {
+            "doc_id": "D135",
+            "relevant": false,
+            "forms": {
+              "страх": [
+                "страха"
+              ],
+              "смерть": [
+                "смерти",
+                "смерть",
+                "смертью"
+              ],
+              "умирающий": [
+                "умирающей"
+              ]
+            }
+          }
+        ],
+        "disappeared": [
+          {
+            "doc_id": "D131",
+            "relevant": false
+          },
+          {
+            "doc_id": "D004",
+            "relevant": true
+          }
+        ]
+      },
+      {
+        "query_id": "Q13",
+        "appeared": [
+          {
+            "doc_id": "D117",
+            "relevant": false,
+            "forms": {
+              "спор": [
+                "споры"
+              ],
+              "поколение": [
+                "поколение",
+                "поколений"
+              ]
+            }
+          },
+          {
+            "doc_id": "D147",
+            "relevant": false,
+            "forms": {
+              "спор": [
+                "спор",
+                "спора"
+              ],
+              "поколение": [
+                "поколения"
+              ]
+            }
+          },
+          {
+            "doc_id": "D149",
+            "relevant": false,
+            "forms": {
+              "базар": [
+                "базаре"
+              ],
+              "спор": [
+                "спор",
+                "спора",
+                "спором"
+              ]
+            }
+          }
+        ],
+        "disappeared": [
+          {
+            "doc_id": "D004",
+            "relevant": false
+          },
+          {
+            "doc_id": "D046",
+            "relevant": false
+          },
+          {
+            "doc_id": "D091",
+            "relevant": false
+          }
+        ]
+      },
+      {
+        "query_id": "Q14",
+        "appeared": [
+          {
+            "doc_id": "D129",
+            "relevant": false,
+            "forms": {
+              "бунт": [
+                "бунтом"
+              ]
+            }
+          },
+          {
+            "doc_id": "D135",
+            "relevant": false,
+            "forms": {
+              "бунт": [
+                "бунтов"
+              ]
+            }
+          }
+        ],
+        "disappeared": [
+          {
+            "doc_id": "D152",
+            "relevant": false
+          }
+        ]
+      },
+      {
+        "query_id": "Q15",
+        "appeared": [
+          {
+            "doc_id": "D147",
+            "relevant": true,
+            "forms": {
+              "кавказ": [
+                "Кавказ",
+                "Кавказе"
+              ],
+              "горец": [
+                "горец",
+                "горцев"
+              ]
+            }
+          },
+          {
+            "doc_id": "D007",
+            "relevant": false,
+            "forms": {
+              "война": [
+                "войны"
+              ]
+            }
+          }
+        ],
+        "disappeared": [
+          {
+            "doc_id": "D081",
+            "relevant": false
+          },
+          {
+            "doc_id": "D085",
+            "relevant": false
+          }
+        ]
+      },
+      {
+        "query_id": "Q16",
+        "appeared": [
+          {
+            "doc_id": "D025",
+            "relevant": false,
+            "forms": {
+              "князь": [
+                "князя"
+              ]
+            }
+          }
+        ],
+        "disappeared": [
+          {
+            "doc_id": "D075",
+            "relevant": false
+          }
+        ]
+      },
+      {
+        "query_id": "Q17",
+        "appeared": [
+          {
+            "doc_id": "D154",
+            "relevant": true,
+            "forms": {
+              "рабочий": [
+                "рабочая",
+                "рабочего",
+                "рабочей",
+                "рабочему"
+              ],
+              "фабрика": [
+                "фабрике"
+              ],
+              "революционный": [
+                "революционные"
+              ],
+              "движение": [
+                "движению"
+              ]
+            }
+          },
+          {
+            "doc_id": "D041",
+            "relevant": false,
+            "forms": {
+              "рабочий": [
+                "рабочих"
+              ],
+              "революционный": [
+                "революционных"
+              ]
+            }
+          },
+          {
+            "doc_id": "D094",
+            "relevant": false,
+            "forms": {
+              "рабочий": [
+                "рабочие",
+                "рабочих"
+              ],
+              "революционный": [
+                "революционные"
+              ]
+            }
+          }
+        ],
+        "disappeared": [
+          {
+            "doc_id": "D004",
+            "relevant": false
+          },
+          {
+            "doc_id": "D039",
+            "relevant": false
+          },
+          {
+            "doc_id": "D047",
+            "relevant": false
+          }
+        ]
+      },
+      {
+        "query_id": "Q18",
+        "appeared": [
+          {
+            "doc_id": "D131",
+            "relevant": false,
+            "forms": {
+              "новый": [
+                "нового",
+                "новое",
+                "новой",
+                "новом"
+              ],
+              "шинель": [
+                "Шинель"
+              ]
+            }
+          },
+          {
+            "doc_id": "D001",
+            "relevant": false,
+            "forms": {
+              "новый": [
+                "новое"
+              ]
+            }
+          },
+          {
+            "doc_id": "D002",
+            "relevant": false,
+            "forms": {
+              "новый": [
+                "новое"
+              ]
+            }
+          }
+        ],
+        "disappeared": [
+          {
+            "doc_id": "D008",
+            "relevant": false
+          },
+          {
+            "doc_id": "D015",
+            "relevant": false
+          },
+          {
+            "doc_id": "D085",
+            "relevant": false
+          }
+        ]
+      },
+      {
+        "query_id": "Q19",
+        "appeared": [
+          {
+            "doc_id": "D019",
+            "relevant": true,
+            "forms": {
+              "казак": [
+                "Казак",
+                "казак"
+              ]
+            }
+          }
+        ],
+        "disappeared": [
+          {
+            "doc_id": "D123",
+            "relevant": false
+          }
+        ]
+      },
+      {
+        "query_id": "Q20",
+        "appeared": [
+          {
+            "doc_id": "D022",
+            "relevant": true,
+            "forms": {
+              "право": [
+                "права"
+              ],
+              "барыня": [
+                "Барыня",
+                "барыни",
+                "барыня"
+              ]
+            }
+          },
+          {
+            "doc_id": "D061",
+            "relevant": false,
+            "forms": {
+              "крепостной": [
+                "крепостной"
+              ],
+              "барыня": [
+                "барыне"
+              ]
+            }
+          },
+          {
+            "doc_id": "D116",
+            "relevant": false,
+            "forms": {
+              "крепостной": [
+                "крепостным"
+              ],
+              "право": [
+                "право"
+              ]
+            }
+          },
+          {
+            "doc_id": "D138",
+            "relevant": true,
+            "forms": {
+              "крепостной": [
+                "крепостного",
+                "крепостной"
+              ],
+              "барыня": [
+                "Барыня",
+                "барыней",
+                "барыни",
+                "барыню"
+              ]
+            }
+          }
+        ],
+        "disappeared": [
+          {
+            "doc_id": "D009",
+            "relevant": false
+          },
+          {
+            "doc_id": "D012",
+            "relevant": false
+          },
+          {
+            "doc_id": "D013",
+            "relevant": false
+          },
+          {
+            "doc_id": "D014",
+            "relevant": false
+          }
+        ]
+      },
+      {
+        "query_id": "Q21",
+        "appeared": [
+          {
+            "doc_id": "D030",
+            "relevant": true,
+            "forms": {
+              "роман": [
+                "романе"
+              ],
+              "ялта": [
+                "Ялте",
+                "Ялту"
+              ]
+            }
+          },
+          {
+            "doc_id": "D110",
+            "relevant": false,
+            "forms": {
+              "любовь": [
+                "любви"
+              ],
+              "роман": [
+                "роман"
+              ]
+            }
+          }
+        ],
+        "disappeared": [
+          {
+            "doc_id": "D129",
+            "relevant": false
+          },
+          {
+            "doc_id": "D137",
+            "relevant": false
+          }
+        ]
+      },
+      {
+        "query_id": "Q22",
+        "appeared": [
+          {
+            "doc_id": "D034",
+            "relevant": false,
+            "forms": {
+              "больница": [
+                "больнице",
+                "больницы"
+              ],
+              "доктор": [
+                "доктора",
+                "доктору"
+              ]
+            }
+          },
+          {
+            "doc_id": "D004",
+            "relevant": false,
+            "forms": {
+              "доктор": [
+                "Доктора"
+              ]
+            }
+          },
+          {
+            "doc_id": "D031",
+            "relevant": true,
+            "forms": {
+              "больница": [
+                "больнице"
+              ]
+            }
+          }
+        ],
+        "disappeared": [
+          {
+            "doc_id": "D040",
+            "relevant": false
+          },
+          {
+            "doc_id": "D088",
+            "relevant": false
+          },
+          {
+            "doc_id": "D092",
+            "relevant": false
+          }
+        ]
+      },
+      {
+        "query_id": "Q23",
+        "appeared": [
+          {
+            "doc_id": "D008",
+            "relevant": false,
+            "forms": {
+              "гореть": [
+                "горят"
+              ],
+              "сердце": [
+                "сердцу"
+              ]
+            }
+          },
+          {
+            "doc_id": "D046",
+            "relevant": false,
+            "forms": {
+              "гореть": [
+                "горит"
+              ],
+              "сердце": [
+                "сердца"
+              ]
+            }
+          },
+          {
+            "doc_id": "D054",
+            "relevant": false,
+            "forms": {
+              "гореть": [
+                "горят"
+              ],
+              "сердце": [
+                "сердце",
+                "сердцем"
+              ]
+            }
+          },
+          {
+            "doc_id": "D067",
+            "relevant": false,
+            "forms": {
+              "гореть": [
+                "горел"
+              ],
+              "сердце": [
+                "сердца",
+                "сердце",
+                "сердцем",
+                "сердцу"
+              ]
+            }
+          }
+        ],
+        "disappeared": [
+          {
+            "doc_id": "D005",
+            "relevant": false
+          },
+          {
+            "doc_id": "D009",
+            "relevant": false
+          },
+          {
+            "doc_id": "D010",
+            "relevant": false
+          },
+          {
+            "doc_id": "D021",
+            "relevant": false
+          }
+        ]
+      },
+      {
+        "query_id": "Q24",
+        "appeared": [
+          {
+            "doc_id": "D096",
+            "relevant": false,
+            "forms": {
+              "зло": [
+                "зло"
+              ],
+              "насилие": [
+                "насилие"
+              ]
+            }
+          }
+        ],
+        "disappeared": [
+          {
+            "doc_id": "D056",
+            "relevant": false
+          }
+        ]
+      },
+      {
+        "query_id": "Q25",
+        "appeared": [
+          {
+            "doc_id": "D121",
+            "relevant": false,
+            "forms": {
+              "старый": [
+                "старый"
+              ],
+              "графиня": [
+                "Графиня",
+                "графине",
+                "графини"
+              ]
+            }
+          },
+          {
+            "doc_id": "D122",
+            "relevant": false,
+            "forms": {
+              "старый": [
+                "старому"
+              ],
+              "графиня": [
+                "графиня"
+              ]
+            }
+          }
+        ],
+        "disappeared": [
+          {
+            "doc_id": "D029",
+            "relevant": false
+          },
+          {
+            "doc_id": "D032",
+            "relevant": false
+          }
+        ]
+      },
+      {
+        "query_id": "Q26",
+        "appeared": [
+          {
+            "doc_id": "D068",
+            "relevant": false,
+            "forms": {
+              "игра": [
+                "игру"
+              ]
+            }
+          }
+        ],
+        "disappeared": [
+          {
+            "doc_id": "D110",
+            "relevant": false
+          }
+        ]
+      },
+      {
+        "query_id": "Q27",
+        "appeared": [
+          {
+            "doc_id": "D029",
+            "relevant": true,
+            "forms": {
+              "печорин": [
+                "Печорина"
+              ]
+            }
+          }
+        ],
+        "disappeared": []
+      },
+      {
+        "query_id": "Q28",
+        "appeared": [
+          {
+            "doc_id": "D115",
+            "relevant": true,
+            "forms": {
+              "свобода": [
+                "свободе",
+                "свободой"
+              ],
+              "революция": [
+                "революция"
+              ]
+            }
+          },
+          {
+            "doc_id": "D117",
+            "relevant": false,
+            "forms": {
+              "свобода": [
+                "свободы"
+              ],
+              "революция": [
+                "революции",
+                "революцию"
+              ]
+            }
+          },
+          {
+            "doc_id": "D118",
+            "relevant": false,
+            "forms": {
+              "свобода": [
+                "свободу"
+              ],
+              "революция": [
+                "революцией",
+                "революции",
+                "революций"
+              ]
+            }
+          }
+        ],
+        "disappeared": [
+          {
+            "doc_id": "D002",
+            "relevant": false
+          },
+          {
+            "doc_id": "D019",
+            "relevant": false
+          },
+          {
+            "doc_id": "D041",
+            "relevant": false
+          }
+        ]
+      },
+      {
+        "query_id": "Q29",
+        "appeared": [
+          {
+            "doc_id": "D041",
+            "relevant": false,
+            "forms": {
+              "полет": [
+                "полетов"
+              ]
+            }
+          },
+          {
+            "doc_id": "D047",
+            "relevant": false,
+            "forms": {
+              "корабль": [
+                "Корабли"
+              ]
+            }
+          },
+          {
+            "doc_id": "D071",
+            "relevant": false,
+            "forms": {
+              "корабль": [
+                "корабль"
+              ]
+            }
+          },
+          {
+            "doc_id": "D079",
+            "relevant": false,
+            "forms": {
+              "корабль": [
+                "кораблей"
+              ]
+            }
+          }
+        ],
+        "disappeared": []
+      },
+      {
+        "query_id": "Q30",
+        "appeared": [
+          {
+            "doc_id": "D027",
+            "relevant": false,
+            "forms": {
+              "мочь": [
+                "мог",
+                "могла"
+              ],
+              "молчать": [
+                "молчал"
+              ]
+            }
+          },
+          {
+            "doc_id": "D030",
+            "relevant": false,
+            "forms": {
+              "мочь": [
+                "мог",
+                "могла"
+              ],
+              "молчать": [
+                "молчать"
+              ]
+            }
+          },
+          {
+            "doc_id": "D033",
+            "relevant": false,
+            "forms": {
+              "мочь": [
+                "можете"
+              ],
+              "молчать": [
+                "молчали"
+              ]
+            }
+          }
+        ],
+        "disappeared": [
+          {
+            "doc_id": "D008",
+            "relevant": false
+          },
+          {
+            "doc_id": "D012",
+            "relevant": false
+          },
+          {
+            "doc_id": "D013",
+            "relevant": false
+          }
+        ]
+      }
+    ]
+  },
+  "false_matches_test": {
+    "form": [
+      {
+        "query_id": "Q11",
+        "doc_id": "D147",
+        "forms": {
+          "евгений": [
+            "Евгений"
+          ],
+          "онегин": [
+            "Онегин"
+          ],
+          "роман": [
+            "Роман",
+            "роман"
+          ]
+        }
+      },
+      {
+        "query_id": "Q11",
+        "doc_id": "D127",
+        "forms": {
+          "евгений": [
+            "Евгений"
+          ],
+          "роман": [
+            "роман"
+          ]
+        }
+      },
+      {
+        "query_id": "Q11",
+        "doc_id": "D130",
+        "forms": {
+          "евгений": [
+            "Евгений"
+          ],
+          "роман": [
+            "Роман",
+            "роман"
+          ]
+        }
+      },
+      {
+        "query_id": "Q12",
+        "doc_id": "D118",
+        "forms": {
+          "страх": [
+            "страх"
+          ],
+          "смерти": [
+            "смерти"
+          ]
+        }
+      },
+      {
+        "query_id": "Q12",
+        "doc_id": "D131",
+        "forms": {
+          "смерти": [
+            "смерти"
+          ],
+          "чиновника": [
+            "чиновника"
+          ]
+        }
+      },
+      {
+        "query_id": "Q12",
+        "doc_id": "D133",
+        "forms": {
+          "смерти": [
+            "смерти"
+          ],
+          "чиновника": [
+            "чиновника"
+          ]
+        }
+      },
+      {
+        "query_id": "Q13",
+        "doc_id": "D004",
+        "forms": {
+          "спор": [
+            "спор"
+          ]
+        }
+      },
+      {
+        "query_id": "Q13",
+        "doc_id": "D046",
+        "forms": {
+          "поколений": [
+            "поколений"
+          ]
+        }
+      },
+      {
+        "query_id": "Q13",
+        "doc_id": "D064",
+        "forms": {
+          "спор": [
+            "спор"
+          ]
+        }
+      },
+      {
+        "query_id": "Q13",
+        "doc_id": "D091",
+        "forms": {
+          "спор": [
+            "спор"
+          ]
+        }
+      },
+      {
+        "query_id": "Q14",
+        "doc_id": "D117",
+        "forms": {
+          "бунт": [
+            "бунт"
+          ]
+        }
+      },
+      {
+        "query_id": "Q14",
+        "doc_id": "D128",
+        "forms": {
+          "бунт": [
+            "бунт"
+          ]
+        }
+      },
+      {
+        "query_id": "Q14",
+        "doc_id": "D152",
+        "forms": {
+          "бунт": [
+            "бунт"
+          ]
+        }
+      },
+      {
+        "query_id": "Q15",
+        "doc_id": "D002",
+        "forms": {
+          "война": [
+            "Война"
+          ]
+        }
+      },
+      {
+        "query_id": "Q15",
+        "doc_id": "D081",
+        "forms": {
+          "война": [
+            "война"
+          ]
+        }
+      },
+      {
+        "query_id": "Q15",
+        "doc_id": "D085",
+        "forms": {
+          "война": [
+            "война"
+          ]
+        }
+      },
+      {
+        "query_id": "Q16",
+        "doc_id": "D001",
+        "forms": {
+          "князь": [
+            "князь"
+          ]
+        }
+      },
+      {
+        "query_id": "Q16",
+        "doc_id": "D002",
+        "forms": {
+          "князь": [
+            "Князь",
+            "князь"
+          ]
+        }
+      },
+      {
+        "query_id": "Q16",
+        "doc_id": "D073",
+        "forms": {
+          "князь": [
+            "князь"
+          ]
+        }
+      },
+      {
+        "query_id": "Q16",
+        "doc_id": "D075",
+        "forms": {
+          "князь": [
+            "Князь"
+          ]
+        }
+      },
+      {
+        "query_id": "Q17",
+        "doc_id": "D128",
+        "forms": {
+          "фабрики": [
+            "фабрики"
+          ],
+          "революционное": [
+            "революционное"
+          ],
+          "движение": [
+            "движение"
+          ]
+        }
+      },
+      {
+        "query_id": "Q17",
+        "doc_id": "D004",
+        "forms": {
+          "движение": [
+            "движение"
+          ]
+        }
+      },
+      {
+        "query_id": "Q17",
+        "doc_id": "D039",
+        "forms": {
+          "движение": [
+            "движение"
+          ]
+        }
+      },
+      {
+        "query_id": "Q17",
+        "doc_id": "D047",
+        "forms": {
+          "рабочие": [
+            "Рабочие"
+          ]
+        }
+      },
+      {
+        "query_id": "Q18",
+        "doc_id": "D008",
+        "forms": {
+          "новая": [
+            "новая"
+          ]
+        }
+      },
+      {
+        "query_id": "Q18",
+        "doc_id": "D015",
+        "forms": {
+          "шинель": [
+            "шинель"
+          ]
+        }
+      },
+      {
+        "query_id": "Q18",
+        "doc_id": "D085",
+        "forms": {
+          "новая": [
+            "новая"
+          ]
+        }
+      },
+      {
+        "query_id": "Q19",
+        "doc_id": "D008",
+        "forms": {
+          "казаки": [
+            "Казаки"
+          ]
+        }
+      },
+      {
+        "query_id": "Q19",
+        "doc_id": "D053",
+        "forms": {
+          "сечи": [
+            "сечи"
+          ]
+        }
+      },
+      {
+        "query_id": "Q19",
+        "doc_id": "D054",
+        "forms": {
+          "казаки": [
+            "казаки"
+          ]
+        }
+      },
+      {
+        "query_id": "Q19",
+        "doc_id": "D123",
+        "forms": {
+          "казаки": [
+            "Казаки"
+          ]
+        }
+      },
+      {
+        "query_id": "Q20",
+        "doc_id": "D009",
+        "forms": {
+          "право": [
+            "право"
+          ]
+        }
+      },
+      {
+        "query_id": "Q20",
+        "doc_id": "D012",
+        "forms": {
+          "право": [
+            "право"
+          ]
+        }
+      },
+      {
+        "query_id": "Q20",
+        "doc_id": "D013",
+        "forms": {
+          "право": [
+            "право"
+          ]
+        }
+      },
+      {
+        "query_id": "Q20",
+        "doc_id": "D014",
+        "forms": {
+          "право": [
+            "право"
+          ]
+        }
+      },
+      {
+        "query_id": "Q21",
+        "doc_id": "D121",
+        "forms": {
+          "любовь": [
+            "любовь"
+          ],
+          "роман": [
+            "Роман",
+            "роман"
+          ]
+        }
+      },
+      {
+        "query_id": "Q21",
+        "doc_id": "D123",
+        "forms": {
+          "любовь": [
+            "любовь"
+          ],
+          "роман": [
+            "Роман",
+            "роман"
+          ]
+        }
+      },
+      {
+        "query_id": "Q21",
+        "doc_id": "D129",
+        "forms": {
+          "любовь": [
+            "любовь"
+          ],
+          "роман": [
+            "Роман",
+            "роман"
+          ]
+        }
+      },
+      {
+        "query_id": "Q21",
+        "doc_id": "D137",
+        "forms": {
+          "любовь": [
+            "любовь"
+          ],
+          "роман": [
+            "Роман",
+            "роман"
+          ]
+        }
+      },
+      {
+        "query_id": "Q22",
+        "doc_id": "D013",
+        "forms": {
+          "доктор": [
+            "доктор"
+          ]
+        }
+      },
+      {
+        "query_id": "Q22",
+        "doc_id": "D040",
+        "forms": {
+          "доктор": [
+            "доктор"
+          ]
+        }
+      },
+      {
+        "query_id": "Q22",
+        "doc_id": "D088",
+        "forms": {
+          "доктор": [
+            "доктор"
+          ]
+        }
+      },
+      {
+        "query_id": "Q22",
+        "doc_id": "D092",
+        "forms": {
+          "доктор": [
+            "доктор"
+          ]
+        }
+      },
+      {
+        "query_id": "Q23",
+        "doc_id": "D005",
+        "forms": {
+          "сердце": [
+            "сердце"
+          ]
+        }
+      },
+      {
+        "query_id": "Q23",
+        "doc_id": "D009",
+        "forms": {
+          "сердце": [
+            "сердце"
+          ]
+        }
+      },
+      {
+        "query_id": "Q23",
+        "doc_id": "D010",
+        "forms": {
+          "сердце": [
+            "сердце"
+          ]
+        }
+      },
+      {
+        "query_id": "Q23",
+        "doc_id": "D021",
+        "forms": {
+          "сердце": [
+            "сердце"
+          ]
+        }
+      },
+      {
+        "query_id": "Q24",
+        "doc_id": "D056",
+        "forms": {
+          "злу": [
+            "злу"
+          ]
+        }
+      },
+      {
+        "query_id": "Q25",
+        "doc_id": "D029",
+        "forms": {
+          "старая": [
+            "Старая"
+          ]
+        }
+      },
+      {
+        "query_id": "Q25",
+        "doc_id": "D032",
+        "forms": {
+          "карты": [
+            "карты"
+          ]
+        }
+      },
+      {
+        "query_id": "Q25",
+        "doc_id": "D034",
+        "forms": {
+          "графиня": [
+            "графиня"
+          ]
+        }
+      },
+      {
+        "query_id": "Q26",
+        "doc_id": "D015",
+        "forms": {
+          "игра": [
+            "игра"
+          ]
+        }
+      },
+      {
+        "query_id": "Q26",
+        "doc_id": "D026",
+        "forms": {
+          "игра": [
+            "Игра"
+          ]
+        }
+      },
+      {
+        "query_id": "Q26",
+        "doc_id": "D049",
+        "forms": {
+          "игра": [
+            "игра"
+          ]
+        }
+      },
+      {
+        "query_id": "Q26",
+        "doc_id": "D110",
+        "forms": {
+          "игра": [
+            "игра"
+          ]
+        }
+      },
+      {
+        "query_id": "Q28",
+        "doc_id": "D154",
+        "forms": {
+          "печати": [
+            "печати"
+          ],
+          "революции": [
+            "революции"
+          ]
+        }
+      },
+      {
+        "query_id": "Q28",
+        "doc_id": "D002",
+        "forms": {
+          "революции": [
+            "революции"
+          ]
+        }
+      },
+      {
+        "query_id": "Q28",
+        "doc_id": "D019",
+        "forms": {
+          "печати": [
+            "печати"
+          ]
+        }
+      },
+      {
+        "query_id": "Q28",
+        "doc_id": "D041",
+        "forms": {
+          "революции": [
+            "революции"
+          ]
+        }
+      },
+      {
+        "query_id": "Q29",
+        "doc_id": "D067",
+        "forms": {
+          "корабля": [
+            "корабля"
+          ]
+        }
+      },
+      {
+        "query_id": "Q30",
+        "doc_id": "D127",
+        "forms": {
+          "смертной": [
+            "смертной"
+          ],
+          "казни": [
+            "казни"
+          ]
+        }
+      },
+      {
+        "query_id": "Q30",
+        "doc_id": "D008",
+        "forms": {
+          "могу": [
+            "могу"
+          ]
+        }
+      },
+      {
+        "query_id": "Q30",
+        "doc_id": "D012",
+        "forms": {
+          "могу": [
+            "могу"
+          ]
+        }
+      },
+      {
+        "query_id": "Q30",
+        "doc_id": "D013",
+        "forms": {
+          "могу": [
+            "могу"
+          ]
+        }
+      }
+    ],
+    "stem": [
+      {
+        "query_id": "Q11",
+        "doc_id": "D137",
+        "forms": {
+          "евген": [
+            "Евгением",
+            "Евгений",
+            "Евгения"
+          ],
+          "онегин": [
+            "Онегином"
+          ],
+          "рома": [
+            "Роман",
+            "роман",
+            "романа"
+          ]
+        }
+      },
+      {
+        "query_id": "Q11",
+        "doc_id": "D147",
+        "forms": {
+          "евген": [
+            "Евгений"
+          ],
+          "онегин": [
+            "Онегин",
+            "Онегина"
+          ],
+          "рома": [
+            "Роман",
+            "роман",
+            "романа"
+          ]
+        }
+      },
+      {
+        "query_id": "Q11",
+        "doc_id": "D040",
+        "forms": {
+          "онегин": [
+            "Онегину"
+          ],
+          "рома": [
+            "РОМАН"
+          ]
+        }
+      },
+      {
+        "query_id": "Q12",
+        "doc_id": "D133",
+        "forms": {
+          "страх": [
+            "страхом"
+          ],
+          "смерт": [
+            "смерти",
+            "смертью"
+          ],
+          "умира": [
+            "умирает"
+          ],
+          "чиновник": [
+            "чиновника",
+            "чиновниках",
+            "чиновнике",
+            "чиновники"
+          ]
+        }
+      },
+      {
+        "query_id": "Q12",
+        "doc_id": "D137",
+        "forms": {
+          "страх": [
+            "Страхов"
+          ],
+          "смерт": [
+            "смерти",
+            "смертью"
+          ],
+          "умира": [
+            "умирает"
+          ],
+          "чиновник": [
+            "чиновник",
+            "чиновниками"
+          ]
+        }
+      },
+      {
+        "query_id": "Q12",
+        "doc_id": "D118",
+        "forms": {
+          "страх": [
+            "страх"
+          ],
+          "смерт": [
+            "смерти"
+          ],
+          "умира": [
+            "умирающую"
+          ]
+        }
+      },
+      {
+        "query_id": "Q12",
+        "doc_id": "D121",
+        "forms": {
+          "смерт": [
+            "смерти",
+            "смерть",
+            "смертью"
+          ],
+          "умира": [
+            "умирает"
+          ],
+          "чиновник": [
+            "чиновник"
+          ]
+        }
+      },
+      {
+        "query_id": "Q13",
+        "doc_id": "D064",
+        "forms": {
+          "базар": [
+            "базар"
+          ],
+          "спор": [
+            "спор",
+            "спором"
+          ]
+        }
+      },
+      {
+        "query_id": "Q13",
+        "doc_id": "D117",
+        "forms": {
+          "спор": [
+            "споры"
+          ],
+          "поколен": [
+            "поколение",
+            "поколений"
+          ]
+        }
+      },
+      {
+        "query_id": "Q13",
+        "doc_id": "D147",
+        "forms": {
+          "спор": [
+            "спор",
+            "спора"
+          ],
+          "поколен": [
+            "поколения"
+          ]
+        }
+      },
+      {
+        "query_id": "Q13",
+        "doc_id": "D149",
+        "forms": {
+          "базар": [
+            "базаре"
+          ],
+          "спор": [
+            "спор",
+            "спора",
+            "спором",
+            "спорят"
+          ]
+        }
+      },
+      {
+        "query_id": "Q14",
+        "doc_id": "D117",
+        "forms": {
+          "бунт": [
+            "бунт"
+          ]
+        }
+      },
+      {
+        "query_id": "Q14",
+        "doc_id": "D128",
+        "forms": {
+          "бунт": [
+            "бунт",
+            "бунту"
+          ]
+        }
+      },
+      {
+        "query_id": "Q14",
+        "doc_id": "D129",
+        "forms": {
+          "бунт": [
+            "бунтом"
+          ]
+        }
+      },
+      {
+        "query_id": "Q14",
+        "doc_id": "D133",
+        "forms": {
+          "бунт": [
+            "бунтующего"
+          ]
+        }
+      },
+      {
+        "query_id": "Q15",
+        "doc_id": "D002",
+        "forms": {
+          "войн": [
+            "Война",
+            "войны"
+          ]
+        }
+      },
+      {
+        "query_id": "Q15",
+        "doc_id": "D007",
+        "forms": {
+          "войн": [
+            "войны"
+          ]
+        }
+      },
+      {
+        "query_id": "Q16",
+        "doc_id": "D001",
+        "forms": {
+          "княз": [
+            "князь"
+          ]
+        }
+      },
+      {
+        "query_id": "Q16",
+        "doc_id": "D002",
+        "forms": {
+          "княз": [
+            "Князь",
+            "князь",
+            "князя"
+          ]
+        }
+      },
+      {
+        "query_id": "Q16",
+        "doc_id": "D025",
+        "forms": {
+          "княз": [
+            "князя"
+          ]
+        }
+      },
+      {
+        "query_id": "Q16",
+        "doc_id": "D073",
+        "forms": {
+          "княз": [
+            "Князья",
+            "князь"
+          ]
+        }
+      },
+      {
+        "query_id": "Q17",
+        "doc_id": "D128",
+        "forms": {
+          "рабоч": [
+            "рабочих"
+          ],
+          "фабрик": [
+            "фабрики"
+          ],
+          "революцион": [
+            "революционное",
+            "революционной",
+            "революционном",
+            "революционную"
+          ],
+          "движен": [
+            "движение",
+            "движений"
+          ]
+        }
+      },
+      {
+        "query_id": "Q17",
+        "doc_id": "D041",
+        "forms": {
+          "рабоч": [
+            "рабочих"
+          ],
+          "революцион": [
+            "революционных"
+          ]
+        }
+      },
+      {
+        "query_id": "Q17",
+        "doc_id": "D094",
+        "forms": {
+          "рабоч": [
+            "рабочие",
+            "рабочих"
+          ],
+          "революцион": [
+            "революционные"
+          ]
+        }
+      },
+      {
+        "query_id": "Q18",
+        "doc_id": "D131",
+        "forms": {
+          "нов": [
+            "нового",
+            "новое",
+            "новой",
+            "новом"
+          ],
+          "шинел": [
+            "Шинель"
+          ]
+        }
+      },
+      {
+        "query_id": "Q18",
+        "doc_id": "D001",
+        "forms": {
+          "нов": [
+            "новое"
+          ]
+        }
+      },
+      {
+        "query_id": "Q18",
+        "doc_id": "D002",
+        "forms": {
+          "нов": [
+            "новое"
+          ]
+        }
+      },
+      {
+        "query_id": "Q19",
+        "doc_id": "D008",
+        "forms": {
+          "казак": [
+            "Казаки"
+          ]
+        }
+      },
+      {
+        "query_id": "Q19",
+        "doc_id": "D053",
+        "forms": {
+          "сеч": [
+            "сечи"
+          ]
+        }
+      },
+      {
+        "query_id": "Q19",
+        "doc_id": "D054",
+        "forms": {
+          "казак": [
+            "Казак",
+            "казаки"
+          ]
+        }
+      },
+      {
+        "query_id": "Q20",
+        "doc_id": "D061",
+        "forms": {
+          "крепостн": [
+            "крепостной"
+          ],
+          "барын": [
+            "барыне"
+          ]
+        }
+      },
+      {
+        "query_id": "Q20",
+        "doc_id": "D116",
+        "forms": {
+          "крепостн": [
+            "крепостным"
+          ],
+          "прав": [
+            "право"
+          ]
+        }
+      },
+      {
+        "query_id": "Q21",
+        "doc_id": "D121",
+        "forms": {
+          "любов": [
+            "любовь",
+            "любовью"
+          ],
+          "рома": [
+            "Роман",
+            "роман",
+            "романа"
+          ]
+        }
+      },
+      {
+        "query_id": "Q21",
+        "doc_id": "D123",
+        "forms": {
+          "любов": [
+            "любовь"
+          ],
+          "рома": [
+            "Роман",
+            "роман",
+            "романа"
+          ]
+        }
+      },
+      {
+        "query_id": "Q21",
+        "doc_id": "D129",
+        "forms": {
+          "любов": [
+            "Любови",
+            "любовь"
+          ],
+          "рома": [
+            "Роман",
+            "роман",
+            "романа"
+          ]
+        }
+      },
+      {
+        "query_id": "Q21",
+        "doc_id": "D132",
+        "forms": {
+          "любов": [
+            "любовью"
+          ],
+          "рома": [
+            "роман",
+            "романа"
+          ]
+        }
+      },
+      {
+        "query_id": "Q22",
+        "doc_id": "D034",
+        "forms": {
+          "больниц": [
+            "больнице",
+            "больницы"
+          ],
+          "доктор": [
+            "доктора",
+            "доктору"
+          ]
+        }
+      },
+      {
+        "query_id": "Q22",
+        "doc_id": "D004",
+        "forms": {
+          "доктор": [
+            "Доктора"
+          ]
+        }
+      },
+      {
+        "query_id": "Q22",
+        "doc_id": "D013",
+        "forms": {
+          "доктор": [
+            "доктор"
+          ]
+        }
+      },
+      {
+        "query_id": "Q23",
+        "doc_id": "D139",
+        "forms": {
+          "легенд": [
+            "легенды"
+          ],
+          "сердц": [
+            "сердце"
+          ]
+        }
+      },
+      {
+        "query_id": "Q23",
+        "doc_id": "D005",
+        "forms": {
+          "сердц": [
+            "сердце"
+          ]
+        }
+      },
+      {
+        "query_id": "Q23",
+        "doc_id": "D008",
+        "forms": {
+          "сердц": [
+            "сердцу"
+          ]
+        }
+      },
+      {
+        "query_id": "Q23",
+        "doc_id": "D009",
+        "forms": {
+          "сердц": [
+            "сердце"
+          ]
+        }
+      },
+      {
+        "query_id": "Q24",
+        "doc_id": "D013",
+        "forms": {
+          "злу": [
+            "злую"
+          ],
+          "насил": [
+            "насилу"
+          ]
+        }
+      },
+      {
+        "query_id": "Q25",
+        "doc_id": "D034",
+        "forms": {
+          "стар": [
+            "старый",
+            "старых"
+          ],
+          "графин": [
+            "графиня"
+          ]
+        }
+      },
+      {
+        "query_id": "Q25",
+        "doc_id": "D121",
+        "forms": {
+          "стар": [
+            "старый"
+          ],
+          "графин": [
+            "Графиня",
+            "графине",
+            "графини"
+          ]
+        }
+      },
+      {
+        "query_id": "Q25",
+        "doc_id": "D122",
+        "forms": {
+          "стар": [
+            "старому"
+          ],
+          "графин": [
+            "графиня"
+          ]
+        }
+      },
+      {
+        "query_id": "Q26",
+        "doc_id": "D015",
+        "forms": {
+          "игр": [
+            "игра"
+          ]
+        }
+      },
+      {
+        "query_id": "Q26",
+        "doc_id": "D025",
+        "forms": {
+          "игр": [
+            "играя"
+          ]
+        }
+      },
+      {
+        "query_id": "Q26",
+        "doc_id": "D026",
+        "forms": {
+          "игр": [
+            "Игра",
+            "игру"
+          ]
+        }
+      },
+      {
+        "query_id": "Q26",
+        "doc_id": "D038",
+        "forms": {
+          "игр": [
+            "играя"
+          ]
+        }
+      },
+      {
+        "query_id": "Q28",
+        "doc_id": "D117",
+        "forms": {
+          "свобод": [
+            "свободы"
+          ],
+          "революц": [
+            "революции",
+            "революцию"
+          ]
+        }
+      },
+      {
+        "query_id": "Q28",
+        "doc_id": "D118",
+        "forms": {
+          "свобод": [
+            "свободу"
+          ],
+          "революц": [
+            "революцией",
+            "революции",
+            "революций"
+          ]
+        }
+      },
+      {
+        "query_id": "Q28",
+        "doc_id": "D154",
+        "forms": {
+          "печат": [
+            "печати"
+          ],
+          "революц": [
+            "революции",
+            "революций",
+            "революцию"
+          ]
+        }
+      },
+      {
+        "query_id": "Q29",
+        "doc_id": "D041",
+        "forms": {
+          "полет": [
+            "полетов"
+          ]
+        }
+      },
+      {
+        "query_id": "Q29",
+        "doc_id": "D047",
+        "forms": {
+          "корабл": [
+            "Корабли"
+          ]
+        }
+      },
+      {
+        "query_id": "Q29",
+        "doc_id": "D067",
+        "forms": {
+          "корабл": [
+            "Корабль",
+            "корабля"
+          ]
+        }
+      },
+      {
+        "query_id": "Q29",
+        "doc_id": "D071",
+        "forms": {
+          "корабл": [
+            "корабль"
+          ]
+        }
+      },
+      {
+        "query_id": "Q29",
+        "doc_id": "D079",
+        "forms": {
+          "корабл": [
+            "кораблей"
+          ]
+        }
+      },
+      {
+        "query_id": "Q30",
+        "doc_id": "D027",
+        "forms": {
+          "мог": [
+            "мог"
+          ],
+          "молча": [
+            "молчал"
+          ]
+        }
+      },
+      {
+        "query_id": "Q30",
+        "doc_id": "D030",
+        "forms": {
+          "мог": [
+            "мог"
+          ],
+          "молча": [
+            "молчать"
+          ]
+        }
+      },
+      {
+        "query_id": "Q30",
+        "doc_id": "D054",
+        "forms": {
+          "мог": [
+            "мог"
+          ],
+          "смертн": [
+            "смертный"
+          ]
+        }
+      },
+      {
+        "query_id": "Q30",
+        "doc_id": "D073",
+        "forms": {
+          "мог": [
+            "мог"
+          ],
+          "казн": [
+            "казнь"
+          ]
+        }
+      }
+    ],
+    "lemma": [
+      {
+        "query_id": "Q11",
+        "doc_id": "D147",
+        "forms": {
+          "евгений": [
+            "Евгений"
+          ],
+          "онегин": [
+            "Онегин",
+            "Онегина"
+          ],
+          "роман": [
+            "Роман",
+            "роман",
+            "романа",
+            "романе"
+          ]
+        }
+      },
+      {
+        "query_id": "Q11",
+        "doc_id": "D040",
+        "forms": {
+          "онегин": [
+            "Онегину"
+          ],
+          "роман": [
+            "РОМАН"
+          ]
+        }
+      },
+      {
+        "query_id": "Q11",
+        "doc_id": "D050",
+        "forms": {
+          "роман": [
+            "романа"
+          ],
+          "стих": [
+            "стихи"
+          ]
+        }
+      },
+      {
+        "query_id": "Q12",
+        "doc_id": "D118",
+        "forms": {
+          "страх": [
+            "страх"
+          ],
+          "смерть": [
+            "смерти"
+          ],
+          "умирающий": [
+            "умирающую"
+          ]
+        }
+      },
+      {
+        "query_id": "Q12",
+        "doc_id": "D126",
+        "forms": {
+          "страх": [
+            "страхи"
+          ],
+          "смерть": [
+            "смерти"
+          ],
+          "умирающий": [
+            "Умирающий"
+          ]
+        }
+      },
+      {
+        "query_id": "Q12",
+        "doc_id": "D133",
+        "forms": {
+          "страх": [
+            "страхом"
+          ],
+          "смерть": [
+            "смерти",
+            "смертью"
+          ],
+          "чиновник": [
+            "чиновника",
+            "чиновниках",
+            "чиновнике",
+            "чиновники"
+          ]
+        }
+      },
+      {
+        "query_id": "Q12",
+        "doc_id": "D135",
+        "forms": {
+          "страх": [
+            "страха"
+          ],
+          "смерть": [
+            "смерти",
+            "смерть",
+            "смертью"
+          ],
+          "умирающий": [
+            "умирающей"
+          ]
+        }
+      },
+      {
+        "query_id": "Q13",
+        "doc_id": "D064",
+        "forms": {
+          "базар": [
+            "базар"
+          ],
+          "спор": [
+            "спор",
+            "спором"
+          ]
+        }
+      },
+      {
+        "query_id": "Q13",
+        "doc_id": "D117",
+        "forms": {
+          "спор": [
+            "споры"
+          ],
+          "поколение": [
+            "поколение",
+            "поколений"
+          ]
+        }
+      },
+      {
+        "query_id": "Q13",
+        "doc_id": "D147",
+        "forms": {
+          "спор": [
+            "спор",
+            "спора"
+          ],
+          "поколение": [
+            "поколения"
+          ]
+        }
+      },
+      {
+        "query_id": "Q13",
+        "doc_id": "D149",
+        "forms": {
+          "базар": [
+            "базаре"
+          ],
+          "спор": [
+            "спор",
+            "спора",
+            "спором"
+          ]
+        }
+      },
+      {
+        "query_id": "Q14",
+        "doc_id": "D117",
+        "forms": {
+          "бунт": [
+            "бунт"
+          ]
+        }
+      },
+      {
+        "query_id": "Q14",
+        "doc_id": "D128",
+        "forms": {
+          "бунт": [
+            "бунт",
+            "бунту"
+          ]
+        }
+      },
+      {
+        "query_id": "Q14",
+        "doc_id": "D129",
+        "forms": {
+          "бунт": [
+            "бунтом"
+          ]
+        }
+      },
+      {
+        "query_id": "Q14",
+        "doc_id": "D135",
+        "forms": {
+          "бунт": [
+            "бунтов"
+          ]
+        }
+      },
+      {
+        "query_id": "Q15",
+        "doc_id": "D002",
+        "forms": {
+          "война": [
+            "Война",
+            "войны"
+          ]
+        }
+      },
+      {
+        "query_id": "Q15",
+        "doc_id": "D007",
+        "forms": {
+          "война": [
+            "войны"
+          ]
+        }
+      },
+      {
+        "query_id": "Q16",
+        "doc_id": "D001",
+        "forms": {
+          "князь": [
+            "князь"
+          ]
+        }
+      },
+      {
+        "query_id": "Q16",
+        "doc_id": "D002",
+        "forms": {
+          "князь": [
+            "Князь",
+            "князь",
+            "князя"
+          ]
+        }
+      },
+      {
+        "query_id": "Q16",
+        "doc_id": "D025",
+        "forms": {
+          "князь": [
+            "князя"
+          ]
+        }
+      },
+      {
+        "query_id": "Q16",
+        "doc_id": "D073",
+        "forms": {
+          "князь": [
+            "Князья",
+            "князь"
+          ]
+        }
+      },
+      {
+        "query_id": "Q17",
+        "doc_id": "D128",
+        "forms": {
+          "рабочий": [
+            "рабочих"
+          ],
+          "фабрика": [
+            "фабрики"
+          ],
+          "революционный": [
+            "революционное",
+            "революционной",
+            "революционном",
+            "революционную"
+          ],
+          "движение": [
+            "движение",
+            "движений"
+          ]
+        }
+      },
+      {
+        "query_id": "Q17",
+        "doc_id": "D041",
+        "forms": {
+          "рабочий": [
+            "рабочих"
+          ],
+          "революционный": [
+            "революционных"
+          ]
+        }
+      },
+      {
+        "query_id": "Q17",
+        "doc_id": "D094",
+        "forms": {
+          "рабочий": [
+            "рабочие",
+            "рабочих"
+          ],
+          "революционный": [
+            "революционные"
+          ]
+        }
+      },
+      {
+        "query_id": "Q18",
+        "doc_id": "D131",
+        "forms": {
+          "новый": [
+            "нового",
+            "новое",
+            "новой",
+            "новом"
+          ],
+          "шинель": [
+            "Шинель"
+          ]
+        }
+      },
+      {
+        "query_id": "Q18",
+        "doc_id": "D001",
+        "forms": {
+          "новый": [
+            "новое"
+          ]
+        }
+      },
+      {
+        "query_id": "Q18",
+        "doc_id": "D002",
+        "forms": {
+          "новый": [
+            "новое"
+          ]
+        }
+      },
+      {
+        "query_id": "Q19",
+        "doc_id": "D008",
+        "forms": {
+          "казак": [
+            "Казаки"
+          ]
+        }
+      },
+      {
+        "query_id": "Q19",
+        "doc_id": "D053",
+        "forms": {
+          "сеча": [
+            "сечи"
+          ]
+        }
+      },
+      {
+        "query_id": "Q19",
+        "doc_id": "D054",
+        "forms": {
+          "казак": [
+            "Казак",
+            "казаки"
+          ]
+        }
+      },
+      {
+        "query_id": "Q20",
+        "doc_id": "D061",
+        "forms": {
+          "крепостной": [
+            "крепостной"
+          ],
+          "барыня": [
+            "барыне"
+          ]
+        }
+      },
+      {
+        "query_id": "Q20",
+        "doc_id": "D116",
+        "forms": {
+          "крепостной": [
+            "крепостным"
+          ],
+          "право": [
+            "право"
+          ]
+        }
+      },
+      {
+        "query_id": "Q21",
+        "doc_id": "D110",
+        "forms": {
+          "любовь": [
+            "любви"
+          ],
+          "роман": [
+            "роман"
+          ]
+        }
+      },
+      {
+        "query_id": "Q21",
+        "doc_id": "D121",
+        "forms": {
+          "любовь": [
+            "любви",
+            "любовь",
+            "любовью"
+          ],
+          "роман": [
+            "Роман",
+            "роман",
+            "романа",
+            "романе"
+          ]
+        }
+      },
+      {
+        "query_id": "Q21",
+        "doc_id": "D123",
+        "forms": {
+          "любовь": [
+            "любви",
+            "любовь"
+          ],
+          "роман": [
+            "Роман",
+            "роман",
+            "романа",
+            "романе"
+          ]
+        }
+      },
+      {
+        "query_id": "Q22",
+        "doc_id": "D034",
+        "forms": {
+          "больница": [
+            "больнице",
+            "больницы"
+          ],
+          "доктор": [
+            "доктора",
+            "доктору"
+          ]
+        }
+      },
+      {
+        "query_id": "Q22",
+        "doc_id": "D004",
+        "forms": {
+          "доктор": [
+            "Доктора"
+          ]
+        }
+      },
+      {
+        "query_id": "Q22",
+        "doc_id": "D013",
+        "forms": {
+          "доктор": [
+            "доктор"
+          ]
+        }
+      },
+      {
+        "query_id": "Q23",
+        "doc_id": "D008",
+        "forms": {
+          "гореть": [
+            "горят"
+          ],
+          "сердце": [
+            "сердцу"
+          ]
+        }
+      },
+      {
+        "query_id": "Q23",
+        "doc_id": "D046",
+        "forms": {
+          "гореть": [
+            "горит"
+          ],
+          "сердце": [
+            "сердца"
+          ]
+        }
+      },
+      {
+        "query_id": "Q23",
+        "doc_id": "D054",
+        "forms": {
+          "гореть": [
+            "горят"
+          ],
+          "сердце": [
+            "сердце",
+            "сердцем"
+          ]
+        }
+      },
+      {
+        "query_id": "Q23",
+        "doc_id": "D067",
+        "forms": {
+          "гореть": [
+            "горел"
+          ],
+          "сердце": [
+            "сердца",
+            "сердце",
+            "сердцем",
+            "сердцу"
+          ]
+        }
+      },
+      {
+        "query_id": "Q24",
+        "doc_id": "D096",
+        "forms": {
+          "зло": [
+            "зло"
+          ],
+          "насилие": [
+            "насилие"
+          ]
+        }
+      },
+      {
+        "query_id": "Q25",
+        "doc_id": "D034",
+        "forms": {
+          "старый": [
+            "старый",
+            "старых"
+          ],
+          "графиня": [
+            "графиня"
+          ]
+        }
+      },
+      {
+        "query_id": "Q25",
+        "doc_id": "D121",
+        "forms": {
+          "старый": [
+            "старый"
+          ],
+          "графиня": [
+            "Графиня",
+            "графине",
+            "графини"
+          ]
+        }
+      },
+      {
+        "query_id": "Q25",
+        "doc_id": "D122",
+        "forms": {
+          "старый": [
+            "старому"
+          ],
+          "графиня": [
+            "графиня"
+          ]
+        }
+      },
+      {
+        "query_id": "Q26",
+        "doc_id": "D015",
+        "forms": {
+          "игра": [
+            "игра"
+          ]
+        }
+      },
+      {
+        "query_id": "Q26",
+        "doc_id": "D026",
+        "forms": {
+          "игра": [
+            "Игра",
+            "игру"
+          ]
+        }
+      },
+      {
+        "query_id": "Q26",
+        "doc_id": "D049",
+        "forms": {
+          "игра": [
+            "игра"
+          ]
+        }
+      },
+      {
+        "query_id": "Q26",
+        "doc_id": "D068",
+        "forms": {
+          "игра": [
+            "игру"
+          ]
+        }
+      },
+      {
+        "query_id": "Q28",
+        "doc_id": "D117",
+        "forms": {
+          "свобода": [
+            "свободы"
+          ],
+          "революция": [
+            "революции",
+            "революцию"
+          ]
+        }
+      },
+      {
+        "query_id": "Q28",
+        "doc_id": "D118",
+        "forms": {
+          "свобода": [
+            "свободу"
+          ],
+          "революция": [
+            "революцией",
+            "революции",
+            "революций"
+          ]
+        }
+      },
+      {
+        "query_id": "Q28",
+        "doc_id": "D154",
+        "forms": {
+          "печать": [
+            "печати"
+          ],
+          "революция": [
+            "революции",
+            "революций",
+            "революцию"
+          ]
+        }
+      },
+      {
+        "query_id": "Q29",
+        "doc_id": "D041",
+        "forms": {
+          "полет": [
+            "полетов"
+          ]
+        }
+      },
+      {
+        "query_id": "Q29",
+        "doc_id": "D047",
+        "forms": {
+          "корабль": [
+            "Корабли"
+          ]
+        }
+      },
+      {
+        "query_id": "Q29",
+        "doc_id": "D067",
+        "forms": {
+          "корабль": [
+            "Корабль",
+            "корабля"
+          ]
+        }
+      },
+      {
+        "query_id": "Q29",
+        "doc_id": "D071",
+        "forms": {
+          "корабль": [
+            "корабль"
+          ]
+        }
+      },
+      {
+        "query_id": "Q29",
+        "doc_id": "D079",
+        "forms": {
+          "корабль": [
+            "кораблей"
+          ]
+        }
+      },
+      {
+        "query_id": "Q30",
+        "doc_id": "D127",
+        "forms": {
+          "мочь": [
+            "могла"
+          ],
+          "смертный": [
+            "смертной"
+          ],
+          "казнь": [
+            "казни"
+          ]
+        }
+      },
+      {
+        "query_id": "Q30",
+        "doc_id": "D027",
+        "forms": {
+          "мочь": [
+            "мог",
+            "могла"
+          ],
+          "молчать": [
+            "молчал"
+          ]
+        }
+      },
+      {
+        "query_id": "Q30",
+        "doc_id": "D030",
+        "forms": {
+          "мочь": [
+            "мог",
+            "могла"
+          ],
+          "молчать": [
+            "молчать"
+          ]
+        }
+      },
+      {
+        "query_id": "Q30",
+        "doc_id": "D033",
+        "forms": {
+          "мочь": [
+            "можете"
+          ],
+          "молчать": [
+            "молчали"
+          ]
+        }
+      }
+    ]
+  },
+  "empty_answer": {
+    "без удаления стоп-слов / словоформы": [
+      {
+        "query_id": "Q29",
+        "found": 156,
+        "correct_empty": false,
+        "top": [
+          "D067",
+          "D001",
+          "D002",
+          "D003",
+          "D004"
+        ]
+      }
+    ],
+    "без удаления стоп-слов / стемминг": [
+      {
+        "query_id": "Q29",
+        "found": 156,
+        "correct_empty": false,
+        "top": [
+          "D041",
+          "D047",
+          "D067",
+          "D071",
+          "D079"
+        ]
+      }
+    ],
+    "без удаления стоп-слов / лемматизация": [
+      {
+        "query_id": "Q29",
+        "found": 156,
+        "correct_empty": false,
+        "top": [
+          "D041",
+          "D047",
+          "D067",
+          "D071",
+          "D079"
+        ]
+      }
+    ],
+    "с удалением стоп-слов / словоформы": [
+      {
+        "query_id": "Q29",
+        "found": 1,
+        "correct_empty": false,
+        "top": [
+          "D067"
+        ]
+      }
+    ],
+    "с удалением стоп-слов / стемминг": [
+      {
+        "query_id": "Q29",
+        "found": 12,
+        "correct_empty": false,
+        "top": [
+          "D041",
+          "D047",
+          "D067",
+          "D071",
+          "D079"
+        ]
+      }
+    ],
+    "с удалением стоп-слов / лемматизация": [
+      {
+        "query_id": "Q29",
+        "found": 11,
+        "correct_empty": false,
+        "top": [
+          "D041",
+          "D047",
+          "D067",
+          "D071",
+          "D079"
+        ]
+      }
+    ]
+  }
+}

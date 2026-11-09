@@ -1,0 +1,168 @@
+Пар: 195 (tune 98, test 97), исходных документов: 145
+Выбранная конфигурация: k=2, exact, порог 0.57
+
+## Качество на test (порог выбран на tune)
+
+| k | method | threshold | tune_f1 | tune_margin | precision | recall | f1 | tp | fp | fn |
+|---|---|---|---|---|---|---|---|---|---|---|
+| 2 | exact | 0.570 | 1.000 | 0.229 | 1.000 | 1.000 | 1.000 | 40 | 0 | 0 |
+| 2 | minhash64 | 0.575 | 1.000 | 0.141 | 1.000 | 1.000 | 1.000 | 40 | 0 | 0 |
+| 2 | minhash128 | 0.575 | 1.000 | 0.141 | 1.000 | 1.000 | 1.000 | 40 | 0 | 0 |
+| 3 | exact | 0.490 | 1.000 | 0.164 | 1.000 | 1.000 | 1.000 | 40 | 0 | 0 |
+| 3 | minhash64 | 0.420 | 0.988 | 0.000 | 0.976 | 1.000 | 0.988 | 40 | 1 | 0 |
+| 3 | minhash128 | 0.450 | 1.000 | 0.008 | 1.000 | 1.000 | 1.000 | 40 | 0 | 0 |
+| 5 | exact | 0.400 | 0.975 | -0.002 | 1.000 | 1.000 | 1.000 | 40 | 0 | 0 |
+| 5 | minhash64 | 0.280 | 0.964 | -0.125 | 0.930 | 1.000 | 0.964 | 40 | 3 | 0 |
+| 5 | minhash128 | 0.290 | 0.964 | -0.047 | 0.930 | 1.000 | 0.964 | 40 | 3 | 0 |
+
+## Ошибка оценки MinHash относительно точного Jaccard
+
+| k | num_perm | mean_abs_error | median_abs_error | max_abs_error |
+|---|---|---|---|---|
+| 2 | 64 | 0.022 | 0.009 | 0.148 |
+| 2 | 128 | 0.014 | 0.007 | 0.106 |
+| 3 | 64 | 0.021 | 0.003 | 0.161 |
+| 3 | 128 | 0.013 | 0.003 | 0.137 |
+| 5 | 64 | 0.020 | 0.000 | 0.134 |
+| 5 | 128 | 0.011 | 0.000 | 0.078 |
+
+## Время на весь набор пар, сек (медиана)
+
+| k | repeats | shingling | exact_jaccard | signatures64 | compare64 | signatures128 | compare128 |
+|---|---|---|---|---|---|---|---|
+| 2 | 5 | 0.094 | 0.018 | 0.165 | 0.001 | 0.127 | 0.001 |
+| 3 | 5 | 0.089 | 0.017 | 0.105 | 0.001 | 0.137 | 0.001 |
+| 5 | 5 | 0.091 | 0.018 | 0.118 | 0.001 | 0.146 | 0.001 |
+
+## Точный Jaccard по типам пар
+
+| k | type | n | duplicate | exact_min | exact_mean | exact_max | containment_mean |
+|---|---|---|---|---|---|---|---|
+| 2 | exact | 20 | True | 1.000 | 1.000 | 1.000 | 1.000 |
+| 2 | fragment | 6 | False | 0.396 | 0.402 | 0.410 | 1.000 |
+| 2 | heavy_edit | 12 | False | 0.407 | 0.445 | 0.478 | 0.627 |
+| 2 | near_duplicate | 60 | True | 0.675 | 0.791 | 0.915 | 0.885 |
+| 2 | quote | 8 | False | 0.050 | 0.055 | 0.060 | 0.111 |
+| 2 | same_work_fragment | 10 | False | 0.001 | 0.004 | 0.008 | 0.009 |
+| 2 | topical | 53 | False | 0.000 | 0.007 | 0.025 | 0.014 |
+| 2 | unrelated | 20 | False | 0.000 | 0.003 | 0.010 | 0.007 |
+| 3 | exact | 20 | True | 1.000 | 1.000 | 1.000 | 1.000 |
+| 3 | fragment | 6 | False | 0.391 | 0.398 | 0.408 | 1.000 |
+| 3 | heavy_edit | 12 | False | 0.287 | 0.313 | 0.359 | 0.483 |
+| 3 | near_duplicate | 60 | True | 0.569 | 0.711 | 0.869 | 0.829 |
+| 3 | quote | 8 | False | 0.044 | 0.048 | 0.053 | 0.097 |
+| 3 | same_work_fragment | 10 | False | 0.000 | 0.000 | 0.001 | 0.000 |
+| 3 | topical | 53 | False | 0.000 | 0.002 | 0.018 | 0.004 |
+| 3 | unrelated | 20 | False | 0.000 | 0.000 | 0.001 | 0.000 |
+| 5 | exact | 20 | True | 1.000 | 1.000 | 1.000 | 1.000 |
+| 5 | fragment | 6 | False | 0.386 | 0.394 | 0.401 | 1.000 |
+| 5 | heavy_edit | 12 | False | 0.132 | 0.173 | 0.208 | 0.299 |
+| 5 | near_duplicate | 60 | True | 0.399 | 0.587 | 0.785 | 0.732 |
+| 5 | quote | 8 | False | 0.039 | 0.045 | 0.051 | 0.091 |
+| 5 | same_work_fragment | 10 | False | 0.000 | 0.000 | 0.000 | 0.000 |
+| 5 | topical | 53 | False | 0.000 | 0.001 | 0.014 | 0.002 |
+| 5 | unrelated | 20 | False | 0.000 | 0.000 | 0.000 | 0.000 |
+
+## Особенность варианта: цитаты и фрагменты
+
+| k | pair_id | split | type | exact | minhash128 | containment |
+|---|---|---|---|---|---|---|
+| 2 | P050 | tune | same_work_fragment | 0.003 | 0.000 | 0.005 |
+| 2 | P071 | tune | same_work_fragment | 0.005 | 0.008 | 0.011 |
+| 2 | P072 | tune | same_work_fragment | 0.005 | 0.000 | 0.011 |
+| 2 | P073 | tune | same_work_fragment | 0.008 | 0.000 | 0.016 |
+| 2 | P074 | tune | same_work_fragment | 0.001 | 0.000 | 0.003 |
+| 2 | P079 | tune | quote | 0.055 | 0.055 | 0.114 |
+| 2 | P080 | tune | quote | 0.057 | 0.023 | 0.117 |
+| 2 | P081 | tune | quote | 0.052 | 0.062 | 0.106 |
+| 2 | P082 | tune | quote | 0.055 | 0.086 | 0.110 |
+| 2 | P083 | tune | fragment | 0.403 | 0.398 | 1.000 |
+| 2 | P084 | tune | fragment | 0.410 | 0.406 | 1.000 |
+| 2 | P085 | tune | fragment | 0.401 | 0.359 | 1.000 |
+| 2 | P167 | test | same_work_fragment | 0.005 | 0.008 | 0.011 |
+| 2 | P168 | test | same_work_fragment | 0.001 | 0.000 | 0.003 |
+| 2 | P169 | test | same_work_fragment | 0.003 | 0.000 | 0.005 |
+| 2 | P170 | test | same_work_fragment | 0.004 | 0.000 | 0.008 |
+| 2 | P171 | test | same_work_fragment | 0.008 | 0.008 | 0.016 |
+| 2 | P176 | test | quote | 0.060 | 0.039 | 0.117 |
+| 2 | P177 | test | quote | 0.054 | 0.062 | 0.111 |
+| 2 | P178 | test | quote | 0.054 | 0.062 | 0.108 |
+| 2 | P179 | test | quote | 0.050 | 0.023 | 0.103 |
+| 2 | P180 | test | fragment | 0.402 | 0.359 | 1.000 |
+| 2 | P181 | test | fragment | 0.396 | 0.445 | 1.000 |
+| 2 | P182 | test | fragment | 0.398 | 0.414 | 1.000 |
+| 3 | P050 | tune | same_work_fragment | 0.000 | 0.000 | 0.000 |
+| 3 | P071 | tune | same_work_fragment | 0.000 | 0.000 | 0.000 |
+| 3 | P072 | tune | same_work_fragment | 0.000 | 0.000 | 0.000 |
+| 3 | P073 | tune | same_work_fragment | 0.000 | 0.000 | 0.000 |
+| 3 | P074 | tune | same_work_fragment | 0.000 | 0.000 | 0.000 |
+| 3 | P079 | tune | quote | 0.049 | 0.031 | 0.099 |
+| 3 | P080 | tune | quote | 0.044 | 0.047 | 0.091 |
+| 3 | P081 | tune | quote | 0.048 | 0.047 | 0.096 |
+| 3 | P082 | tune | quote | 0.048 | 0.055 | 0.097 |
+| 3 | P083 | tune | fragment | 0.396 | 0.430 | 1.000 |
+| 3 | P084 | tune | fragment | 0.408 | 0.398 | 1.000 |
+| 3 | P085 | tune | fragment | 0.397 | 0.445 | 1.000 |
+| 3 | P167 | test | same_work_fragment | 0.000 | 0.000 | 0.000 |
+| 3 | P168 | test | same_work_fragment | 0.000 | 0.000 | 0.000 |
+| 3 | P169 | test | same_work_fragment | 0.000 | 0.000 | 0.000 |
+| 3 | P170 | test | same_work_fragment | 0.000 | 0.000 | 0.000 |
+| 3 | P171 | test | same_work_fragment | 0.001 | 0.000 | 0.003 |
+| 3 | P176 | test | quote | 0.053 | 0.047 | 0.103 |
+| 3 | P177 | test | quote | 0.048 | 0.023 | 0.097 |
+| 3 | P178 | test | quote | 0.048 | 0.055 | 0.097 |
+| 3 | P179 | test | quote | 0.048 | 0.031 | 0.097 |
+| 3 | P180 | test | fragment | 0.391 | 0.336 | 1.000 |
+| 3 | P181 | test | fragment | 0.396 | 0.352 | 1.000 |
+| 3 | P182 | test | fragment | 0.396 | 0.406 | 1.000 |
+| 5 | P050 | tune | same_work_fragment | 0.000 | 0.000 | 0.000 |
+| 5 | P071 | tune | same_work_fragment | 0.000 | 0.000 | 0.000 |
+| 5 | P072 | tune | same_work_fragment | 0.000 | 0.000 | 0.000 |
+| 5 | P073 | tune | same_work_fragment | 0.000 | 0.000 | 0.000 |
+| 5 | P074 | tune | same_work_fragment | 0.000 | 0.000 | 0.000 |
+| 5 | P079 | tune | quote | 0.046 | 0.047 | 0.093 |
+| 5 | P080 | tune | quote | 0.039 | 0.023 | 0.080 |
+| 5 | P081 | tune | quote | 0.045 | 0.047 | 0.090 |
+| 5 | P082 | tune | quote | 0.045 | 0.062 | 0.092 |
+| 5 | P083 | tune | fragment | 0.392 | 0.422 | 1.000 |
+| 5 | P084 | tune | fragment | 0.401 | 0.398 | 1.000 |
+| 5 | P085 | tune | fragment | 0.394 | 0.438 | 1.000 |
+| 5 | P167 | test | same_work_fragment | 0.000 | 0.000 | 0.000 |
+| 5 | P168 | test | same_work_fragment | 0.000 | 0.000 | 0.000 |
+| 5 | P169 | test | same_work_fragment | 0.000 | 0.000 | 0.000 |
+| 5 | P170 | test | same_work_fragment | 0.000 | 0.000 | 0.000 |
+| 5 | P171 | test | same_work_fragment | 0.000 | 0.000 | 0.000 |
+| 5 | P176 | test | quote | 0.051 | 0.055 | 0.100 |
+| 5 | P177 | test | quote | 0.045 | 0.031 | 0.092 |
+| 5 | P178 | test | quote | 0.046 | 0.023 | 0.092 |
+| 5 | P179 | test | quote | 0.045 | 0.023 | 0.092 |
+| 5 | P180 | test | fragment | 0.386 | 0.391 | 1.000 |
+| 5 | P181 | test | fragment | 0.395 | 0.414 | 1.000 |
+| 5 | P182 | test | fragment | 0.396 | 0.367 | 1.000 |
+
+## Ошибки выбранной конфигурации
+
+нет ошибок
+
+## Ошибки всех конфигураций на test
+
+| k | method | pair_id | type | duplicate | score | threshold |
+|---|---|---|---|---|---|---|
+| 3 | minhash64 | P180 | fragment | False | 0.484 | 0.420 |
+| 5 | minhash64 | P180 | fragment | False | 0.453 | 0.280 |
+| 5 | minhash64 | P181 | fragment | False | 0.328 | 0.280 |
+| 5 | minhash64 | P182 | fragment | False | 0.375 | 0.280 |
+| 5 | minhash128 | P180 | fragment | False | 0.391 | 0.290 |
+| 5 | minhash128 | P181 | fragment | False | 0.414 | 0.290 |
+| 5 | minhash128 | P182 | fragment | False | 0.367 | 0.290 |
+
+## Недостаточно токенов (оцениваются отдельно)
+
+| pair_id | split | duplicate | note | k | status |
+|---|---|---|---|---|---|
+| P096 | tune | True | копия однословного текста | 2, 3, 5 | insufficient_tokens |
+| P097 | tune | False | пустой текст | 2, 3, 5 | insufficient_tokens |
+| P098 | tune | False | разные однословные тексты | 2, 3, 5 | insufficient_tokens |
+| P193 | test | True | копия однословного текста | 2, 3, 5 | insufficient_tokens |
+| P194 | test | False | пустой текст | 2, 3, 5 | insufficient_tokens |
+| P195 | test | False | разные однословные тексты | 2, 3, 5 | insufficient_tokens |

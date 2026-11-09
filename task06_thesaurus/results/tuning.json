@@ -1,0 +1,356 @@
+[
+  {
+    "mode": "synonyms",
+    "w_syn": 0.2,
+    "P+R": 1.1252380952380951,
+    "nDCG": 0.7256349434957833
+  },
+  {
+    "mode": "synonyms",
+    "w_syn": 0.3,
+    "P+R": 1.1252380952380951,
+    "nDCG": 0.7222492877029031
+  },
+  {
+    "mode": "synonyms",
+    "w_syn": 0.5,
+    "P+R": 1.1085714285714285,
+    "nDCG": 0.7069232318417878
+  },
+  {
+    "mode": "synonyms",
+    "w_syn": 0.7,
+    "P+R": 1.1452380952380952,
+    "nDCG": 0.7084717747469536
+  },
+  {
+    "mode": "synonyms",
+    "w_syn": 1.0,
+    "P+R": 1.1103571428571428,
+    "nDCG": 0.6888621781669851
+  },
+  {
+    "mode": "hierarchy",
+    "w_syn": 0.7,
+    "w_hier": 0.1,
+    "max_depth": 1,
+    "directions": "broader",
+    "P+R": 1.1452380952380952,
+    "nDCG": 0.7084717747469536
+  },
+  {
+    "mode": "hierarchy",
+    "w_syn": 0.7,
+    "w_hier": 0.1,
+    "max_depth": 1,
+    "directions": "narrower",
+    "P+R": 1.1452380952380952,
+    "nDCG": 0.704415109391374
+  },
+  {
+    "mode": "hierarchy",
+    "w_syn": 0.7,
+    "w_hier": 0.1,
+    "max_depth": 1,
+    "directions": "broader+narrower",
+    "P+R": 1.1452380952380952,
+    "nDCG": 0.704415109391374
+  },
+  {
+    "mode": "hierarchy",
+    "w_syn": 0.7,
+    "w_hier": 0.1,
+    "max_depth": 2,
+    "directions": "broader",
+    "P+R": 1.1452380952380952,
+    "nDCG": 0.7084717747469536
+  },
+  {
+    "mode": "hierarchy",
+    "w_syn": 0.7,
+    "w_hier": 0.1,
+    "max_depth": 2,
+    "directions": "narrower",
+    "P+R": 1.1452380952380952,
+    "nDCG": 0.704415109391374
+  },
+  {
+    "mode": "hierarchy",
+    "w_syn": 0.7,
+    "w_hier": 0.1,
+    "max_depth": 2,
+    "directions": "broader+narrower",
+    "P+R": 1.1452380952380952,
+    "nDCG": 0.7082527413821712
+  },
+  {
+    "mode": "hierarchy",
+    "w_syn": 0.7,
+    "w_hier": 0.1,
+    "max_depth": 3,
+    "directions": "broader",
+    "P+R": 1.1452380952380952,
+    "nDCG": 0.7084717747469536
+  },
+  {
+    "mode": "hierarchy",
+    "w_syn": 0.7,
+    "w_hier": 0.1,
+    "max_depth": 3,
+    "directions": "narrower",
+    "P+R": 1.1452380952380952,
+    "nDCG": 0.704415109391374
+  },
+  {
+    "mode": "hierarchy",
+    "w_syn": 0.7,
+    "w_hier": 0.1,
+    "max_depth": 3,
+    "directions": "broader+narrower",
+    "P+R": 1.1452380952380952,
+    "nDCG": 0.7082527413821712
+  },
+  {
+    "mode": "hierarchy",
+    "w_syn": 0.7,
+    "w_hier": 0.2,
+    "max_depth": 1,
+    "directions": "broader",
+    "P+R": 1.1985714285714286,
+    "nDCG": 0.7283635359446489
+  },
+  {
+    "mode": "hierarchy",
+    "w_syn": 0.7,
+    "w_hier": 0.2,
+    "max_depth": 1,
+    "directions": "narrower",
+    "P+R": 1.1452380952380952,
+    "nDCG": 0.7080915020080893
+  },
+  {
+    "mode": "hierarchy",
+    "w_syn": 0.7,
+    "w_hier": 0.2,
+    "max_depth": 1,
+    "directions": "broader+narrower",
+    "P+R": 1.1127380952380952,
+    "nDCG": 0.6949988192474533
+  },
+  {
+    "mode": "hierarchy",
+    "w_syn": 0.7,
+    "w_hier": 0.2,
+    "max_depth": 2,
+    "directions": "broader",
+    "P+R": 1.1985714285714286,
+    "nDCG": 0.7283635359446489
+  },
+  {
+    "mode": "hierarchy",
+    "w_syn": 0.7,
+    "w_hier": 0.2,
+    "max_depth": 2,
+    "directions": "narrower",
+    "P+R": 1.1452380952380952,
+    "nDCG": 0.7119291339988866
+  },
+  {
+    "mode": "hierarchy",
+    "w_syn": 0.7,
+    "w_hier": 0.2,
+    "max_depth": 2,
+    "directions": "broader+narrower",
+    "P+R": 1.1127380952380952,
+    "nDCG": 0.6988364512382506
+  },
+  {
+    "mode": "hierarchy",
+    "w_syn": 0.7,
+    "w_hier": 0.2,
+    "max_depth": 3,
+    "directions": "broader",
+    "P+R": 1.1985714285714286,
+    "nDCG": 0.7283635359446489
+  },
+  {
+    "mode": "hierarchy",
+    "w_syn": 0.7,
+    "w_hier": 0.2,
+    "max_depth": 3,
+    "directions": "narrower",
+    "P+R": 1.1452380952380952,
+    "nDCG": 0.7119291339988866
+  },
+  {
+    "mode": "hierarchy",
+    "w_syn": 0.7,
+    "w_hier": 0.2,
+    "max_depth": 3,
+    "directions": "broader+narrower",
+    "P+R": 1.1127380952380952,
+    "nDCG": 0.6988364512382506
+  },
+  {
+    "mode": "hierarchy",
+    "w_syn": 0.7,
+    "w_hier": 0.3,
+    "max_depth": 1,
+    "directions": "broader",
+    "P+R": 1.1985714285714286,
+    "nDCG": 0.730801444161725
+  },
+  {
+    "mode": "hierarchy",
+    "w_syn": 0.7,
+    "w_hier": 0.3,
+    "max_depth": 1,
+    "directions": "narrower",
+    "P+R": 1.1127380952380952,
+    "nDCG": 0.6937133352692156
+  },
+  {
+    "mode": "hierarchy",
+    "w_syn": 0.7,
+    "w_hier": 0.3,
+    "max_depth": 1,
+    "directions": "broader+narrower",
+    "P+R": 1.1127380952380952,
+    "nDCG": 0.6927505059981672
+  },
+  {
+    "mode": "hierarchy",
+    "w_syn": 0.7,
+    "w_hier": 0.3,
+    "max_depth": 2,
+    "directions": "broader",
+    "P+R": 1.1985714285714286,
+    "nDCG": 0.730801444161725
+  },
+  {
+    "mode": "hierarchy",
+    "w_syn": 0.7,
+    "w_hier": 0.3,
+    "max_depth": 2,
+    "directions": "narrower",
+    "P+R": 1.1127380952380952,
+    "nDCG": 0.6975509672600129
+  },
+  {
+    "mode": "hierarchy",
+    "w_syn": 0.7,
+    "w_hier": 0.3,
+    "max_depth": 2,
+    "directions": "broader+narrower",
+    "P+R": 1.1127380952380952,
+    "nDCG": 0.6965881379889644
+  },
+  {
+    "mode": "hierarchy",
+    "w_syn": 0.7,
+    "w_hier": 0.3,
+    "max_depth": 3,
+    "directions": "broader",
+    "P+R": 1.1985714285714286,
+    "nDCG": 0.730801444161725
+  },
+  {
+    "mode": "hierarchy",
+    "w_syn": 0.7,
+    "w_hier": 0.3,
+    "max_depth": 3,
+    "directions": "narrower",
+    "P+R": 1.1127380952380952,
+    "nDCG": 0.6975509672600129
+  },
+  {
+    "mode": "hierarchy",
+    "w_syn": 0.7,
+    "w_hier": 0.3,
+    "max_depth": 3,
+    "directions": "broader+narrower",
+    "P+R": 1.1127380952380952,
+    "nDCG": 0.6965881379889644
+  },
+  {
+    "mode": "hierarchy",
+    "w_syn": 0.7,
+    "w_hier": 0.5,
+    "max_depth": 1,
+    "directions": "broader",
+    "P+R": 1.1985714285714286,
+    "nDCG": 0.730801444161725
+  },
+  {
+    "mode": "hierarchy",
+    "w_syn": 0.7,
+    "w_hier": 0.5,
+    "max_depth": 1,
+    "directions": "narrower",
+    "P+R": 1.2027380952380953,
+    "nDCG": 0.7275897268294275
+  },
+  {
+    "mode": "hierarchy",
+    "w_syn": 0.7,
+    "w_hier": 0.5,
+    "max_depth": 1,
+    "directions": "broader+narrower",
+    "P+R": 1.2110714285714286,
+    "nDCG": 0.7329145801260984
+  },
+  {
+    "mode": "hierarchy",
+    "w_syn": 0.7,
+    "w_hier": 0.5,
+    "max_depth": 2,
+    "directions": "broader",
+    "P+R": 1.1985714285714286,
+    "nDCG": 0.730801444161725
+  },
+  {
+    "mode": "hierarchy",
+    "w_syn": 0.7,
+    "w_hier": 0.5,
+    "max_depth": 2,
+    "directions": "narrower",
+    "P+R": 1.104404761904762,
+    "nDCG": 0.7043248403824776
+  },
+  {
+    "mode": "hierarchy",
+    "w_syn": 0.7,
+    "w_hier": 0.5,
+    "max_depth": 2,
+    "directions": "broader+narrower",
+    "P+R": 1.1127380952380952,
+    "nDCG": 0.6941122384732481
+  },
+  {
+    "mode": "hierarchy",
+    "w_syn": 0.7,
+    "w_hier": 0.5,
+    "max_depth": 3,
+    "directions": "broader",
+    "P+R": 1.1985714285714286,
+    "nDCG": 0.730801444161725
+  },
+  {
+    "mode": "hierarchy",
+    "w_syn": 0.7,
+    "w_hier": 0.5,
+    "max_depth": 3,
+    "directions": "narrower",
+    "P+R": 1.104404761904762,
+    "nDCG": 0.7043248403824776
+  },
+  {
+    "mode": "hierarchy",
+    "w_syn": 0.7,
+    "w_hier": 0.5,
+    "max_depth": 3,
+    "directions": "broader+narrower",
+    "P+R": 1.1127380952380952,
+    "nDCG": 0.6946451851789657
+  }
+]

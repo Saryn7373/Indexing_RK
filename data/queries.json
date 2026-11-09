@@ -1,0 +1,371 @@
+[
+  {
+    "query_id": "Q01",
+    "text": "роман о любви Анны Карениной и Вронского",
+    "split": "tune",
+    "tags": [
+      "character_name"
+    ],
+    "relevance": {
+      "D001": 2,
+      "D121": 2
+    }
+  },
+  {
+    "query_id": "Q02",
+    "text": "похождения Чичикова и мёртвые души помещиков",
+    "split": "tune",
+    "tags": [
+      "character_name"
+    ],
+    "relevance": {
+      "D015": 2,
+      "D132": 2
+    }
+  },
+  {
+    "query_id": "Q03",
+    "text": "Бородинское сражение в стихах",
+    "split": "tune",
+    "tags": [],
+    "relevance": {
+      "D053": 2,
+      "D148": 2,
+      "D122": 1
+    }
+  },
+  {
+    "query_id": "Q04",
+    "text": "жизнь крестьян в деревне",
+    "split": "tune",
+    "tags": [],
+    "relevance": {
+      "D149": 2,
+      "D064": 2,
+      "D065": 2,
+      "D074": 2,
+      "D066": 1,
+      "D024": 1,
+      "D139": 1
+    }
+  },
+  {
+    "query_id": "Q05",
+    "text": "Толстой о войне и мире между народами",
+    "split": "tune",
+    "tags": [
+      "homonym"
+    ],
+    "relevance": {
+      "D096": 2,
+      "D085": 2,
+      "D086": 2,
+      "D081": 2,
+      "D095": 1,
+      "D084": 1,
+      "D002": 1,
+      "D122": 1
+    }
+  },
+  {
+    "query_id": "Q06",
+    "text": "история создания повести Гоголя",
+    "split": "tune",
+    "tags": [
+      "criticism"
+    ],
+    "relevance": {
+      "D133": 2,
+      "D135": 2,
+      "D136": 2,
+      "D132": 1
+    }
+  },
+  {
+    "query_id": "Q07",
+    "text": "мечтатель и белые ночи Петербурга",
+    "split": "tune",
+    "tags": [],
+    "relevance": {
+      "D010": 2,
+      "D130": 2
+    }
+  },
+  {
+    "query_id": "Q08",
+    "text": "революция в поэме Блока",
+    "split": "tune",
+    "tags": [
+      "genre"
+    ],
+    "relevance": {
+      "D042": 2,
+      "D150": 2,
+      "D041": 1,
+      "D044": 1
+    }
+  },
+  {
+    "query_id": "Q09",
+    "text": "судьба собаки",
+    "split": "tune",
+    "tags": [],
+    "relevance": {
+      "D035": 2,
+      "D160": 2,
+      "D022": 2,
+      "D138": 2,
+      "D030": 1,
+      "D151": 1
+    }
+  },
+  {
+    "query_id": "Q10",
+    "text": "вера в Бога и церковь",
+    "split": "tune",
+    "tags": [],
+    "relevance": {
+      "D106": 2,
+      "D087": 2,
+      "D156": 2,
+      "D091": 2,
+      "D083": 1,
+      "D129": 1
+    }
+  },
+  {
+    "query_id": "Q11",
+    "text": "Евгений Онегин роман в стихах",
+    "split": "test",
+    "tags": [
+      "character_name",
+      "genre"
+    ],
+    "relevance": {
+      "D075": 2,
+      "D144": 2
+    }
+  },
+  {
+    "query_id": "Q12",
+    "text": "страх смерти умирающего чиновника",
+    "split": "test",
+    "tags": [],
+    "relevance": {
+      "D004": 2,
+      "D124": 2
+    }
+  },
+  {
+    "query_id": "Q13",
+    "text": "нигилист Базаров и спор поколений",
+    "split": "test",
+    "tags": [
+      "character_name"
+    ],
+    "relevance": {
+      "D020": 2,
+      "D137": 2
+    }
+  },
+  {
+    "query_id": "Q14",
+    "text": "пугачёвский бунт",
+    "split": "test",
+    "tags": [],
+    "relevance": {
+      "D025": 2,
+      "D141": 2
+    }
+  },
+  {
+    "query_id": "Q15",
+    "text": "война на Кавказе и горцы",
+    "split": "test",
+    "tags": [],
+    "relevance": {
+      "D006": 2,
+      "D126": 2,
+      "D054": 2,
+      "D008": 1,
+      "D060": 1,
+      "D029": 1,
+      "D147": 1
+    }
+  },
+  {
+    "query_id": "Q16",
+    "text": "князь Мышкин",
+    "split": "test",
+    "tags": [
+      "character_name"
+    ],
+    "relevance": {
+      "D013": 2,
+      "D127": 2
+    }
+  },
+  {
+    "query_id": "Q17",
+    "text": "рабочие фабрики и революционное движение",
+    "split": "test",
+    "tags": [],
+    "relevance": {
+      "D036": 2,
+      "D154": 2,
+      "D115": 1,
+      "D098": 1
+    }
+  },
+  {
+    "query_id": "Q18",
+    "text": "Акакий Акакиевич и новая шинель",
+    "split": "test",
+    "tags": [
+      "character_name"
+    ],
+    "relevance": {
+      "D016": 2,
+      "D133": 2
+    }
+  },
+  {
+    "query_id": "Q19",
+    "text": "казаки Запорожской Сечи",
+    "split": "test",
+    "tags": [
+      "homonym"
+    ],
+    "relevance": {
+      "D019": 2,
+      "D135": 2
+    }
+  },
+  {
+    "query_id": "Q20",
+    "text": "крепостное право и барыня",
+    "split": "test",
+    "tags": [],
+    "relevance": {
+      "D022": 2,
+      "D138": 2,
+      "D139": 2,
+      "D024": 1,
+      "D149": 1
+    }
+  },
+  {
+    "query_id": "Q21",
+    "text": "любовь курортный роман в Ялте",
+    "split": "test",
+    "tags": [
+      "homonym",
+      "genre"
+    ],
+    "relevance": {
+      "D030": 2,
+      "D151": 2
+    }
+  },
+  {
+    "query_id": "Q22",
+    "text": "больница для душевнобольных и доктор",
+    "split": "test",
+    "tags": [],
+    "relevance": {
+      "D031": 2,
+      "D152": 2
+    }
+  },
+  {
+    "query_id": "Q23",
+    "text": "легенда о Данко и горящем сердце",
+    "split": "test",
+    "tags": [
+      "character_name",
+      "genre"
+    ],
+    "relevance": {
+      "D155": 2,
+      "D038": 1
+    }
+  },
+  {
+    "query_id": "Q24",
+    "text": "непротивление злу насилием",
+    "split": "test",
+    "tags": [],
+    "relevance": {
+      "D094": 2,
+      "D084": 2,
+      "D098": 2,
+      "D102": 1,
+      "D106": 1,
+      "D103": 1
+    }
+  },
+  {
+    "query_id": "Q25",
+    "text": "три карты и старая графиня",
+    "split": "test",
+    "tags": [],
+    "relevance": {
+      "D026": 2,
+      "D142": 2
+    }
+  },
+  {
+    "query_id": "Q26",
+    "text": "игра в рулетку",
+    "split": "test",
+    "tags": [],
+    "relevance": {
+      "D014": 2
+    }
+  },
+  {
+    "query_id": "Q27",
+    "text": "Печорин и Грушницкий",
+    "split": "test",
+    "tags": [
+      "character_name"
+    ],
+    "relevance": {
+      "D029": 2,
+      "D147": 2
+    }
+  },
+  {
+    "query_id": "Q28",
+    "text": "свобода печати после революции",
+    "split": "test",
+    "tags": [],
+    "relevance": {
+      "D113": 2,
+      "D158": 2,
+      "D112": 1,
+      "D114": 1,
+      "D115": 1
+    }
+  },
+  {
+    "query_id": "Q29",
+    "text": "полёт космического корабля на Марс",
+    "split": "test",
+    "tags": [
+      "no_relevant"
+    ],
+    "relevance": {}
+  },
+  {
+    "query_id": "Q30",
+    "text": "не могу молчать о смертной казни",
+    "split": "test",
+    "tags": [
+      "negation"
+    ],
+    "relevance": {
+      "D088": 2
+    }
+  }
+]
